@@ -174,7 +174,7 @@ If you are looking for user-facing changes, check out [CHANGELOG.md](./CHANGELOG
   The public function is partially implemented and not ready for use
 - `pkg/datadog`: Expose the internal Zaplogger implementation (#37939)
 - `dbstorageextension`: Add DB Transactions to dbstorage.Batch() method as it is expected by Storage API (#37805)
-- `internal/datadog`: create new package `github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/hostmetadata` which exposes `GetSourceProvider` from `github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata` (#37668)
+- `internal/datadog`: create new package `github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/hostmetadata` which exposes `GetSourceProvider` from `github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata` (#37668)
 - `textutil`: Remove unnecessary copy while decoding and constructing string (#37734)
   This PR affects all log receivers, text extension and kafkareceiver.
 - `telemetrygen`: Exported the API for telemetrygen for test uses. Additionally added new E2E tests and fixed race condition (#36984)
@@ -393,7 +393,7 @@ If you are looking for user-facing changes, check out [CHANGELOG.md](./CHANGELOG
 
 - `opampextension`: Move custom message interfaces to separate package (#32950)
   Moves `CustomCapabilityRegistry`, `CustomCapabilityHandler`, and `CustomCapabilityRegisterOption` to a new module.
-  These types can now be found in the new `github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages` module.
+  These types can now be found in the new `github.com/andresousafd/opentelemetry-collector-contrib/extension/opampcustommessages` module.
   
 - `pkg/stanza`: The internal logger has been changed from zap.SugaredLogger to zap.Logger. (#32177)
   Functions accepting a SugaredLogger, and fields of type SugaredLogger, have been deprecated.
@@ -482,8 +482,8 @@ If you are looking for user-facing changes, check out [CHANGELOG.md](./CHANGELOG
 - `httpforwarderextension`: Rename the extension httpforwarder to httpforwarderextension (#24171)
 - `extension/storage`: The `filestorage` and `dbstorage` extensions are now standalone modules. (#31040)
   If using the OpenTelemetry Collector Builder, you will need to update your import paths to use the new module(s).
-  - `github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage`
-  - `github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage`
+  - `github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/filestorage`
+  - `github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/dbstorage`
   
 
 ### 💡 Enhancements 💡

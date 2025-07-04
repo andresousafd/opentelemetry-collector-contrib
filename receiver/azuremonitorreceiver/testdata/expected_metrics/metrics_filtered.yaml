@@ -194,5 +194,5 @@ resourceMetrics:
             name: azure_transferedbytes_minimum
             unit: u
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
           version: latest

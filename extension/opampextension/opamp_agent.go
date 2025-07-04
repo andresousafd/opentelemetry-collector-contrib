@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opampextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampextension"
+package opampextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/opampextension"
 
 import (
 	"context"
@@ -35,8 +35,8 @@ import (
 	"golang.org/x/text/language"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/status"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/opampcustommessages"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/status"
 )
 
 type statusAggregator interface {

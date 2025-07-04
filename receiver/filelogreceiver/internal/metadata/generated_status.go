@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("filelog")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/filelogreceiver"
 )
 
 const (

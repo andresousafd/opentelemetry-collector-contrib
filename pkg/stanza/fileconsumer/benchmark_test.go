@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/component/componenttest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/internal/filetest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/internal/filetest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/testutil"
 )
 
 type fileInputBenchmark struct {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package compare // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/compare"
+package compare // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/compare"
 
 import (
 	"reflect"
@@ -14,7 +14,7 @@ import (
 var allow = []string{
 	"go.opentelemetry.io/collector/pdata",
 	"go.opentelemetry.io/otel",
-	"github.com/open-telemetry/opentelemetry-collector-contrib",
+	"github.com/andresousafd/opentelemetry-collector-contrib",
 }
 
 var Opts = cmp.Options{

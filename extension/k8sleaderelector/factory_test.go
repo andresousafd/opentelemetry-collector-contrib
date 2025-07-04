@@ -13,8 +13,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/k8sleaderelector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/k8sleaderelector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 func TestNewFactory(t *testing.T) {

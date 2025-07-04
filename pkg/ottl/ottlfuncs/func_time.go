@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottlfuncs // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
+package ottlfuncs // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
 
 import (
 	"context"
 	"errors"
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 type TimeArguments[K any] struct {

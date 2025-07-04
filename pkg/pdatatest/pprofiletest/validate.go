@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pprofiletest // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pprofiletest"
+package pprofiletest // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pprofiletest"
 import (
 	"errors"
 	"fmt"

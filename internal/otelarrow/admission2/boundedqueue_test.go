@@ -20,11 +20,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/netstats"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/netstats"
 )
 
 const (
-	expectScope        = "github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow"
+	expectScope        = "github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow"
 	expectInFlightName = "otelcol_otelarrow_admission_in_flight_bytes"
 	expectWaitingName  = "otelcol_otelarrow_admission_waiting_bytes"
 )

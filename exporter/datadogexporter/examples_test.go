@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
+package datadogexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter"
 
 import (
 	"os"
@@ -21,15 +21,15 @@ import (
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/dockerstatsreceiver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/datadogconnector"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/k8sattributesprocessor"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/transformprocessor"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/dockerstatsreceiver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/filelogreceiver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver"
 )
 
 // TestExamples ensures that the configuration in the YAML files can be loaded by the collector. It checks:

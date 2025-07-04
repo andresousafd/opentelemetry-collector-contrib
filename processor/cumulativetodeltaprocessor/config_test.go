@@ -15,9 +15,9 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/tracking"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/tracking"
 )
 
 func TestLoadConfig(t *testing.T) {

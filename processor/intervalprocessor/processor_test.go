@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package intervalprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/intervalprocessor"
+package intervalprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/intervalprocessor"
 
 import (
 	"context"
@@ -14,9 +14,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/intervalprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/intervalprocessor/internal/metadata"
 )
 
 func TestAggregation(t *testing.T) {

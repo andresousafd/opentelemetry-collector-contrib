@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaegerencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/jaegerencodingextension"
+package jaegerencodingextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/jaegerencodingextension"
 
 import (
 	"bytes"
@@ -10,7 +10,7 @@ import (
 	jaegerproto "github.com/jaegertracing/jaeger-idl/model/v1"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger"
 )
 
 type jaegerProtobufTrace struct{}

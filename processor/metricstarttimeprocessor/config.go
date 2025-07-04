@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metricstarttimeprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor"
+package metricstarttimeprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor"
 
 import (
 	"errors"
@@ -10,8 +10,8 @@ import (
 
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/subtractinitial"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/truereset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/subtractinitial"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/truereset"
 )
 
 // Config holds configuration of the metric start time processor.

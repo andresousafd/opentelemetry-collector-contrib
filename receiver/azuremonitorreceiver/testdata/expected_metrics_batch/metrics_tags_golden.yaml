@@ -430,7 +430,7 @@ resourceMetrics:
             name: azure_metric3_minimum
             unit: Bytes
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
           version: latest
   - resource:
       attributes:
@@ -469,5 +469,5 @@ resourceMetrics:
             name: azure_metric7_total
             unit: BitsPerSecond
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
           version: latest

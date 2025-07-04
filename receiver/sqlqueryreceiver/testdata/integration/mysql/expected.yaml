@@ -39,7 +39,7 @@ resourceMetrics:
                   timeUnixNano: "1684614725494431000"
             name: genre.imdb
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlqueryreceiver
   - resource: {}
     scopeMetrics:
       - metrics:
@@ -74,4 +74,4 @@ resourceMetrics:
                   timeUnixNano: "1684614725499638000"
             name: f
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlqueryreceiver

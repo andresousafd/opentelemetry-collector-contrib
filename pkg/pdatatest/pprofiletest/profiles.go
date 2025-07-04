@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pprofiletest // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pprofiletest"
+package pprofiletest // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pprofiletest"
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pprofile"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/internal"
 )
 
 // CompareProfiles compares each part of two given Profiles and returns

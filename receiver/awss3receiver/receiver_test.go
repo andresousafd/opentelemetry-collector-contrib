@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awss3receiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awss3receiver"
+package awss3receiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/awss3receiver"
 
 import (
 	"bytes"
@@ -22,7 +22,7 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.22.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awss3receiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/awss3receiver/internal/metadata"
 )
 
 func generateTraceData() ptrace.Traces {

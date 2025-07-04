@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	"golang.org/x/net/websocket"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/remotetapprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/remotetapprocessor/internal/metadata"
 )
 
 func TestSocketConnectionLogs(t *testing.T) {

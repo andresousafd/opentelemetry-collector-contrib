@@ -22,7 +22,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sematextexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/sematextexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

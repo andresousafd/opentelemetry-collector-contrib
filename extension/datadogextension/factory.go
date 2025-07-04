@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension"
+package datadogextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension"
 
 import (
 	"context"
@@ -11,9 +11,9 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension/internal/httpserver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension/internal/metadata"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension/internal/httpserver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension/internal/metadata"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 // NewFactory creates a factory for the Datadog extension.

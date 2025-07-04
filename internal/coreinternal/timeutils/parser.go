@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package timeutils // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
+package timeutils // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
 
 import (
 	"errors"
@@ -13,7 +13,7 @@ import (
 
 	"github.com/elastic/lunes"
 
-	strptime "github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils/internal/ctimefmt"
+	strptime "github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/timeutils/internal/ctimefmt"
 )
 
 var invalidFractionalSecondsGoTime = regexp.MustCompile(`[^.,9]9+`)

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension"
+package datadogextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension"
 
 import (
 	"fmt"
@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension/internal/httpserver"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension/internal/httpserver"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 var _ component.Config = (*Config)(nil)

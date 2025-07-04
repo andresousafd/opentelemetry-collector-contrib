@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/ptraceutiltest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector/internal/ptraceutiltest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
 )
 
 func TestNewTraces(t *testing.T) {

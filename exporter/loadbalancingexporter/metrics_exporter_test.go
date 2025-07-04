@@ -29,8 +29,8 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.27.0"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 const (
@@ -692,11 +692,11 @@ func TestBatchWithTwoMetrics(t *testing.T) {
 }
 
 func TestRollingUpdatesWhenConsumeMetrics(t *testing.T) {
-	t.Skip("Flaky Test - See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/13331")
+	t.Skip("Flaky Test - See https://github.com/andresousafd/opentelemetry-collector-contrib/issues/13331")
 	ts, tb := getTelemetryAssets(t)
 
 	// this test is based on the discussion in the following issue for this exporter:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/1690
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/1690
 	// prepare
 
 	// simulate rolling updates, the dns resolver should resolve in the following order

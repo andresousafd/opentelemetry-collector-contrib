@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package model // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/model"
+package model // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/model"
 
 import (
 	"errors"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/config"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 type AttributeKeyValue struct {

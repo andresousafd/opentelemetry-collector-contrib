@@ -18,7 +18,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter/internal/dbmodel"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/logzioexporter/internal/dbmodel"
 )
 
 func TestFromDomainEmbedProcess(t *testing.T) {

@@ -48,14 +48,14 @@ func TestProviders(t *testing.T) {
 
 	meter := Meter(set)
 	if m, ok := meter.(mockMeter); ok {
-		require.Equal(t, "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver", m.name)
+		require.Equal(t, "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver", m.name)
 	} else {
 		require.Fail(t, "returned Meter not mockMeter")
 	}
 
 	tracer := Tracer(set)
 	if m, ok := tracer.(mockTracer); ok {
-		require.Equal(t, "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver", m.name)
+		require.Equal(t, "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver", m.name)
 	} else {
 		require.Fail(t, "returned Meter not mockTracer")
 	}

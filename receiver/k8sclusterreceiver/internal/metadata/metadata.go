@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+package metadata // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 
 import (
 	"fmt"
@@ -10,9 +10,9 @@ import (
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/maps"
-	metadataPkg "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/constants"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/maps"
+	metadataPkg "github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/constants"
 )
 
 // KubernetesMetadata associates a resource to a set of properties.

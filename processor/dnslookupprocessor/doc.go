@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package dnslookupprocessor
-package dnslookupprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/dnslookupprocessor"
+package dnslookupprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/dnslookupprocessor"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package libhoneyreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver"
+package libhoneyreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver"
 
 import (
 	"bytes"
@@ -24,10 +24,10 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/errorutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/encoder"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/parser"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/errorutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/encoder"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/parser"
 )
 
 type libhoneyReceiver struct {

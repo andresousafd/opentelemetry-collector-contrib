@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datatest // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/data/datatest"
+package datatest // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/data/datatest"
 
 import (
 	"reflect"
@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/data/expo"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/compare"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/data/expo"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/compare"
 )
 
 // T is the testing helper. Most notably it provides [T.Equal]

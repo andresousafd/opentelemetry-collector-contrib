@@ -23,7 +23,7 @@ resourceMetrics:
                   timeUnixNano: "1000000"
             unit: s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector
   - resource:
       attributes:
         - key: resource.bar
@@ -84,4 +84,4 @@ resourceMetrics:
                   timeUnixNano: "1000000"
             unit: s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector

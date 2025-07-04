@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaegerreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver"
+package jaegerreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver"
 
 import (
 	"context"
@@ -29,9 +29,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	jaegertranslator "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver/thriftudp"
+	jaegertranslator "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver/thriftudp"
 )
 
 // Receiver type is used to receive spans that were originally intended to be sent to Jaeger.

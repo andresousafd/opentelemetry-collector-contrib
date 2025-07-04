@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor
+module github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor
 
 go 1.23.0
 
@@ -12,10 +12,10 @@ require (
 	github.com/cenkalti/backoff/v5 v5.0.2
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/consul/api v1.32.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/ecsutil v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/common v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/metadataproviders v0.127.0
 	github.com/shirou/gopsutil/v4 v4.25.4
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
@@ -178,11 +178,11 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil => ../../internal/aws/ecsutil
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/ecsutil => ../../internal/aws/ecsutil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders => ../../internal/metadataproviders
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/metadataproviders => ../../internal/metadataproviders
 
 retract (
 	v0.76.2
@@ -190,7 +190,7 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
 
 // openshift removed all tags from their repo, use the pseudoversion from the release-3.9 branch HEAD
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37

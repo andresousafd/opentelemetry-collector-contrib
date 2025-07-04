@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8slogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8slogreceiver"
+package k8slogreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8slogreceiver"
 import (
 	"context"
 	"errors"
@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8slogreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8slogreceiver/internal/metadata"
 )
 
 func NewFactory() receiver.Factory {

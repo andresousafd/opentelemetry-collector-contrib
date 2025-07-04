@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opampextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampextension"
+package opampextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/opampextension"
 
 import (
 	"container/list"
@@ -14,7 +14,7 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/exp/maps"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/opampcustommessages"
 )
 
 // customCapabilityClient is a subset of OpAMP client containing only the methods needed for the customCapabilityRegistry.

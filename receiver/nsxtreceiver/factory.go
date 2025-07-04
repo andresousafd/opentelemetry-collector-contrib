@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package nsxtreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nsxtreceiver"
+package nsxtreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/nsxtreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/scraper"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nsxtreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/nsxtreceiver/internal/metadata"
 )
 
 var errConfigNotNSX = errors.New("config was not a NSX receiver config")

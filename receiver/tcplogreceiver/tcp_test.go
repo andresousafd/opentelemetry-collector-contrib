@@ -19,10 +19,10 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcplogreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/tcplogreceiver/internal/metadata"
 )
 
 func TestTcp(t *testing.T) {

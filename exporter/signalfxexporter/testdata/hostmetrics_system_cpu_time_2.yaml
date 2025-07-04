@@ -91,5 +91,5 @@ resourceMetrics:
               isMonotonic: true
             unit: s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper
           version: latest

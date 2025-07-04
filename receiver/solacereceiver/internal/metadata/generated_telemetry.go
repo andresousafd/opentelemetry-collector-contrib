@@ -13,11 +13,11 @@ import (
 )
 
 func Meter(settings component.TelemetrySettings) metric.Meter {
-	return settings.MeterProvider.Meter("github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver")
+	return settings.MeterProvider.Meter("github.com/andresousafd/opentelemetry-collector-contrib/receiver/solacereceiver")
 }
 
 func Tracer(settings component.TelemetrySettings) trace.Tracer {
-	return settings.TracerProvider.Tracer("github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver")
+	return settings.TracerProvider.Tracer("github.com/andresousafd/opentelemetry-collector-contrib/receiver/solacereceiver")
 }
 
 // TelemetryBuilder provides an interface for components to report telemetry

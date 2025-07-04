@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package bmchelixexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/bmchelixexporter"
+package bmchelixexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/bmchelixexporter"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/bmchelixexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/bmchelixexporter/internal/metadata"
 )
 
 // create BMC Helix Exporter factory

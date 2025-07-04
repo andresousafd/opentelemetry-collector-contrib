@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver/internal/filter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver/internal/filter"
 )
 
 const (
@@ -91,7 +91,7 @@ func testMetricsFromDataPointBuilderBuild(t *testing.T, metricDataType pmetric.M
 	assert.Equal(t, len(dataForTesting.expectedGroups), metric.MetricCount())
 	assert.Equal(t, 1, metric.ResourceMetrics().At(0).ScopeMetrics().Len())
 	assert.Equal(t, len(dataForTesting.expectedGroups), metric.ResourceMetrics().At(0).ScopeMetrics().At(0).Metrics().Len())
-	require.Equal(t, "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver", metric.ResourceMetrics().At(0).ScopeMetrics().At(0).Scope().Name())
+	require.Equal(t, "github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver", metric.ResourceMetrics().At(0).ScopeMetrics().At(0).Scope().Name())
 
 	for i := 0; i < len(dataForTesting.expectedGroups); i++ {
 		ilMetric := metric.ResourceMetrics().At(0).ScopeMetrics().At(0).Metrics().At(i)

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package libhoneyevent // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
+package libhoneyevent // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
 
 import (
 	"crypto/rand"
@@ -21,7 +21,7 @@ import (
 	trc "go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/eventtime"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/eventtime"
 )
 
 // FieldMapConfig is used to map the fields from the LibhoneyEvent to PData formats

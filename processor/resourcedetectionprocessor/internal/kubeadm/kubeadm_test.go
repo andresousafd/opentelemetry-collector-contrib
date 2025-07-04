@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	conventions "go.opentelemetry.io/otel/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/kubeadm"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/metadataproviders/kubeadm"
 )
 
 var _ kubeadm.Provider = (*mockMetadata)(nil)

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter
+module github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter
 
 go 1.23.0
 
@@ -10,7 +10,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.79.4
 	github.com/aws/aws-sdk-go-v2/service/sts v1.33.19
 	github.com/itchyny/timefmt-go v0.1.6
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.127.0
 	github.com/stretchr/testify v1.10.0
 	github.com/tilinna/clock v1.1.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
@@ -156,4 +156,4 @@ retract (
 	v0.76.1
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../../pkg/batchperresourceattr
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../../pkg/batchperresourceattr

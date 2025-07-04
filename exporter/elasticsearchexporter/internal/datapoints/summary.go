@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datapoints // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/datapoints"
+package datapoints // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/datapoints"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/elasticsearch"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/elasticsearch"
 )
 
 type Summary struct {
@@ -26,7 +26,7 @@ func NewSummary(metric pmetric.Metric, dp pmetric.SummaryDataPoint) Summary {
 
 func (dp Summary) Value() (pcommon.Value, error) {
 	// TODO: Add support for quantiles
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/34561
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/34561
 	vm := pcommon.NewValueMap()
 	m := vm.Map()
 	m.PutDouble("sum", dp.Sum())

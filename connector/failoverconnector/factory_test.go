@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/pipeline"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/failoverconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/failoverconnector/internal/metadata"
 )
 
 func TestNewFactory(t *testing.T) {

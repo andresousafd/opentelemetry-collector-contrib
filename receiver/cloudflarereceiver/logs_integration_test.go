@@ -3,7 +3,7 @@
 
 //go:build integration
 
-package cloudflarereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/cloudflarereceiver"
+package cloudflarereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/cloudflarereceiver"
 
 import (
 	"bytes"
@@ -25,10 +25,10 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/cloudflarereceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/cloudflarereceiver/internal/metadata"
 )
 
 const (

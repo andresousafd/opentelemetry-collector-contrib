@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/elasticsearch"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/elasticsearch"
 )
 
 type routeTestCase struct {
@@ -43,13 +43,13 @@ func createRouteTests(dsType string) []routeTestCase {
 		{
 			name:      "default with receiver scope name",
 			mode:      MappingNone,
-			scopeName: "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper",
+			scopeName: "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper",
 			want:      renderWantRoute(dsType, "hostmetricsreceiver", defaultDataStreamNamespace, MappingNone),
 		},
 		{
 			name:      "otel with receiver scope name",
 			mode:      MappingOTel,
-			scopeName: "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper",
+			scopeName: "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper",
 			want:      renderWantRoute(dsType, "hostmetricsreceiver", defaultDataStreamNamespace, MappingOTel),
 		},
 		{
@@ -67,7 +67,7 @@ func createRouteTests(dsType string) []routeTestCase {
 		{
 			name:      "otel with elasticsearch.index",
 			mode:      MappingOTel,
-			scopeName: "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/should/be/ignored",
+			scopeName: "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/should/be/ignored",
 			recordAttrs: map[string]any{
 				"elasticsearch.index": "my-index",
 			},
@@ -78,7 +78,7 @@ func createRouteTests(dsType string) []routeTestCase {
 		{
 			name:      "otel with data_stream attrs",
 			mode:      MappingOTel,
-			scopeName: "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/should/be/ignored",
+			scopeName: "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/should/be/ignored",
 			recordAttrs: map[string]any{
 				"data_stream.dataset":   "foo",
 				"data_stream.namespace": "bar",

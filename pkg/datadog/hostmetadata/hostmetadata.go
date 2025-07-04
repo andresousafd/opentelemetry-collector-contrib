@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package hostmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/hostmetadata"
+package hostmetadata // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/hostmetadata"
 
 import (
 	"time"
@@ -9,7 +9,7 @@ import (
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes/source"
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
 )
 
 // GetSourceProvider returns a provider which can be used to identify a source

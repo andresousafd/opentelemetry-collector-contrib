@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cgroupruntimeextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/cgroupruntimeextension"
+package cgroupruntimeextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/cgroupruntimeextension"
 
 import "errors" // Config contains the configuration for the cgroup runtime extension.
 

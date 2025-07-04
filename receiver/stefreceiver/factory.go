@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package stefreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/stefreceiver"
+package stefreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/stefreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/stefreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/stefreceiver/internal/metadata"
 )
 
 // NewFactory creates a factory for the StatsD receiver.

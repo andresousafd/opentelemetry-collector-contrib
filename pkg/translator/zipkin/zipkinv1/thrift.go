@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkinv1 // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv1"
+package zipkinv1 // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv1"
 
 import (
 	"bytes"
@@ -17,8 +17,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	idutils "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils"
-	jaegerzipkin "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinthriftconverter"
+	idutils "github.com/andresousafd/opentelemetry-collector-contrib/pkg/core/xidutils"
+	jaegerzipkin "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinthriftconverter"
 )
 
 type thriftUnmarshaler struct{}

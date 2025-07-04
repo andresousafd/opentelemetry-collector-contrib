@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("snowflake")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snowflakereceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/snowflakereceiver"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/telemetrygen/internal/common"
+	"github.com/andresousafd/opentelemetry-collector-contrib/cmd/telemetrygen/internal/common"
 )
 
 func Start(cfg *Config) error {

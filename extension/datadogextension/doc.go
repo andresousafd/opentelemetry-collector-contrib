@@ -7,4 +7,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package datadogextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension"
+package datadogextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension"

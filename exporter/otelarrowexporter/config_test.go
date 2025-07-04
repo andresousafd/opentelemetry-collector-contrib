@@ -23,8 +23,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter/internal/arrow"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/compression/zstd"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/otelarrowexporter/internal/arrow"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/compression/zstd"
 )
 
 func TestUnmarshalDefaultConfig(t *testing.T) {

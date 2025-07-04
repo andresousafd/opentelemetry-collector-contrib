@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package netflowreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/netflowreceiver"
+package netflowreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/netflowreceiver"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/netflowreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/netflowreceiver/internal/metadata"
 )
 
 // otelLogsProducerWrapper is a wrapper around a producer.ProducerInterface that sends the messages to a log consumer

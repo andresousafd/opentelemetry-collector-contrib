@@ -24,8 +24,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 const (

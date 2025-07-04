@@ -1,11 +1,11 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/stefexporter
+module github.com/andresousafd/opentelemetry-collector-contrib/exporter/stefexporter
 
 go 1.23.0
 
 require (
 	github.com/cenkalti/backoff/v5 v5.0.2
 	github.com/jonboulle/clockwork v0.5.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/common v0.127.0
 	github.com/splunk/stef/go/grpc v0.0.6
 	github.com/splunk/stef/go/otel v0.0.6
 	github.com/splunk/stef/go/pdata v0.0.6
@@ -93,4 +93,4 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../../internal/common

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azure // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure"
+package azure // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure"
 
 import (
 	"encoding/json"
@@ -17,7 +17,7 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.13.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
 )
 
 var testBuildInfo = component.BuildInfo{
@@ -385,7 +385,7 @@ func TestUnmarshalLogs(t *testing.T) {
 	expectedMinimum := plog.NewLogs()
 	resourceLogs := expectedMinimum.ResourceLogs().AppendEmpty()
 	scopeLogs := resourceLogs.ScopeLogs().AppendEmpty()
-	scopeLogs.Scope().SetName("github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure")
+	scopeLogs.Scope().SetName("github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure")
 	scopeLogs.Scope().SetVersion(testBuildInfo.Version)
 	lr := scopeLogs.LogRecords().AppendEmpty()
 	resourceLogs.Resource().Attributes().PutStr(azureResourceID, "/RESOURCE_ID")
@@ -395,7 +395,7 @@ func TestUnmarshalLogs(t *testing.T) {
 	resourceLogs = expectedMinimum2.ResourceLogs().AppendEmpty()
 	resourceLogs.Resource().Attributes().PutStr(azureResourceID, "/RESOURCE_ID")
 	scopeLogs = resourceLogs.ScopeLogs().AppendEmpty()
-	scopeLogs.Scope().SetName("github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure")
+	scopeLogs.Scope().SetName("github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure")
 	scopeLogs.Scope().SetVersion(testBuildInfo.Version)
 	logRecords := scopeLogs.LogRecords()
 	lr = logRecords.AppendEmpty()
@@ -407,7 +407,7 @@ func TestUnmarshalLogs(t *testing.T) {
 	resourceLogs = expectedMaximum.ResourceLogs().AppendEmpty()
 	resourceLogs.Resource().Attributes().PutStr(azureResourceID, "/RESOURCE_ID-1")
 	scopeLogs = resourceLogs.ScopeLogs().AppendEmpty()
-	scopeLogs.Scope().SetName("github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure")
+	scopeLogs.Scope().SetName("github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure")
 	scopeLogs.Scope().SetVersion(testBuildInfo.Version)
 	lr = scopeLogs.LogRecords().AppendEmpty()
 	maximumLogRecord1.CopyTo(lr)
@@ -415,7 +415,7 @@ func TestUnmarshalLogs(t *testing.T) {
 	resourceLogs = expectedMaximum.ResourceLogs().AppendEmpty()
 	resourceLogs.Resource().Attributes().PutStr(azureResourceID, "/RESOURCE_ID-2")
 	scopeLogs = resourceLogs.ScopeLogs().AppendEmpty()
-	scopeLogs.Scope().SetName("github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure")
+	scopeLogs.Scope().SetName("github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure")
 	scopeLogs.Scope().SetVersion(testBuildInfo.Version)
 	lr = scopeLogs.LogRecords().AppendEmpty()
 	lr2 := scopeLogs.LogRecords().AppendEmpty()
@@ -426,7 +426,7 @@ func TestUnmarshalLogs(t *testing.T) {
 	resourceLogs = expectedBadLevel.ResourceLogs().AppendEmpty()
 	resourceLogs.Resource().Attributes().PutStr(azureResourceID, "/RESOURCE_ID")
 	scopeLogs = resourceLogs.ScopeLogs().AppendEmpty()
-	scopeLogs.Scope().SetName("github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure")
+	scopeLogs.Scope().SetName("github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure")
 	scopeLogs.Scope().SetVersion(testBuildInfo.Version)
 	lr = scopeLogs.LogRecords().AppendEmpty()
 	badLevelLogRecord.CopyTo(lr)
@@ -435,7 +435,7 @@ func TestUnmarshalLogs(t *testing.T) {
 	resourceLogs = expectedBadTime.ResourceLogs().AppendEmpty()
 	resourceLogs.Resource().Attributes().PutStr(azureResourceID, "/RESOURCE_ID")
 	scopeLogs = resourceLogs.ScopeLogs().AppendEmpty()
-	scopeLogs.Scope().SetName("github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure")
+	scopeLogs.Scope().SetName("github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure")
 	scopeLogs.Scope().SetVersion(testBuildInfo.Version)
 	lr = scopeLogs.LogRecords().AppendEmpty()
 	badTimeLogRecord.CopyTo(lr)

@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package s3provider // import "github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/s3provider"
+package s3provider // import "github.com/andresousafd/opentelemetry-collector-contrib/confmap/provider/s3provider"
 
 import (
 	"context"

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package transformer contains various Transformers that represent a high level operation - typically a single "change" block from the schema change file.  They rely on Migrators to do the actual work of applying the change to the data.  Transformers accept and operate on a specific type of pdata (logs, metrics, etc)
-package transformer // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
+package transformer // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
 
 import (
 	"errors"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
 )
 
 // MetricAttributes is a Transformer that acts on [pmetric.Metric]'s DataPoint's attributes.  It is part of the [AllAttributes].

@@ -29,9 +29,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/admission2"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/testdata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/admission2"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/testdata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/metadata"
 )
 
 const (

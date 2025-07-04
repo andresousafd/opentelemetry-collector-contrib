@@ -19,9 +19,9 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/config/configtls"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/testutil"
 )
 
 const testTLSPrivateKey = `

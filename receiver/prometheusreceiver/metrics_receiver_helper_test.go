@@ -36,8 +36,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.27.0"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
 )
 
 type mockPrometheusResponse struct {

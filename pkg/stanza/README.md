@@ -54,7 +54,7 @@ Common functionality for all of these receivers is provided by the adapter packa
 #### `stanza.synchronousLogEmitter`
 
 The `stanza.synchronousLogEmitter` feature gate prevents possible data loss during an ungraceful shutdown of the collector by emitting logs in LogEmitter synchronously,
-instead of batching the logs in LogEmitter's internal buffer. See related issue <https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/35456>.
+instead of batching the logs in LogEmitter's internal buffer. See related issue <https://github.com/andresousafd/opentelemetry-collector-contrib/issues/35456>.
 
 LogEmitter is a component in Stanza that passes logs from Stanza pipeline to the collector's pipeline.
 LogEmitter keeps an internal buffer of logs and only emits the logs as a single batch when the buffer is full (or when flush timeout elapses).

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector"
+package datadogconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/datadogconnector"
 
 import (
 	"context"
@@ -25,8 +25,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.27.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 // traceToMetricConnector is the schema for connector

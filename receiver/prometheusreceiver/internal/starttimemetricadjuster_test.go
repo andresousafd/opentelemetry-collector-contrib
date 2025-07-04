@@ -14,7 +14,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.27.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 func TestStartTimeMetricMatch(t *testing.T) {

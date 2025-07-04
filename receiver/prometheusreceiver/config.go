@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheusreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver"
+package prometheusreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver"
 
 import (
 	"errors"
@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/collector/confmap"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/targetallocator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver/targetallocator"
 )
 
 // Config defines configuration for Prometheus receiver.

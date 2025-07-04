@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package integrationtest // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/integrationtest"
+package integrationtest // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/integrationtest"
 
 import (
 	"context"
@@ -27,10 +27,10 @@ import (
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/filestorage"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 // createConfigYaml creates a yaml config for an otel collector for testing.

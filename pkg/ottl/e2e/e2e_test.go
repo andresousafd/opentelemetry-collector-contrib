@@ -15,13 +15,13 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
 )
 
 var (

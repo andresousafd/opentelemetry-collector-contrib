@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package envoyalsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/envoyalsreceiver"
+package envoyalsreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/envoyalsreceiver"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/envoyalsreceiver/internal/als"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/envoyalsreceiver/internal/als"
 )
 
 type alsReceiver struct {

@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	conventions "go.opentelemetry.io/otel/semconv/v1.27.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk"
 )
 
 func Test_copyOtelAttrs(t *testing.T) {

@@ -5,9 +5,9 @@
 | Stability     | [alpha]: traces, metrics, logs   |
 | Distributions | [core], [contrib], [k8s] |
 | Warnings      | [Orphaned Telemetry, Other](#warnings) |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aprocessor%2Ffilter%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aprocessor%2Ffilter) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aprocessor%2Ffilter%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aprocessor%2Ffilter) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aprocessor%2Ffilter%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aprocessor%2Ffilter) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aprocessor%2Ffilter%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aprocessor%2Ffilter) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=processor_filter)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=processor_filter&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@TylerHelmuth](https://www.github.com/TylerHelmuth), [@boostchicken](https://www.github.com/boostchicken) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@TylerHelmuth](https://www.github.com/TylerHelmuth), [@boostchicken](https://www.github.com/boostchicken) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#alpha
 [core]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol
@@ -19,7 +19,7 @@ The filterprocessor allows dropping spans, span events, metrics, datapoints, and
 
 ## Configuration
 
-The filterprocessor utilizes the [OpenTelemetry Transformation Language](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/README.md)
+The filterprocessor utilizes the [OpenTelemetry Transformation Language](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/README.md)
 to create conditions that determine when telemetry should be dropped.
 If **any** condition is met, the telemetry is dropped (each condition is ORed together).
 Each configuration option corresponds with a different type of telemetry and OTTL Context.
@@ -27,14 +27,14 @@ See the table below for details on each context and the fields it exposes.
 
 | Config              | OTTL Context                                                                                                                       |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| `traces.span`       | [Span](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlspan/README.md)           |
-| `traces.spanevent`  | [SpanEvent](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlspanevent/README.md) |
-| `metrics.metric`    | [Metric](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlmetric/README.md)       |
-| `metrics.datapoint` | [DataPoint](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottldatapoint/README.md) |
-| `logs.log_record`   | [Log](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottllog/README.md)             |
+| `traces.span`       | [Span](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlspan/README.md)           |
+| `traces.spanevent`  | [SpanEvent](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlspanevent/README.md) |
+| `metrics.metric`    | [Metric](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlmetric/README.md)       |
+| `metrics.datapoint` | [DataPoint](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottldatapoint/README.md) |
+| `logs.log_record`   | [Log](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottllog/README.md)             |
 
 The OTTL allows the use of `and`, `or`, and `()` in conditions.
-See [OTTL Boolean Expressions](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/LANGUAGE.md#boolean-expressions) for more details.
+See [OTTL Boolean Expressions](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/LANGUAGE.md#boolean-expressions) for more details.
 
 For conditions that apply to the same signal, such as spans and span events, if the "higher" level telemetry matches a condition and is dropped, the "lower" level condition will not be checked.
 This means that if a span is dropped but a span event condition was defined, the span event condition will not be checked for that span.
@@ -132,7 +132,7 @@ processors:
 
 ### OTTL Functions
 
-The filter processor has access to all [OTTL Converter functions](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#converters)
+The filter processor has access to all [OTTL Converter functions](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#converters)
 
 In addition, the processor defines a few of its own functions:
 

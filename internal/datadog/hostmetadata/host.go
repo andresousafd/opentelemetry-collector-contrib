@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package hostmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
+package hostmetadata // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
 
 import (
 	"fmt"
@@ -10,13 +10,13 @@ import (
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes/source"
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/azure"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ec2"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ecs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/gcp"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/k8s"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/system"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/provider"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/azure"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ec2"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ecs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/gcp"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/k8s"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/system"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/provider"
 )
 
 func GetSourceProvider(set component.TelemetrySettings, configHostname string, timeout time.Duration) (source.Provider, error) {

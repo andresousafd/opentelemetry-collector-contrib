@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package tailsamplingprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+package tailsamplingprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/processor"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/telemetry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/telemetry"
 )
 
 // NewFactory returns a new factory for the Tail Sampling processor.

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dbstorage // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage"
+package dbstorage // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/dbstorage"
 
 // goimports and gci has unresolvable conflict here, so we have to disable one of them
 //nolint:gci

@@ -6,7 +6,7 @@
 // the /var/lib/dynatrace/enrichment (on *nix systems) and %ProgramData%\dynatrace\enrichment
 // (on Windows) directories.
 
-package dynatrace // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/dynatrace"
+package dynatrace // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/dynatrace"
 import (
 	"bufio"
 	"context"
@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
 )
 
 const TypeStr = "dynatrace"

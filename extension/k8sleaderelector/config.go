@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sleaderelector // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/k8sleaderelector"
+package k8sleaderelector // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/k8sleaderelector"
 
 import (
 	"errors"
@@ -9,7 +9,7 @@ import (
 
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 // Config is the configuration for the leader elector extension.

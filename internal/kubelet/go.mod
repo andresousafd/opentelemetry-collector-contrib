@@ -1,10 +1,10 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/kubelet
+module github.com/andresousafd/opentelemetry-collector-contrib/internal/kubelet
 
 go 1.23.0
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/common v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig v0.127.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/config/configtls v1.33.1-0.20250528155941-4a3717978a51
 	go.uber.org/goleak v1.3.0
@@ -64,9 +64,9 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
 
 // openshift removed all tags from their repo, use the pseudoversion from the release-3.9 branch HEAD
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37

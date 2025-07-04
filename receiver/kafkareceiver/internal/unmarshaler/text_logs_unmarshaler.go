@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package unmarshaler // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver/internal/unmarshaler"
+package unmarshaler // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/kafkareceiver/internal/unmarshaler"
 import (
 	"errors"
 	"time"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"golang.org/x/text/encoding"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/textutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/textutils"
 )
 
 var _ plog.Unmarshaler = (*TextLogsUnmarshaler)(nil)

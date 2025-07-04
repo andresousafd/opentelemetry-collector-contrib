@@ -105,7 +105,7 @@ func TestItemCardinalityFilter_Shutdown(t *testing.T) {
 
 func TestItemCardinalityFilter_Filter(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("Skipping test on Windows due to https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32397")
+		t.Skip("Skipping test on Windows due to https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32397")
 	}
 	items := initialItems(t)
 	logger := zaptest.NewLogger(t)
@@ -146,7 +146,7 @@ func TestItemCardinalityFilter_Filter(t *testing.T) {
 
 func TestItemCardinalityFilter_FilterItems(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("Skipping test on Windows due to https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32397")
+		t.Skip("Skipping test on Windows due to https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32397")
 	}
 	items := initialItemsWithSameTimestamp(t)
 	logger := zaptest.NewLogger(t)
@@ -191,7 +191,7 @@ func TestItemCardinalityFilter_FilterItems(t *testing.T) {
 
 func TestItemCardinalityFilter_IncludeItem(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("Skipping test on Windows due to https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32397")
+		t.Skip("Skipping test on Windows due to https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32397")
 	}
 	timestamp := time.Now().UTC()
 	item1 := &Item{SeriesKey: key1, Timestamp: timestamp}

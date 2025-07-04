@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sigv4authextension/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/sigv4authextension/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

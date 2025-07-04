@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otelserializer // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/serializer/otelserializer"
+package otelserializer // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/serializer/otelserializer"
 
 import (
 	"sync"
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/lru"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/lru"
 )
 
 const (

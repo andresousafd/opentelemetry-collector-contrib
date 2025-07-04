@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/mocks"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/mocks"
 )
 
 func TestMissingClientConfigManagerHTTP(t *testing.T) {

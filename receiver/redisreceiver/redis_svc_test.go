@@ -16,7 +16,7 @@ func newFakeAPIParser() *redisSvc {
 
 func TestParser(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38955")
+		t.Skip("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/38955")
 	}
 	s := newFakeAPIParser()
 	info, err := s.info()

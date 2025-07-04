@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("dataset")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datasetexporter"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/exporter/datasetexporter"
 )
 
 const (

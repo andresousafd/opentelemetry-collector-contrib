@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azureblobexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azureblobexporter"
+package azureblobexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/azureblobexporter"
 
 import (
 	"context"
@@ -23,8 +23,8 @@ import (
 	"go.opentelemetry.io/collector/pipeline"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azureblobexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/azureblobexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/testdata"
 )
 
 func TestNewExporter(t *testing.T) {

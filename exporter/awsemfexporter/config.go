@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsemfexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter"
+package awsemfexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awsemfexporter"
 
 import (
 	"strings"
@@ -9,9 +9,9 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/awsutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/cwlogs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 // eMFSupportedUnits contains the unit collection supported by CloudWatch backend service.

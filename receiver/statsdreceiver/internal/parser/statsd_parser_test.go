@@ -17,8 +17,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.22.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/metricstestutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/protocol"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/metricstestutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/statsdreceiver/protocol"
 )
 
 func Test_ParseMessageToMetric(t *testing.T) {

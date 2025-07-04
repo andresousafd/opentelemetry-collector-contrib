@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package config // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/config"
+package config // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/config"
 
 import (
 	"errors"
@@ -15,12 +15,12 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/customottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlprofile"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/customottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlprofile"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
 )
 
 const (

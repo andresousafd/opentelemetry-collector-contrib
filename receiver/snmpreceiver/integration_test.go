@@ -20,13 +20,13 @@ import (
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/snmpreceiver/internal/metadata"
 )
 
 func TestIntegration(t *testing.T) {
-	t.Skip("Broken test, see https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36177")
+	t.Skip("Broken test, see https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36177")
 
 	testCases := []struct {
 		desc                    string
@@ -56,7 +56,7 @@ func TestIntegration(t *testing.T) {
 
 	for _, testCase := range testCases {
 		t.Run(testCase.desc, func(t *testing.T) {
-			t.Skip("Flaky test, see https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21086")
+			t.Skip("Flaky test, see https://github.com/andresousafd/opentelemetry-collector-contrib/issues/21086")
 			factory := NewFactory()
 			factories.Receivers[metadata.Type] = factory
 			configFile := filepath.Join("testdata", "integration", testCase.configFilename)

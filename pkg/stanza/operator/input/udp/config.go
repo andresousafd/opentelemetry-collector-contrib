@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package udp // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
+package udp // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
 
 import (
 	"errors"
@@ -11,11 +11,11 @@ import (
 
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/textutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/split"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/textutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/split"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/trim"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("system")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/systemscraper"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/systemscraper"
 )
 
 const (

@@ -33,8 +33,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	conventions "go.opentelemetry.io/otel/semconv/v1.27.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/sapmreceiver/internal/metadata"
 )
 
 func expectedTraceData(t1, t2, t3 time.Time) ptrace.Traces {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package solacereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver"
+package solacereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/solacereceiver"
 
 import (
 	"path/filepath"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/solacereceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal"
+package internal // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal"
 
 import (
 	"context"
@@ -26,8 +26,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
-	mdata "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	mdata "github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
 )
 
 var removeStartTimeAdjustment = featuregate.GlobalRegistry().MustRegister(
@@ -518,7 +518,7 @@ func (t *transaction) getJobAndInstance(labels labels.Labels) (*resourceKey, err
 	// with the transaction.
 	// this can be the case for, e.g., aggregated metrics coming from a federate endpoint
 	// that represent the whole cluster, rather than an individual workload.
-	// See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32555 for reference
+	// See https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32555 for reference
 	if target, ok := scrape.TargetFromContext(t.ctx); ok {
 		if job == "" {
 			job = target.GetValue(model.JobLabel)

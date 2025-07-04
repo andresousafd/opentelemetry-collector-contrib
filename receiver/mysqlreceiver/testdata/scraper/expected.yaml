@@ -1757,5 +1757,5 @@ resourceMetrics:
               isMonotonic: true
             unit: s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mysqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/mysqlreceiver
           version: latest

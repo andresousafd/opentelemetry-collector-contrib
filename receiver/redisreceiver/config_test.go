@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/redisreceiver/internal/metadata"
 )
 
 func TestConfig(t *testing.T) {

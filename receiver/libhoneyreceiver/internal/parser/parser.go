@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package parser // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/parser"
+package parser // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/parser"
 
 import (
 	"encoding/hex"
@@ -17,7 +17,7 @@ import (
 	trc "go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
 )
 
 // GetDatasetFromRequest extracts the dataset name from the request path

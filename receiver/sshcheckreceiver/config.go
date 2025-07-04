@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sshcheckreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver"
+package sshcheckreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/sshcheckreceiver"
 
 import (
 	"errors"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/configssh"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/configssh"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/metadata"
 )
 
 // Predefined error responses for configuration validation failures

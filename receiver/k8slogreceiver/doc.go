@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package k8slogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8slogreceiver"
+package k8slogreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8slogreceiver"

@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/apachesparkreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/apachesparkreceiver/internal/metadata"
 )
 
 func TestNewFactory(t *testing.T) {

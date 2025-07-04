@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package helper // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+package helper // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 
 import (
 	"errors"
@@ -12,9 +12,9 @@ import (
 
 	"go.opentelemetry.io/collector/confmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	stanza_errors "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/errors"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/entry"
+	stanza_errors "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/errors"
 )
 
 // StrptimeKey is literally "strptime", and is the default layout type

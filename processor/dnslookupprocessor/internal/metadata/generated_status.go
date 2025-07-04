@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("dnslookup")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/processor/dnslookupprocessor"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/processor/dnslookupprocessor"
 )
 
 const (

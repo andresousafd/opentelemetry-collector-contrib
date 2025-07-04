@@ -13,10 +13,10 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/internal/ctxspanevent"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/internal/pathtest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottltest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/internal/ctxspanevent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/internal/pathtest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottltest"
 )
 
 var spanID2 = [8]byte{8, 7, 6, 5, 4, 3, 2, 1}

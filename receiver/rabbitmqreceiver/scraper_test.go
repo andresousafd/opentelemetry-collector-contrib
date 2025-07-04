@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package rabbitmqreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
+package rabbitmqreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
 
 import (
 	"context"
@@ -20,11 +20,11 @@ import (
 	"go.opentelemetry.io/collector/scraper/scrapererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/mocks"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/models"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/mocks"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/models"
 )
 
 func TestScraperStart(t *testing.T) {

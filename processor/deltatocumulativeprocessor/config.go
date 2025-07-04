@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package deltatocumulativeprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor"
+package deltatocumulativeprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	telemetry "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/telemetry"
+	telemetry "github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/telemetry"
 )
 
 var _ xconfmap.Validator = (*Config)(nil)
@@ -37,7 +37,7 @@ func createDefaultConfig() component.Config {
 		MaxStale: 5 * time.Minute,
 
 		// TODO: find good default
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/31603
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/31603
 		MaxStreams: math.MaxInt,
 	}
 }

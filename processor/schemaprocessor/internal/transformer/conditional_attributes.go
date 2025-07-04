@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package transformer // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
+package transformer // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
 
 import (
 	"errors"
@@ -9,8 +9,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
 )
 
 // MetricDataPointAttributes is a conditional Transformer that acts on [pmetric.Metric]'s DataPoint's attributes.  It powers the [Metric's rename_attributes] transformation.

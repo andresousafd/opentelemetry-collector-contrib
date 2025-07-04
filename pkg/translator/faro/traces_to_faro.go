@@ -5,7 +5,7 @@
 // and OpenTelemetry (OTLP) formats. These translation utilities are used by both
 // the Faro receiver and Faro exporter components to ensure seamless data flow
 // between Faro and OpenTelemetry systems.
-package faro // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/faro"
+package faro // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/faro"
 
 import (
 	"context"

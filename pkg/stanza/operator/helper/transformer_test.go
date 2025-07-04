@@ -17,10 +17,10 @@ import (
 	"go.uber.org/zap/zaptest"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/attrs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/attrs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/testutil"
 )
 
 func TestTransformerConfigMissingBase(t *testing.T) {

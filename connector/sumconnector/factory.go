@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package sumconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/sumconnector"
+package sumconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/sumconnector"
 
 import (
 	"context"
@@ -12,14 +12,14 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/sumconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/sumconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
 )
 
 // NewFactory returns a ConnectorFactory.

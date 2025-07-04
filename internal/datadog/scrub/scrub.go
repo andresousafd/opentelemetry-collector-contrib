@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package scrub contains a Scrubber that scrubs error from sensitive details
-package scrub // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/scrub"
+package scrub // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/scrub"
 
 import (
 	"regexp"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tlscheckreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tlscheckreceiver"
+package tlscheckreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/tlscheckreceiver"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tlscheckreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/tlscheckreceiver/internal/metadata"
 )
 
 var errMissingTargets = errors.New(`No targets specified`)

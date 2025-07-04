@@ -330,7 +330,7 @@ resourceMetrics:
                   timeUnixNano: "1000000"
             name: log.bar.exphistogram
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector
   - resource:
       attributes:
         - key: resource.foo
@@ -488,4 +488,4 @@ resourceMetrics:
                   timeUnixNano: "1000000"
             name: total.logrecords.resource.foo.exphistogram
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector

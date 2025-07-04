@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/pipeline"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/spanprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/spanprocessor/internal/metadata"
 )
 
 func TestFactory_Type(t *testing.T) {

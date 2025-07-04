@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package header // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/header"
+package header // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/header"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/extension/xextension/storage"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/pipeline"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/pipeline"
 )
 
 var ErrEndOfHeader = errors.New("end of header")

@@ -1,13 +1,13 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite
+module github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite
 
 go 1.23.0
 
 require (
 	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/google/go-cmp v0.7.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/common v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0
 	github.com/prometheus/common v0.62.0
 	github.com/prometheus/prometheus v0.302.1
 	github.com/stretchr/testify v1.10.0
@@ -38,11 +38,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus => ../prometheus
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus => ../prometheus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../../../internal/common
 
 retract (
 	v0.76.2
@@ -50,8 +50,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil => ../../pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pdatatest
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest => ../../pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../golden
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden => ../../golden

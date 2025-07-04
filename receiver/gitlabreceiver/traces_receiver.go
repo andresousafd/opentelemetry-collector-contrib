@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package gitlabreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitlabreceiver"
+package gitlabreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/gitlabreceiver"
 
 import (
 	"context"
@@ -22,7 +22,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.27.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitlabreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/gitlabreceiver/internal/metadata"
 )
 
 var (

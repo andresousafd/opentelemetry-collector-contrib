@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package redisstorageextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/redisstorageextension"
+package redisstorageextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/redisstorageextension"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/redisstorageextension/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/redisstorageextension/internal/metadata"
 )
 
 func NewFactory() extension.Factory {

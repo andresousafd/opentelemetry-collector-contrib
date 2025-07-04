@@ -22,11 +22,11 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	conventions "go.opentelemetry.io/otel/semconv/v1.27.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
-	jaegerconvert "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger/jaegerthriftcoverter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver/thriftudp"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	jaegerconvert "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger/jaegerthriftcoverter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver/thriftudp"
 )
 
 var jaegerAgent = component.NewIDWithName(metadata.Type, "agent_test")

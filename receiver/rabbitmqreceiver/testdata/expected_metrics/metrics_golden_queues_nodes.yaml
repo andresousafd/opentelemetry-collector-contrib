@@ -42,7 +42,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: '{messages}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/rabbitmqreceiver
           version: latest
 
   - resource:
@@ -128,7 +128,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{messages}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/rabbitmqreceiver
           version: latest
 
   - resource:
@@ -657,5 +657,5 @@ resourceMetrics:
               dataPoints:
               - asDouble: '123.456'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/rabbitmqreceiver
           version: latest

@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package staleness // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics/staleness"
+package staleness // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/exp/metrics/staleness"
 
 import (
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics/identity"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/exp/metrics/identity"
 )
 
 type Tracker struct {

@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/adapter"
 )
 
 const (

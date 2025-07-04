@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tcpcheckreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcpcheckreceiver"
+package tcpcheckreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/tcpcheckreceiver"
 
 import (
 	"bufio"
@@ -20,9 +20,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcpcheckreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/tcpcheckreceiver/internal/metadata"
 )
 
 type Server struct {
@@ -250,7 +250,7 @@ func TestScraper_TCPErrorMetrics(t *testing.T) {
 			// Ensure the resource map is empty to match the expected metrics
 			actualRm.Resource().Attributes().Clear()
 			actualSm := actualRm.ScopeMetrics().AppendEmpty()
-			actualSm.Scope().SetName("github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcpcheckreceiver")
+			actualSm.Scope().SetName("github.com/andresousafd/opentelemetry-collector-contrib/receiver/tcpcheckreceiver")
 			actualSm.Scope().SetVersion("latest")
 
 			// Copy only the error metric

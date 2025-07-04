@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package transformer // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
+package transformer // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
 )
 
 // SpanEventSignalNameChange is an transformer that powers the [Span Event's rename_events] change.

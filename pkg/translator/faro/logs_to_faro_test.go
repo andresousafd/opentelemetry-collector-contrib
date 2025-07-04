@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package faro // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/faro"
+package faro // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/faro"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
 )
 
 func TestTranslateFromLogs(t *testing.T) {

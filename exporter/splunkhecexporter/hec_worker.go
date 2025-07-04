@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package splunkhecexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter"
+package splunkhecexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/splunkhecexporter"
 
 import (
 	"bytes"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk"
 )
 
 type hecWorker interface {

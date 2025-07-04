@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awss3exporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter"
+package awss3exporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	s3types "github.com/aws/aws-sdk-go-v2/service/s3/types"
 	"github.com/aws/aws-sdk-go-v2/service/sts"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
 )
 
 func newUploadManager(

@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("memory")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/memoryscraper"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/memoryscraper"
 )
 
 const (

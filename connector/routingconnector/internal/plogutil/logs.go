@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package plogutil // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/plogutil"
+package plogutil // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector/internal/plogutil"
 
 import (
 	"go.opentelemetry.io/collector/pdata/plog"

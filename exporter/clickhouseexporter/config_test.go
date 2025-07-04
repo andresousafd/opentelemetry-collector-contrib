@@ -20,8 +20,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal/metadata"
 )
 
 const defaultEndpoint = "clickhouse://127.0.0.1:9000"

@@ -107,12 +107,12 @@ func TestReplaceAPIURL(t *testing.T) {
 		{
 			name:     "converts api.github.com URL to html URL",
 			input:    "https://api.github.com/repos/open-telemetry/opentelemetry-collector-contrib/pull/1234",
-			expected: "https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/1234",
+			expected: "https://github.com/andresousafd/opentelemetry-collector-contrib/pull/1234",
 		},
 		{
 			name:     "converts api.github.com workflow URL to html URL",
 			input:    "https://api.github.com/repos/open-telemetry/opentelemetry-collector-contrib/actions/runs/1234",
-			expected: "https://github.com/open-telemetry/opentelemetry-collector-contrib/actions/runs/1234",
+			expected: "https://github.com/andresousafd/opentelemetry-collector-contrib/actions/runs/1234",
 		},
 	}
 

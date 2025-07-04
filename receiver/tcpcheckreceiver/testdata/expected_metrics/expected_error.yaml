@@ -20,5 +20,5 @@ resourceMetrics:
               isMonotonic: true
             unit: "{error}"
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcpcheckreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/tcpcheckreceiver
           version: latest

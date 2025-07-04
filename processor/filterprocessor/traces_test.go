@@ -20,11 +20,11 @@ import (
 	"go.opentelemetry.io/otel/sdk/metric/metricdata"
 	"go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadatatest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadatatest"
 )
 
 // All the data we need to test the Span filter

@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8slogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8slogreceiver"
+package k8slogreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8slogreceiver"
 
 import (
 	"fmt"
 
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 const (

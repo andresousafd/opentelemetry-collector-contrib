@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translation // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
+package translation // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
 
 import (
 	ast10 "go.opentelemetry.io/otel/schema/v1.0/ast"
 	ast11 "go.opentelemetry.io/otel/schema/v1.1/ast"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/changelist"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/changelist"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
 )
 
 // RevisionV1 represents all changes that are to be applied to a signal at a given version.  V1 represents the fact

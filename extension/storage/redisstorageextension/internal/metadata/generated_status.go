@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("redis_storage")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/redisstorageextension"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/redisstorageextension"
 )
 
 const (

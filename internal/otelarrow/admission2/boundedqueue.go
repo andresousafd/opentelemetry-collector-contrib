@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package admission2 // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/admission2"
+package admission2 // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/admission2"
 
 import (
 	"container/list"
@@ -15,8 +15,8 @@ import (
 	grpccodes "google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	internalmetadata "github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/netstats"
+	internalmetadata "github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/netstats"
 )
 
 var (
@@ -55,7 +55,7 @@ func NewBoundedQueue(id component.ID, ts component.TelemetrySettings, maxLimitAd
 		maxLimitAdmit: maxLimitAdmit,
 		maxLimitWait:  maxLimitWait,
 		waiters:       list.New(),
-		tracer:        ts.TracerProvider.Tracer("github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow"),
+		tracer:        ts.TracerProvider.Tracer("github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow"),
 	}
 	attr := metric.WithAttributes(attribute.String(netstats.ReceiverKey, id.String()))
 	telemetryBuilder, err := internalmetadata.NewTelemetryBuilder(ts)

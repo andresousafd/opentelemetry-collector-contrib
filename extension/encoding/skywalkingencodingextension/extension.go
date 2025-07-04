@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package skywalkingencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/skywalkingencodingextension"
+package skywalkingencodingextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/skywalkingencodingextension"
 
 import (
 	"context"

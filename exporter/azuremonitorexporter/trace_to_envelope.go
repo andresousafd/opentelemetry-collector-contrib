@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuremonitorexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuremonitorexporter"
+package azuremonitorexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/azuremonitorexporter"
 
 // Contains code common to both trace and metrics exporters
 
@@ -19,7 +19,7 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.12.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 const (

@@ -3,9 +3,9 @@
 | Status        |           |
 | ------------- |-----------|
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fsum%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fsum) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fsum%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fsum) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fsum%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fsum) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fsum%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fsum) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=connector_sum)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=connector_sum&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@greatestusername](https://www.github.com/greatestusername), [@shalper2](https://www.github.com/shalper2), [@crobert-1](https://www.github.com/crobert-1) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@greatestusername](https://www.github.com/greatestusername), [@shalper2](https://www.github.com/shalper2), [@crobert-1](https://www.github.com/crobert-1) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -69,7 +69,7 @@ The sum connector has three required configuration settings and numerous optiona
 
 #### Optional Settings
 
-- `conditions`: [OTTL syntax](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/LANGUAGE.md) can be used to provide conditions for processing incoming telemetry. Conditions are ORed together, so if any condition is met the attribute's value will be included in the resulting sum.
+- `conditions`: [OTTL syntax](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/LANGUAGE.md) can be used to provide conditions for processing incoming telemetry. Conditions are ORed together, so if any condition is met the attribute's value will be included in the resulting sum.
 - `attributes`: Declaration of attributes to include. Any of these attributes found will generate a separate sum for each set of unique combination of attribute values and output as its own datapoint in the metric time series.
   - `key`: (required for `attributes`) the attribute name to match against
   - `default_value`: (optional for `attributes`) a default value for the attribute when no matches are found. The `default_value` value can be of type string, integer, or float.

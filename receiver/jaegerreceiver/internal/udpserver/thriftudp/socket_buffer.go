@@ -4,7 +4,7 @@
 
 //go:build !windows
 
-package thriftudp // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver/thriftudp"
+package thriftudp // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/udpserver/thriftudp"
 
 import (
 	"fmt"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package stefexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/stefexporter"
+package stefexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/stefexporter"
 
 import (
 	"context"
@@ -27,8 +27,8 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/stefexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/stefexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 func newGrpcServer(listener net.Listener) (*grpc.Server, int) {

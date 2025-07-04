@@ -1,15 +1,15 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/signalfxreceiver
+module github.com/andresousafd/opentelemetry-collector-contrib/receiver/signalfxreceiver
 
 go 1.23.0
 
 require (
 	github.com/gorilla/mux v1.8.1
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/common v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/signalfx v0.127.0
 	github.com/signalfx/com_signalfx_metrics_protobuf v0.0.3
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
@@ -62,10 +62,10 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv v0.0.0-00010101000000-000000000000 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv v0.0.0-00010101000000-000000000000 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil v0.127.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
@@ -113,23 +113,23 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter => ../../exporter/signalfxexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter => ../../exporter/signalfxexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk => ../../internal/splunk
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk => ../../internal/splunk
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../../pkg/experimentalmetricmetadata
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../../pkg/experimentalmetricmetadata
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../../pkg/batchperresourceattr
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../../pkg/batchperresourceattr
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx => ../../pkg/translator/signalfx
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/signalfx => ../../pkg/translator/signalfx
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -140,6 +140,6 @@ retract (
 // https://github.com/go-openapi/spec/issues/156
 replace github.com/go-openapi/spec v0.20.5 => github.com/go-openapi/spec v0.20.6
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv => ../../internal/gopsutilenv
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv => ../../internal/gopsutilenv

@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/saphanareceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/saphanareceiver/internal/metadata"
 )
 
 func TestValidate(t *testing.T) {

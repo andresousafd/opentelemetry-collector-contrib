@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensusreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver"
+package opencensusreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/opencensusreceiver"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/sharedcomponent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/metadata"
 )
 
 const grpcEndpoint = "localhost:55678"

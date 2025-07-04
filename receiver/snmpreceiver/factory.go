@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package snmpreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver"
+package snmpreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/snmpreceiver"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/scraper"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/snmpreceiver/internal/metadata"
 )
 
 var errConfigNotSNMP = errors.New("config was not a SNMP receiver config")

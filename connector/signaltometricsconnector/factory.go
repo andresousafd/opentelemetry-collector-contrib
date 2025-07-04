@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package signaltometricsconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector"
+package signaltometricsconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector"
 
 import (
 	"context"
@@ -12,14 +12,14 @@ import (
 	"go.opentelemetry.io/collector/connector/xconnector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/config"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/customottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/model"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlprofile"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/customottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/model"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlprofile"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
 )
 
 // NewFactory returns a ConnectorFactory.

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkametricsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkametricsreceiver"
+package kafkametricsreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/kafkametricsreceiver"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"github.com/IBM/sarama"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/kafka/configkafka"
 )
 
 const (

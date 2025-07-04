@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package gohai // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/gohai"
+package gohai // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/gohai"
 
 import (
 	"github.com/DataDog/gohai/cpu"

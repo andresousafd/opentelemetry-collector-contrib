@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azureauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/azureauthextension"
+package azureauthextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/azureauthextension"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/azureauthextension/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/azureauthextension/internal/metadata"
 )
 
 func NewFactory() extension.Factory {

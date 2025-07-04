@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package metricstarttimeprocessor sets the start time of cumulative metric points when the start time is unknown.
-package metricstarttimeprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor"
+package metricstarttimeprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor"

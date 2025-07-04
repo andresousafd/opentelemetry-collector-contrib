@@ -3,7 +3,7 @@
 
 //go:build integration
 
-package vcenterreceiver // import github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver
+package vcenterreceiver // import github.com/andresousafd/opentelemetry-collector-contrib/receiver/vcenterreceiver
 
 import (
 	"context"
@@ -22,8 +22,8 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 func TestIntegration(t *testing.T) {

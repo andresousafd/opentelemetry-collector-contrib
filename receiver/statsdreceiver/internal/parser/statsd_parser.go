@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package parser // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/parser"
+package parser // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/parser"
 
 import (
 	"errors"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.22.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/protocol"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/statsdreceiver/protocol"
 )
 
 var (
@@ -38,7 +38,7 @@ const (
 	TimingType       MetricType = "ms"
 	DistributionType MetricType = "d"
 
-	receiverName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver"
+	receiverName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/statsdreceiver"
 )
 
 type ObserverCategory struct {

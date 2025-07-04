@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awss3receiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/awss3receiver/internal/metadata"
 )
 
 func TestLoadConfig_Validate_Invalid(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package als // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/envoyalsreceiver/internal/als"
+package als // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/envoyalsreceiver/internal/als"
 
 import (
 	"testing"
@@ -16,7 +16,7 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
 )
 
 func TestToLogs(t *testing.T) {

@@ -3,7 +3,7 @@
 // Copyright (c) 2018 Uber Technologies, Inc.
 // SPDX-License-Identifier: Apache-2.0
 
-package dbmodel // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter/internal/dbmodel"
+package dbmodel // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/logzioexporter/internal/dbmodel"
 
 // ReferenceType is the reference type of one span to another
 type ReferenceType string

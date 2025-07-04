@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package elasticsearchexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
+package elasticsearchexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
 
 import (
 	"compress/gzip"
@@ -22,7 +22,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper/xexporterhelper"
 	"go.opentelemetry.io/collector/exporter/xexporter"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/metadata"
 )
 
 var defaultBatcherMinSizeItems = int64(5000)

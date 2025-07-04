@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

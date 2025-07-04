@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/exporter/exportertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/metadata"
 )
 
 // Test that the factory creates the default configuration

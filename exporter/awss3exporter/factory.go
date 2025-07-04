@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awss3exporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter"
+package awss3exporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchperresourceattr"
 )
 
 // TODO: Find a place for this to be shared.

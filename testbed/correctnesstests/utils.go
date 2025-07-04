@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package correctnesstests // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/correctnesstests"
+package correctnesstests // import "github.com/andresousafd/opentelemetry-collector-contrib/testbed/correctnesstests"
 
 import (
 	"bufio"
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/dataconnectors"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datareceivers"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datasenders"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/testbed/dataconnectors"
+	"github.com/andresousafd/opentelemetry-collector-contrib/testbed/datareceivers"
+	"github.com/andresousafd/opentelemetry-collector-contrib/testbed/datasenders"
+	"github.com/andresousafd/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 type ProcessorNameAndConfigBody struct {

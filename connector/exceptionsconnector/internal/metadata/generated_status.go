@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("exceptions")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/connector/exceptionsconnector"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/connector/exceptionsconnector"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("pprof")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/pprofextension"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter
+module github.com/andresousafd/opentelemetry-collector-contrib/exporter/lokiexporter
 
 go 1.23.0
 
@@ -7,7 +7,7 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/snappy v1.0.0
 	github.com/grafana/loki/pkg/push v0.0.0-20240514112848-a1b1eeb09583
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/loki v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/loki v0.127.0
 	github.com/prometheus/common v0.62.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/client v1.33.1-0.20250528155941-4a3717978a51
@@ -59,8 +59,8 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.21.0-rc.0 // indirect
@@ -105,17 +105,17 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/loki => ../../pkg/translator/loki
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/loki => ../../pkg/translator/loki
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
 retract (
 	v0.76.2
@@ -123,4 +123,4 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

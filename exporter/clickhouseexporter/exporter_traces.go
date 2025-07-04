@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package clickhouseexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/clickhouseexporter"
+package clickhouseexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/clickhouseexporter"
 
 import (
 	"context"
@@ -16,8 +16,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 type tracesExporter struct {

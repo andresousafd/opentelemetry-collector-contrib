@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/logdedupprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/logdedupprocessor/internal/metadata"
 )
 
 func Test_newLogAggregator(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
 )
 
 // Test data and validation functions for all four core metrics for Prometheus Receiver.

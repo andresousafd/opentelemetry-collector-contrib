@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/collector/config/confignet"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tlscheckreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/tlscheckreceiver/internal/metadata"
 )
 
 //nolint:revive

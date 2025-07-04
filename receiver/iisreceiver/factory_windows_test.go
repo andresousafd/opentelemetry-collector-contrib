@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package iisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver"
+package iisreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/iisreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
 )
 
 func TestWindowsFactory(t *testing.T) {

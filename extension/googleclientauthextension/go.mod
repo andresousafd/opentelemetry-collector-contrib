@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/googleclientauthextension
+module github.com/andresousafd/opentelemetry-collector-contrib/extension/googleclientauthextension
 
 go 1.23.0
 

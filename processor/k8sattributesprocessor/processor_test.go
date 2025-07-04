@@ -29,9 +29,9 @@ import (
 	"go.opentelemetry.io/collector/processor/xprocessor"
 	conventions "go.opentelemetry.io/otel/semconv/v1.8.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/metadata"
 )
 
 func newPodIdentifier(from string, name string, value string) kube.PodIdentifier {

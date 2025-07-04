@@ -316,5 +316,5 @@ resourceMetrics:
               isMonotonic: true
             unit: '{views}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/couchdbreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/couchdbreceiver
           version: latest

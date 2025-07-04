@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package syslogtest // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog/syslogtest"
+package syslogtest // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog/syslogtest"
 
 import (
 	"fmt"
 	"strings"
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
 )
 
 // This is the name of a test which requires setting the PreserveWhitespace flags.

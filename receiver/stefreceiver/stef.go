@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package stefreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/stefreceiver"
+package stefreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/stefreceiver"
 import (
 	"context"
 	"errors"
@@ -24,7 +24,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/stefreceiver/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/stefreceiver/internal"
 )
 
 type stefReceiver struct {

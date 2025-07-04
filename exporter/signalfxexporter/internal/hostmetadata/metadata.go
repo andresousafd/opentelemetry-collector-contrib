@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package hostmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/hostmetadata"
+package hostmetadata // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/hostmetadata"
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/dimensions"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	metadata "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/dimensions"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk"
+	metadata "github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
 )
 
 // Syncer is a config structure for host metadata syncer.

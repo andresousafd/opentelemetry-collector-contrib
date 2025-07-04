@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("awscloudwatchmetricstreams_encoding")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension"
 )
 
 const (

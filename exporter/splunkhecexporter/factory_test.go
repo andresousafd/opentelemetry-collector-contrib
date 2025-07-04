@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/exporter/exportertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

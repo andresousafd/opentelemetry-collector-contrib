@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset/regexp"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterset/regexp"
 )
 
 func Test_ValidateWithSpans(t *testing.T) {

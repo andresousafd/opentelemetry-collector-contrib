@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsemfexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter"
+package awsemfexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awsemfexporter"
 
 import (
 	"context"
@@ -17,9 +17,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/awsutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/cwlogs"
 )
 
 const (
@@ -88,7 +88,7 @@ func newEmfExporter(config *Config, set exporter.Settings) (*emfExporter, error)
 	}
 
 	config.logger.Warn("the default value for DimensionRollupOption will be changing to NoDimensionRollup" +
-		"in a future release. See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/23997 for more" +
+		"in a future release. See https://github.com/andresousafd/opentelemetry-collector-contrib/issues/23997 for more" +
 		"information")
 
 	return emfExporter, nil

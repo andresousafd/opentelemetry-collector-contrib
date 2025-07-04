@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("network")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/networkscraper"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/networkscraper"
 )
 
 const (

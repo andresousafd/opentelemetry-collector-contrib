@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package archive_test // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/archive_test"
+package archive_test // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/archive_test"
 
 import (
 	"context"
@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/archive"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fileset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/archive"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fileset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/testutil"
 )
 
 func TestArchiveNoRollover(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkinv2 // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
+package zipkinv2 // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
 
 import (
 	"encoding/json"
@@ -17,10 +17,10 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.15.0"
 	conventions161 "go.opentelemetry.io/otel/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
-	idutils "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/internal/zipkin"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	idutils "github.com/andresousafd/opentelemetry-collector-contrib/pkg/core/xidutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin/internal/zipkin"
 )
 
 const (

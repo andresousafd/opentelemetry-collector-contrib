@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"go.opentelemetry.io/collector/featuregate"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/resourcemapping"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/resourcemapping"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package schemaprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor"
+package schemaprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
 )
 
 type schemaProcessor struct {

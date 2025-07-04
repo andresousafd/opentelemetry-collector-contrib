@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datasenders // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datasenders"
+package datasenders // import "github.com/andresousafd/opentelemetry-collector-contrib/testbed/datasenders"
 
 import (
 	"bytes"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/andresousafd/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 type SyslogWriter struct {

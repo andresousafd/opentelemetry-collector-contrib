@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/config/configgrpc"
 	"go.opentelemetry.io/collector/config/confignet"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/mocks"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/mocks"
 )
 
 func TestMissingClientConfigManagerGRPC(t *testing.T) {

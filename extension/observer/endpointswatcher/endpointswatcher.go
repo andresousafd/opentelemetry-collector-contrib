@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package endpointswatcher // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/endpointswatcher"
+package endpointswatcher // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/endpointswatcher"
 
 import (
 	"encoding/json"
@@ -11,7 +11,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/observer"
 )
 
 var _ observer.Observable = (*EndpointsWatcher)(nil)

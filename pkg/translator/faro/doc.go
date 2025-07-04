@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package faro // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/faro"
+package faro // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/faro"

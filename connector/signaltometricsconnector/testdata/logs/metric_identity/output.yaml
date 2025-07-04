@@ -187,4 +187,4 @@ resourceMetrics:
                 - asDouble: 128
                   timeUnixNano: "1000000"
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector

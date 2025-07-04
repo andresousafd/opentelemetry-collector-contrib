@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package statefulset // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/statefulset"
+package statefulset // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/statefulset"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	appsv1 "k8s.io/api/apps/v1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/constants"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/constants"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 )
 
 const (

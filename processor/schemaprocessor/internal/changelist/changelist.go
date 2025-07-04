@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package changelist // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/changelist"
+package changelist // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/changelist"
 
 import (
 	"fmt"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/transformer"
 )
 
 // ChangeList represents a list of changes within a section of the schema processor.  It can take in a list of different migrators for a specific section and will apply them in order, based on whether Apply or Rollback is called

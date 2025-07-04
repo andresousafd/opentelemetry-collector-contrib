@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tcp // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
+package tcp // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
 
 import (
 	"bufio"
@@ -16,11 +16,11 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"golang.org/x/text/encoding"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/textutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/split"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/textutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/split"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/trim"
 )
 
 const (

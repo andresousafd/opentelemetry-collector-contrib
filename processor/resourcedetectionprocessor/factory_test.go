@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	"go.opentelemetry.io/collector/processor/xprocessor"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

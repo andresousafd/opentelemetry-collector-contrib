@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {
@@ -106,7 +106,7 @@ func TestConfigS3StorageClass(t *testing.T) {
 
 	factory := NewFactory()
 	factories.Exporters[factory.Type()] = factory
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/33594
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/33594
 	cfg, err := otelcoltest.LoadConfigAndValidate(
 		filepath.Join("testdata", "config-s3_storage_class.yaml"), factories)
 
@@ -143,7 +143,7 @@ func TestConfigS3ACL(t *testing.T) {
 
 	factory := NewFactory()
 	factories.Exporters[factory.Type()] = factory
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/33594
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/33594
 	cfg, err := otelcoltest.LoadConfigAndValidate(
 		filepath.Join("testdata", "config-s3_acl.yaml"), factories)
 
@@ -181,7 +181,7 @@ func TestConfigS3ACLDefined(t *testing.T) {
 
 	factory := NewFactory()
 	factories.Exporters[factory.Type()] = factory
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/33594
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/33594
 	cfg, err := otelcoltest.LoadConfigAndValidate(
 		filepath.Join("testdata", "config-s3_canned-acl.yaml"), factories)
 

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package coralogixexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/coralogixexporter"
+package coralogixexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/coralogixexporter"
 
 import (
 	"context"
@@ -24,7 +24,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/coralogixexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/coralogixexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

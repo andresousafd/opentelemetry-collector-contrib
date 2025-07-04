@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package lokiexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter"
+package lokiexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/lokiexporter"
 
 import (
 	"context"
@@ -24,7 +24,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/lokiexporter/internal/metadata"
 )
 
 func TestPushLogData(t *testing.T) {

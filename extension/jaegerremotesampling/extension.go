@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaegerremotesampling // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling"
+package jaegerremotesampling // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling"
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 	"go.opentelemetry.io/collector/extension"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/grpc"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/http"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source/filesource"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source/remotesource"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/grpc"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/http"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source/filesource"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source/remotesource"
 )
 
 var _ extension.Extension = (*jrsExtension)(nil)

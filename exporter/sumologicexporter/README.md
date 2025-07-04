@@ -5,9 +5,9 @@
 | ------------- |-----------|
 | Stability     | [beta]: metrics, logs, traces   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fsumologic%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fsumologic) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fsumologic%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fsumologic) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fsumologic%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fsumologic) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fsumologic%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fsumologic) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=exporter_sumologic)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=exporter_sumologic&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@rnishtala-sumo](https://www.github.com/rnishtala-sumo), [@chan-tim-sumo](https://www.github.com/chan-tim-sumo), [@echlebek](https://www.github.com/echlebek), [@amdprophet](https://www.github.com/amdprophet) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@rnishtala-sumo](https://www.github.com/rnishtala-sumo), [@chan-tim-sumo](https://www.github.com/chan-tim-sumo), [@echlebek](https://www.github.com/echlebek), [@amdprophet](https://www.github.com/amdprophet) |
 | Emeritus      | [@aboguszewski-sumo](https://www.github.com/aboguszewski-sumo), [@kasia-kujawa](https://www.github.com/kasia-kujawa), [@mat-rumian](https://www.github.com/mat-rumian), [@sumo-drosiek](https://www.github.com/sumo-drosiek) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#beta
@@ -32,7 +32,7 @@ The following options are no longer supported:
 After the new exporter will be moved to this repository:
 
 - `carbon2` and `graphite` are no longer supported and `prometheus` or `otlp` format should be used
-- all resource level attributes are treated as `metadata_attributes` so this option is no longer supported. You can use [Group by Attributes processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/groupbyattrsprocessor) to move attributes from record level to resource level. For example:
+- all resource level attributes are treated as `metadata_attributes` so this option is no longer supported. You can use [Group by Attributes processor](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/processor/groupbyattrsprocessor) to move attributes from record level to resource level. For example:
 
   ```yaml
   # before switch to new collector
@@ -47,7 +47,7 @@ After the new exporter will be moved to this repository:
         - my_attribute
   ```
 
-- Source templates (`source_category`, `source_name` and `source_host`) are no longer supported. We recommend to use [Transform Processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/transformprocessor/). For example:
+- Source templates (`source_category`, `source_name` and `source_host`) are no longer supported. We recommend to use [Transform Processor](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/processor/transformprocessor/). For example:
 
   ```yaml
   # before switch to new collector

@@ -1,11 +1,11 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package textencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/textencodingextension"
+package textencodingextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/textencodingextension"
 import (
 	"regexp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/textutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/textutils"
 )
 
 type Config struct {

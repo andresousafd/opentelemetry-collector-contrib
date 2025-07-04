@@ -4,9 +4,9 @@
 | Status        |           |
 | ------------- |-----------|
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fspanmetrics%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fspanmetrics) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fspanmetrics%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fspanmetrics) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fspanmetrics%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fspanmetrics) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fspanmetrics%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fspanmetrics) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=connector_spanmetrics)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=connector_spanmetrics&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@portertech](https://www.github.com/portertech), [@Frapschen](https://www.github.com/Frapschen), [@iblancasa](https://www.github.com/iblancasa) \| Seeking more code owners! |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@portertech](https://www.github.com/portertech), [@Frapschen](https://www.github.com/Frapschen), [@iblancasa](https://www.github.com/iblancasa) \| Seeking more code owners! |
 | Emeritus      | [@albertteoh](https://www.github.com/albertteoh) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#alpha
@@ -59,7 +59,7 @@ across all spans:
 
 ## Span to Metrics processor to Span to metrics connector
 
-The spanmetrics connector replaces [spanmetrics](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/processor/spanmetricsprocessor/v0.95.0/processor/spanmetricsprocessor/README.md) processor with multiple improvements
+The spanmetrics connector replaces [spanmetrics](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/processor/spanmetricsprocessor/v0.95.0/processor/spanmetricsprocessor/README.md) processor with multiple improvements
 and breaking changes. It was done to bring the `spanmetrics` connector closer to the OpenTelemetry
 specification and make the component agnostic to exporters logic. The `spanmetrics` processor
 essentially was mixing the OTel with Prometheus conventions by using the OTel data model and
@@ -264,7 +264,7 @@ To reduce the risk of conflicting writes:
 * If multiple pipelines are used, ensure each produces uniquely identified metrics (e.g., inject attributes using a processor)
 * For exporters like Prometheus, which rely on the single writer assumption, use a dedicated pipeline with a single `spanmetricsconnector` instance
 
-More context is available in [GitHub issue #21101](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21101).
+More context is available in [GitHub issue #21101](https://github.com/andresousafd/opentelemetry-collector-contrib/issues/21101).
 
 ### About `resource_metrics_key_attributes`
 

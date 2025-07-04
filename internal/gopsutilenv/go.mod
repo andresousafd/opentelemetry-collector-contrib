@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv
+module github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv
 
 go 1.23.0
 

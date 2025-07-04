@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("riak")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/riakreceiver"
 )
 
 const (

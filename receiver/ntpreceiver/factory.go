@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ntpreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/ntpreceiver"
+package ntpreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/ntpreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/scraper"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/ntpreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/ntpreceiver/internal/metadata"
 )
 
 func NewFactory() receiver.Factory {

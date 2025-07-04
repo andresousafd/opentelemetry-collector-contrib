@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("loki")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/lokireceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/lokireceiver"
 )
 
 const (

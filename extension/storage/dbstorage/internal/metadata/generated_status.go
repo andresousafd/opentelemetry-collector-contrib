@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("db_storage")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/dbstorage"
 )
 
 const (

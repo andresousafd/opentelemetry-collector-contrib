@@ -17,14 +17,14 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"golang.org/x/text/encoding/unicode"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/attrs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/emit"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/scanner"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/internal/filetest"
-	internaltime "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/internal/time"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/split"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/attrs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/emit"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/scanner"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/internal/filetest"
+	internaltime "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/internal/time"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/split"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/trim"
 )
 
 func TestFileReader_FingerprintUpdated(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/aerospikereceiver/internal/metadata"
 )
 
 func TestValidate(t *testing.T) {

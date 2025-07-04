@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package windowsservicereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsservicereceiver"
+package windowsservicereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/windowsservicereceiver"
 
 import (
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsservicereceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/windowsservicereceiver/internal/metadata"
 )
 
 // Config defines configuration for windowsservice receiver.

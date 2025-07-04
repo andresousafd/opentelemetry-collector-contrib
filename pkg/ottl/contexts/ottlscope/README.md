@@ -1,7 +1,7 @@
 # Instrumentation Scope Context
 
 > [!NOTE]
-> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottlscope/README.md).
+> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottlscope/README.md).
 
 The Instrumentation Scope Context is a Context implementation for [pdata Instrumentation Scope](https://github.com/open-telemetry/opentelemetry-collector/blob/main/pdata/pcommon/generated_instrumentationscope.go), the Collector's internal representation for OTLP instrumentation scope data.  This Context should be used when interacting only with OTLP instrumentation scope.
 

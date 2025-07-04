@@ -1,11 +1,11 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlemanagedprometheusexporter
+module github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlemanagedprometheusexporter
 
 go 1.23.0
 
 require (
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector v0.51.0
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/googlemanagedprometheus v0.51.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
 	go.opentelemetry.io/collector/component/componenttest v0.127.1-0.20250528155941-4a3717978a51
@@ -172,6 +172,6 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../../internal/common

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package protocol // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/protocol"
+package protocol // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/statsdreceiver/protocol"
 
 type (
 	TypeName     string // How humans describe the MetricTypes ("counter", "gauge")

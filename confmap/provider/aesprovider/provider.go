@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package aesprovider // import "github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/aesprovider"
+package aesprovider // import "github.com/andresousafd/opentelemetry-collector-contrib/confmap/provider/aesprovider"
 
 import (
 	"context"

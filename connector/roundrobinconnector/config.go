@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package roundrobinconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/roundrobinconnector"
+package roundrobinconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/roundrobinconnector"
 
 // Config for the connector
 type Config struct{}

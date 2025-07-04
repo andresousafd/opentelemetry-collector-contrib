@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver"
+package kafkareceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/kafkareceiver"
 
 import (
 	"errors"
@@ -14,10 +14,10 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv1"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver/internal/unmarshaler"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/azure"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv1"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/kafkareceiver/internal/unmarshaler"
 )
 
 var (

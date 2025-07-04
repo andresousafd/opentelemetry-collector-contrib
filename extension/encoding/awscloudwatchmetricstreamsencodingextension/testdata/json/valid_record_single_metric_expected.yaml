@@ -37,4 +37,4 @@ resourceMetrics:
                   timeUnixNano: 1611929698000000000
             unit: Seconds
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension
+          name: github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension

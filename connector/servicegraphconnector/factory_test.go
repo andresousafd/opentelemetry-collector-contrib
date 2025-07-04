@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package servicegraphconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector"
+package servicegraphconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/servicegraphconnector"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/connector/connectortest"
 	"go.opentelemetry.io/collector/consumer/consumertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadata"
 )
 
 func TestNewConnector(t *testing.T) {

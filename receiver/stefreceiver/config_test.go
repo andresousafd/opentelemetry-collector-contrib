@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package stefreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/stefreceiver"
+package stefreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/stefreceiver"
 import (
 	"fmt"
 	"path/filepath"

@@ -1,10 +1,10 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/faroexporter
+module github.com/andresousafd/opentelemetry-collector-contrib/exporter/faroexporter
 
 go 1.23.3
 
 require (
 	github.com/grafana/faro/pkg/go v0.0.0-20250314155512-06a06da3b8bc
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/faro v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/faro v0.127.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
 	go.opentelemetry.io/collector/component/componenttest v0.127.1-0.20250528155941-4a3717978a51
@@ -99,10 +99,10 @@ require (
 
 replace go.opentelemetry.io/collector/extension/auth v0.121.1-0.20250317165851-432d92d8b366 => go.opentelemetry.io/collector/extension/extensionauth v1.33.1-0.20250528155941-4a3717978a51
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/faro => ../../pkg/translator/faro
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/faro => ../../pkg/translator/faro
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil

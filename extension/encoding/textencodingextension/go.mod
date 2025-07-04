@@ -1,10 +1,10 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/textencodingextension
+module github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/textencodingextension
 
 go 1.23.0
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
 	go.opentelemetry.io/collector/component/componenttest v0.127.1-0.20250528155941-4a3717978a51
@@ -56,12 +56,12 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../../pkg/pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil => ../../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../../pkg/pdatatest
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest => ../../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../../pkg/golden
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden => ../../../pkg/golden
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding => ../
+replace github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding => ../

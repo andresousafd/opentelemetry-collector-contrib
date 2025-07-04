@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuremonitorreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver"
+package azuremonitorreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver"
 
 import (
 	"reflect"
@@ -18,7 +18,7 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armsubscriptions"
 	armsubscriptionsfake "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armsubscriptions/fake"
 
-	azmetricsfake "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/fake"
+	azmetricsfake "github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/fake"
 )
 
 func TestAzureScraperClientOptions(t *testing.T) {

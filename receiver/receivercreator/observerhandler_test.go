@@ -16,8 +16,8 @@ import (
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/receivercreator/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/observer"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/receivercreator/internal/metadata"
 )
 
 func TestOnAddForMetrics(t *testing.T) {

@@ -8,7 +8,7 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016-present Datadog, Inc.
 
-package postgresqlreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
+package postgresqlreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
 
 import (
 	"sync"

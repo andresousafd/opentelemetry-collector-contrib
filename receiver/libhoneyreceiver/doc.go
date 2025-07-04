@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package libhoneyreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver"
+package libhoneyreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver"

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/cmd/codecovgen
+module github.com/andresousafd/opentelemetry-collector-contrib/cmd/codecovgen
 
 go 1.23.0
 

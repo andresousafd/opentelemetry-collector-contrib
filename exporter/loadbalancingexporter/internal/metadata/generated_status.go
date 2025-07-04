@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("loadbalancing")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/loadbalancingexporter"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/exporter/loadbalancingexporter"
 )
 
 const (

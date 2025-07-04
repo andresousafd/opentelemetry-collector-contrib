@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlecloudlogentryencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension"
+package googlecloudlogentryencodingextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension/internal/metadata"
 )
 
 func NewFactory() extension.Factory {

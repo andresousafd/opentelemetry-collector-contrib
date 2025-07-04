@@ -27,7 +27,7 @@ import (
 	"go.uber.org/multierr"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datadogreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/datadogreceiver/internal/metadata"
 )
 
 func TestDatadogTracesReceiver_Lifecycle(t *testing.T) {

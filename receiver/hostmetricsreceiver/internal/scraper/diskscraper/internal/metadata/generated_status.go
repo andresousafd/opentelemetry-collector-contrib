@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("disk")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/diskscraper"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/diskscraper"
 )
 
 const (

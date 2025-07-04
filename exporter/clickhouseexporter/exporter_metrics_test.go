@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/clickhouseexporter/internal"
 )
 
 func TestMetricsClusterConfig(t *testing.T) {

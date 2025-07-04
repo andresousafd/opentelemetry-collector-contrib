@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sys/unix"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv"
 )
 
 func TestFillOSSpecificData(t *testing.T) {

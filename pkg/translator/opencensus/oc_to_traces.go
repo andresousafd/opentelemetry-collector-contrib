@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensus // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus"
+package opencensus // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/opencensus"
 
 import (
 	"strings"
@@ -15,8 +15,8 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.15.0"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/occonventions"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/occonventions"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
 )
 
 // OCToTraces may be used only by OpenCensus receiver and exporter implementations.

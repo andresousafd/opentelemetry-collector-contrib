@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/metadata"
 )
 
 func TestConfig(t *testing.T) {

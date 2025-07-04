@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package clientutil // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/clientutil"
+package clientutil // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/clientutil"
 
 import (
 	"crypto/tls"

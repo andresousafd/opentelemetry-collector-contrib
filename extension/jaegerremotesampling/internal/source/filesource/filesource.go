@@ -2,7 +2,7 @@
 // Copyright (c) 2018 The Jaeger Authors.
 // SPDX-License-Identifier: Apache-2.0
 
-package filesource // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source/filesource"
+package filesource // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source/filesource"
 
 import (
 	"bytes"
@@ -20,7 +20,7 @@ import (
 	"github.com/jaegertracing/jaeger-idl/proto-gen/api_v2"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
 )
 
 // null represents "null" JSON value and

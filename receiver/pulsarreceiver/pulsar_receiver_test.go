@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pulsarreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pulsarreceiver"
+package pulsarreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/pulsarreceiver"
 
 import (
 	"testing"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pulsarreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/pulsarreceiver/internal/metadata"
 )
 
 func Test_newTracesReceiver_err(t *testing.T) {

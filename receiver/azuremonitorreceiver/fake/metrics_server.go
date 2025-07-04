@@ -4,7 +4,7 @@
 // TODO remove this package in favor of the new arriving feature in Azure SDK for Go.
 //  Ref: https://github.com/Azure/azure-sdk-for-go/pull/24309
 
-package fake // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/fake"
+package fake // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/fake"
 
 import (
 	"context"

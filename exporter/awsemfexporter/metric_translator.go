@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsemfexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter"
+package awsemfexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awsemfexporter"
 
 import (
 	"encoding/json"
@@ -14,8 +14,8 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs"
-	aws "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/metrics"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/cwlogs"
+	aws "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/metrics"
 )
 
 const (

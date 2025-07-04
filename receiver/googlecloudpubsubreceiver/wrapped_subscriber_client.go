@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlecloudpubsubreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver"
+package googlecloudpubsubreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal"
 )
 
 // wrappedSubscriberClient allows to override the close function

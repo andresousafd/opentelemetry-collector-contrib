@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheusremotewriteexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
+package prometheusremotewriteexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
 
 import (
 	"bytes"
@@ -31,9 +31,9 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter/internal/metadata"
-	prometheustranslator "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter/internal/metadata"
+	prometheustranslator "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
 )
 
 type prwTelemetry interface {

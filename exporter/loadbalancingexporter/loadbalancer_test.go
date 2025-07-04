@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/otlpexporter"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/loadbalancingexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/loadbalancingexporter/internal/metadata"
 )
 
 func TestNewLoadBalancerNoResolver(t *testing.T) {
@@ -369,7 +369,7 @@ func TestEndpointWithPort(t *testing.T) {
 
 func TestFailedExporterInRing(t *testing.T) {
 	// this test is based on the discussion in the original PR for this exporter:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/1542#discussion_r521268180
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/pull/1542#discussion_r521268180
 	// prepare
 	ts, tb := getTelemetryAssets(t)
 	cfg := &Config{

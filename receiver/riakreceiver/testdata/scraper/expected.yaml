@@ -114,5 +114,5 @@ resourceMetrics:
               isMonotonic: true
             unit: '{operation}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/riakreceiver
           version: latest

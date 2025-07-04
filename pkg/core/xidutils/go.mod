@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils
+module github.com/andresousafd/opentelemetry-collector-contrib/pkg/core/xidutils
 
 go 1.23.0
 

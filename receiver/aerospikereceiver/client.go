@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package aerospikereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver"
+package aerospikereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/aerospikereceiver"
 
 import (
 	"crypto/tls"
@@ -12,7 +12,7 @@ import (
 	as "github.com/aerospike/aerospike-client-go/v8"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
 )
 
 var defaultNodeInfoCommands = []string{

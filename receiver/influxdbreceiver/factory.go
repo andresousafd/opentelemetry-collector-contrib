@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package influxdbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/influxdbreceiver"
+package influxdbreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/influxdbreceiver"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/influxdbreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/influxdbreceiver/internal/metadata"
 )
 
 const defaultEndpoint = "localhost:8086"

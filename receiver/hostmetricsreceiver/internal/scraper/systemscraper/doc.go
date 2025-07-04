@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package systemscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/systemscraper"
+package systemscraper // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/systemscraper"

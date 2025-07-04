@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/tools
+module github.com/andresousafd/opentelemetry-collector-contrib/internal/tools
 
 go 1.23.0
 
@@ -10,7 +10,7 @@ require (
 	github.com/google/addlicense v1.1.1
 	github.com/jcchavezs/porto v0.6.0
 	github.com/jstemmer/go-junit-report v1.0.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/cmd/codecovgen v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/cmd/codecovgen v0.127.0
 	go.opentelemetry.io/build-tools/checkapi v0.23.1
 	go.opentelemetry.io/build-tools/checkfile v0.23.1
 	go.opentelemetry.io/build-tools/chloggen v0.23.1
@@ -295,4 +295,4 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/cmd/codecovgen => ../../cmd/codecovgen
+replace github.com/andresousafd/opentelemetry-collector-contrib/cmd/codecovgen => ../../cmd/codecovgen

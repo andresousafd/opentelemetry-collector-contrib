@@ -5,9 +5,9 @@
 | ------------- |-----------|
 | Stability     | [beta]: metrics   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fgooglemanagedprometheus%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fgooglemanagedprometheus) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fgooglemanagedprometheus%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fgooglemanagedprometheus) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fgooglemanagedprometheus%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fgooglemanagedprometheus) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fgooglemanagedprometheus%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fgooglemanagedprometheus) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=exporter_googlemanagedprometheus)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=exporter_googlemanagedprometheus&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@aabmass](https://www.github.com/aabmass), [@dashpole](https://www.github.com/dashpole), [@braydonk](https://www.github.com/braydonk), [@jsuereth](https://www.github.com/jsuereth), [@psx95](https://www.github.com/psx95), [@ridwanmsharif](https://www.github.com/ridwanmsharif) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@aabmass](https://www.github.com/aabmass), [@dashpole](https://www.github.com/dashpole), [@braydonk](https://www.github.com/braydonk), [@jsuereth](https://www.github.com/jsuereth), [@psx95](https://www.github.com/psx95), [@ridwanmsharif](https://www.github.com/ridwanmsharif) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -279,9 +279,9 @@ There are three main root causes for timeseries collisions:
 
 The most common reason is (1), which means that it can be fixed by adding
 resource information. If you are running on GCP, you can use the
-[resourcedetection processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/resourcedetectionprocessor/README.md)
+[resourcedetection processor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/resourcedetectionprocessor/README.md)
 with the `gcp` detector. If you are running on
-Kubernetes (including GKE), we recommend also using the [k8sattributes](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/k8sattributesprocessor/README.md)
+Kubernetes (including GKE), we recommend also using the [k8sattributes](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/k8sattributesprocessor/README.md)
 processor to at least add `k8s.namespace.name` and `k8s.pod.name`. Finally,
 it is important to make sure `service.name` and `service.instance.id` are set
 by applications in a way that uniquely identifies each instance.

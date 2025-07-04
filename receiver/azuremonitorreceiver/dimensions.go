@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuremonitorreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver"
+package azuremonitorreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver"
 
 import (
 	"bytes"

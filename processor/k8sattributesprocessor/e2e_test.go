@@ -27,7 +27,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/xreceiver"
 	"go.uber.org/multierr"
 
-	k8stest "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/xk8stest"
+	k8stest "github.com/andresousafd/opentelemetry-collector-contrib/pkg/xk8stest"
 )
 
 const (
@@ -92,7 +92,7 @@ func TestE2E_ClusterRBAC(t *testing.T) {
 		TestID:       testID,
 		OtlpEndpoint: fmt.Sprintf("otelcol-%s.%s:4317", testID, testNs),
 		// `telemetrygen` doesn't support profiles
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36127
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36127
 		// TODO: add "profiles" to DataTypes once #36127 is resolved
 		DataTypes: []string{"metrics", "logs", "traces"},
 	}
@@ -572,7 +572,7 @@ func TestE2E_NamespacedRBAC(t *testing.T) {
 		TestID:       testID,
 		OtlpEndpoint: fmt.Sprintf("otelcol-%s.%s:4317", testID, nsName),
 		// `telemetrygen` doesn't support profiles
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36127
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36127
 		// TODO: add "profiles" to DataTypes once #36127 is resolved
 		DataTypes: []string{"metrics", "logs", "traces"},
 	}
@@ -758,7 +758,7 @@ func TestE2E_MixRBAC(t *testing.T) {
 		TestID:       testID,
 		OtlpEndpoint: fmt.Sprintf("otelcol-%s.%s:4317", testID, otelNs),
 		// `telemetrygen` doesn't support profiles
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36127
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36127
 		// TODO: add "profiles" to DataTypes once #36127 is resolved
 		DataTypes: []string{"metrics", "logs", "traces"},
 	}
@@ -947,7 +947,7 @@ func TestE2E_NamespacedRBACNoPodIP(t *testing.T) {
 		TestID:       testID,
 		OtlpEndpoint: fmt.Sprintf("otelcol-%s.%s:4317", testID, nsName),
 		// `telemetrygen` doesn't support profiles
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36127
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36127
 		// TODO: add "profiles" to DataTypes once #36127 is resolved
 		DataTypes: []string{"metrics", "logs", "traces"},
 	}
@@ -1128,7 +1128,7 @@ func TestE2E_ClusterRBACCollectorStartAfterTelemetryGen(t *testing.T) {
 		TestID:       testID,
 		OtlpEndpoint: fmt.Sprintf("otelcol-%s.%s:4317", testID, testNs),
 		// `telemetrygen` doesn't support profiles
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36127
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36127
 		// TODO: add "profiles" to DataTypes once #36127 is resolved
 		DataTypes: []string{"metrics", "logs", "traces"},
 	}
@@ -1588,7 +1588,7 @@ func scanTracesForAttributes(t *testing.T, ts *consumertest.TracesSink, expected
 	kvs map[string]*expectedValue,
 ) {
 	// Iterate over the received set of traces starting from the most recent entries due to a bug in the processor:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18892
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/18892
 	// TODO: Remove the reverse loop once it's fixed. All the metrics should be properly annotated.
 	for i := len(ts.AllTraces()) - 1; i >= 0; i-- {
 		traces := ts.AllTraces()[i]
@@ -1610,7 +1610,7 @@ func scanMetricsForAttributes(t *testing.T, ms *consumertest.MetricsSink, expect
 	kvs map[string]*expectedValue,
 ) {
 	// Iterate over the received set of metrics starting from the most recent entries due to a bug in the processor:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18892
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/18892
 	// TODO: Remove the reverse loop once it's fixed. All the metrics should be properly annotated.
 	for i := len(ms.AllMetrics()) - 1; i >= 0; i-- {
 		metrics := ms.AllMetrics()[i]
@@ -1632,7 +1632,7 @@ func scanLogsForAttributes(t *testing.T, ls *consumertest.LogsSink, expectedServ
 	kvs map[string]*expectedValue,
 ) {
 	// Iterate over the received set of logs starting from the most recent entries due to a bug in the processor:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18892
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/18892
 	// TODO: Remove the reverse loop once it's fixed. All the metrics should be properly annotated.
 	for i := len(ls.AllLogs()) - 1; i >= 0; i-- {
 		logs := ls.AllLogs()[i]
@@ -1654,12 +1654,12 @@ func scanProfilesForAttributes(t *testing.T, ps *consumertest.ProfilesSink, expe
 	kvs map[string]*expectedValue,
 ) {
 	// `telemetrygen` doesn't support profiles
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36127
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36127
 	// TODO: Remove `t.Skip()` once #36127 is resolved
 	t.Skip("Skip profiles test")
 
 	// Iterate over the received set of profiles starting from the most recent entries due to a bug in the processor:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18892
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/18892
 	// TODO: Remove the reverse loop once it's fixed. All the metrics should be properly annotated.
 	for i := len(ps.AllProfiles()) - 1; i >= 0; i-- {
 		profiles := ps.AllProfiles()[i]
@@ -1749,7 +1749,7 @@ func waitForData(t *testing.T, entriesNum int, mc *consumertest.MetricsSink, tc 
 	timeoutMinutes := 3
 	require.Eventuallyf(t, func() bool {
 		// `telemetrygen` doesn't support profiles
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36127
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36127
 		// TODO: assert `len(pc.AllProfiles()) > entriesNum` once #36127 is resolved
 		return len(mc.AllMetrics()) > entriesNum && len(tc.AllTraces()) > entriesNum && len(lc.AllLogs()) > entriesNum
 	}, time.Duration(timeoutMinutes)*time.Minute, 1*time.Second,

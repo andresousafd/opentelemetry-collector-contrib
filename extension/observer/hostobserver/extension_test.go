@@ -23,8 +23,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/endpointswatcher"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/observer"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/endpointswatcher"
 )
 
 // Tests observer with real connections on system.

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cwlogs // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs"
+package cwlogs // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/cwlogs"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs/handler"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/cwlogs/handler"
 )
 
 const (

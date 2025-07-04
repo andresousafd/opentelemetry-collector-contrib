@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package datadogconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector"
+package datadogconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/datadogconnector"

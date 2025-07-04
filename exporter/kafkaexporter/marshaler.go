@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
+package kafkaexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/kafkaexporter"
 
 import (
 	"errors"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter/internal/marshaler"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/kafkaexporter/internal/marshaler"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
 )
 
 var errUnknownEncodingExtension = errors.New("unknown encoding extension")

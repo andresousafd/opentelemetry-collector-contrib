@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottlfuncs // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
+package ottlfuncs // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
 
 import (
 	"context"
 	"errors"
 	"fmt"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 type TruncateAllArguments[K any] struct {
@@ -50,7 +50,7 @@ func TruncateAll[K any](target ottl.PMapGetter[K], limit int64) (ottl.ExprFunc[K
 			}
 		}
 		// TODO: Write log when truncation is performed
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9730
+		// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/9730
 		return nil, nil
 	}, nil
 }

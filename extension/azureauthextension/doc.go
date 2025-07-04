@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package azureauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/azureauthextension"
+package azureauthextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/azureauthextension"

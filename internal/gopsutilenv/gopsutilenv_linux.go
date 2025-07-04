@@ -3,7 +3,7 @@
 
 //go:build linux
 
-package gopsutilenv // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv"
+package gopsutilenv // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv"
 
 import (
 	"context"

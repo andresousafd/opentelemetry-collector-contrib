@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogsemanticsprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor"
+package datadogsemanticsprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor/internal/metadata"
 )
 
 var consumerCapabilities = consumer.Capabilities{MutatesData: true}

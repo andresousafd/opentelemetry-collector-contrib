@@ -5,9 +5,9 @@
 | ------------- |-----------|
 | Stability     | [beta]: traces, metrics, logs   |
 | Distributions | [contrib], [k8s] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fotelarrow%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fotelarrow) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fotelarrow%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fotelarrow) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fotelarrow%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fotelarrow) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fotelarrow%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fotelarrow) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=exporter_otelarrow)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=exporter_otelarrow&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jmacd](https://www.github.com/jmacd), [@moh-osman3](https://www.github.com/moh-osman3), [@lquerel](https://www.github.com/lquerel) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jmacd](https://www.github.com/jmacd), [@moh-osman3](https://www.github.com/moh-osman3), [@lquerel](https://www.github.com/lquerel) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -35,7 +35,7 @@ OpenTelemetry Protocol with Apache Arrow supports column-oriented data
 transport using the Apache Arrow data format.  This component converts
 OTLP data into an optimized representation and then sends batches of
 data using Apache Arrow to encode the stream.  The [OpenTelemetry
-Protocol with Apache Arrow receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/otelarrowreceiver) component contains logic to reverse the process used in this
+Protocol with Apache Arrow receiver](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/receiver/otelarrowreceiver) component contains logic to reverse the process used in this
 component.
 
 The use of an OpenTelemetry Protocol with Apache Arrow
@@ -172,7 +172,7 @@ exporters:
 When this is configured, the stream will terminate cleanly without
 causing retries, with `OK` gRPC status.
 
-The [corresponding `otelarrowreceiver` keepalive setting](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/otelarrowreceiver#keepalive-configuration), that is
+The [corresponding `otelarrowreceiver` keepalive setting](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/receiver/otelarrowreceiver#keepalive-configuration), that is
 compatible with the one above, reads:
 
 ```

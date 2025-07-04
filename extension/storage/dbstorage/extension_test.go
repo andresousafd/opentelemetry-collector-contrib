@@ -56,7 +56,7 @@ func TestExtensionIntegrityWithPostgres(t *testing.T) {
 func testExtensionIntegrity(t *testing.T, se storage.Extension) {
 	ctx := context.Background()
 
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/37079
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/37079
 	// DB instantiation fails if we instantly try to connect to it, give it some time to start
 	var err error
 	require.Eventuallyf(t, func() bool {

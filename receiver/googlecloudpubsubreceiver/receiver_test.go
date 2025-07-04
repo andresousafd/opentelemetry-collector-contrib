@@ -19,8 +19,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/testdata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/testdata"
 )
 
 func createBaseReceiver() (*pstest.Server, *pubsubReceiver) {

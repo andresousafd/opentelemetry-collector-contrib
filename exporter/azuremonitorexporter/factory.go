@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package azuremonitorexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuremonitorexporter"
+package azuremonitorexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/azuremonitorexporter"
 
 import (
 	"context"
@@ -17,8 +17,8 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuremonitorexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/azuremonitorexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/sharedcomponent"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.21.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/ecsutil"
 )
 
 func TestContainerResource(t *testing.T) {

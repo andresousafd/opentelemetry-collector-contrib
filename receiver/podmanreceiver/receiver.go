@@ -3,7 +3,7 @@
 
 //go:build !windows
 
-package podmanreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/podmanreceiver"
+package podmanreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/podmanreceiver"
 
 import (
 	"context"
@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/podmanreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/podmanreceiver/internal/metadata"
 )
 
 type metricsReceiver struct {

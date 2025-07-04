@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal/metadata"
 )
 
 var metricSet = `# HELP http_connected connected clients

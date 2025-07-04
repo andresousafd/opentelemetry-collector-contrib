@@ -40,9 +40,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/otelarrowexporter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/otelarrowreceiver"
 )
 
 type testParams struct {

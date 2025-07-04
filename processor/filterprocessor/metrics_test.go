@@ -21,14 +21,14 @@ import (
 	"go.opentelemetry.io/otel/sdk/metric/metricdata"
 	"go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/goldendataset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlresource"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadatatest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/goldendataset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlresource"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadatatest"
 )
 
 type metricNameTest struct {

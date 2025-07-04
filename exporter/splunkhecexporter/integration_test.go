@@ -3,7 +3,7 @@
 
 //go:build integration
 
-package splunkhecexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter"
+package splunkhecexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/splunkhecexporter"
 
 import (
 	"context"
@@ -32,9 +32,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	integrationtestutils "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/integrationtestutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	integrationtestutils "github.com/andresousafd/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/integrationtestutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk"
 )
 
 type splunkContainerConfig struct {

@@ -9,9 +9,9 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider"
-	maxmind "github.com/open-telemetry/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider/maxmindprovider"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider/maxmindprovider/testdata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider"
+	maxmind "github.com/andresousafd/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider/maxmindprovider"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider/maxmindprovider/testdata"
 )
 
 func TestProcessorWithMaxMind(t *testing.T) {

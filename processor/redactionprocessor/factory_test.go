@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/redactionprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/redactionprocessor/internal/metadata"
 )
 
 func TestDefaultConfiguration(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaeger // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+package jaeger // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger"
 
 import (
 	"github.com/jaegertracing/jaeger-idl/model/v1"
@@ -9,8 +9,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/otel/semconv/v1.16.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
-	idutils "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	idutils "github.com/andresousafd/opentelemetry-collector-contrib/pkg/core/xidutils"
 )
 
 // ProtoFromTraces translates internal trace data into the Jaeger Proto for GRPC.

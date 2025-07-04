@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
+package datadogexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter"
 
 import (
 	"context"
@@ -26,12 +26,12 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/logs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/clientutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/scrub"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter/internal/logs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/clientutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/scrub"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 const (

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkatopicsobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/kafkatopicsobserver"
+package kafkatopicsobserver // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/kafkatopicsobserver"
 import (
 	"context"
 	"fmt"
@@ -13,9 +13,9 @@ import (
 	"go.opentelemetry.io/collector/extension"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/endpointswatcher"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/observer"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/endpointswatcher"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/kafka/configkafka"
 )
 
 var (

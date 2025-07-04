@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	semconv "go.opentelemetry.io/otel/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor/internal/metadata"
 )
 
 func newTestTracesProcessor(cfg component.Config, next consumer.Traces) (processor.Traces, error) {

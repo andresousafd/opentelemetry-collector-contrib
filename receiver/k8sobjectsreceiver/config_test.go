@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	apiWatch "k8s.io/apimachinery/pkg/watch"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

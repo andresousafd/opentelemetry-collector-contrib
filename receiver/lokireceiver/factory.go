@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package lokireceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/lokireceiver"
+package lokireceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/lokireceiver"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/lokireceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/lokireceiver/internal/metadata"
 )
 
 const (

@@ -523,10 +523,10 @@ github.com/onsi/ginkgo/v2 v2.19.0 h1:9Cnnf7UHo57Hy3k6/m5k3dRfGTMXGvxhHFvkDTCTpvA
 github.com/onsi/ginkgo/v2 v2.19.0/go.mod h1:rlwLi9PilAFJ8jCg9UE1QP6VBpd6/xj3SRC0d6TU0To=
 github.com/onsi/gomega v1.27.10 h1:naR28SdDFlqrG6kScpT8VWpu1xWY5nJRCF3XaYyBjhI=
 github.com/onsi/gomega v1.27.10/go.mod h1:RsS8tutOdbdgzbPtzzATp12yT7kM5I5aElG3evPbQ0M=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/sampling v0.122.0 h1:n0nWcGanaHanlih+YRp8etj1/fYZoQFRk+7+/J85dpU=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/sampling v0.122.0/go.mod h1:MMvJIC26DIEZo5DR4Ub/WJD1aPVxKGpgJolXxTtjgLE=
-github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor v0.122.0 h1:zuqwUU8P+IqQMHvMYHlTBXt8lRn1Zu2B9QNAscLP+9A=
-github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor v0.122.0/go.mod h1:vtHjtQU0UlTHBthmnTv8nK0h0GFWQhgxtOVbav87YoU=
+github.com/andresousafd/opentelemetry-collector-contrib/pkg/sampling v0.122.0 h1:n0nWcGanaHanlih+YRp8etj1/fYZoQFRk+7+/J85dpU=
+github.com/andresousafd/opentelemetry-collector-contrib/pkg/sampling v0.122.0/go.mod h1:MMvJIC26DIEZo5DR4Ub/WJD1aPVxKGpgJolXxTtjgLE=
+github.com/andresousafd/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor v0.122.0 h1:zuqwUU8P+IqQMHvMYHlTBXt8lRn1Zu2B9QNAscLP+9A=
+github.com/andresousafd/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor v0.122.0/go.mod h1:vtHjtQU0UlTHBthmnTv8nK0h0GFWQhgxtOVbav87YoU=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.1 h1:y0fUlFfIZhPF1W537XOLg0/fcx6zcHCJwooC2xJA040=

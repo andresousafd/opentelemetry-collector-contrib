@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package http // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/http"
+package http // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/http"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/component/componentstatus"
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
 )
 
 var errMissingStrategyStore = errors.New("the strategy store has not been provided")

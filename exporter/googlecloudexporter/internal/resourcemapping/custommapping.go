@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package resourcemapping // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/resourcemapping"
+package resourcemapping // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/resourcemapping"
 
 import (
 	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"

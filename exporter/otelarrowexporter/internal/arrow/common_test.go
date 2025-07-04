@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/status"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter/internal/arrow/grpcmock"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/testdata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/otelarrowexporter/internal/arrow/grpcmock"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/testdata"
 )
 
 var (

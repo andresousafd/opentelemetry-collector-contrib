@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/pdatautil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/pdatautil"
 )
 
 func TestNewConnector(t *testing.T) {

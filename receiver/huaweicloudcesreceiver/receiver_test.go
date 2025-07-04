@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package huaweicloudcesreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"
+package huaweicloudcesreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"
 
 import (
 	"context"
@@ -19,8 +19,8 @@ import (
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver/internal/mocks"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver/internal/mocks"
 )
 
 func stringPtr(s string) *string {

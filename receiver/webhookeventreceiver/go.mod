@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/webhookeventreceiver
+module github.com/andresousafd/opentelemetry-collector-contrib/receiver/webhookeventreceiver
 
 go 1.23.0
 

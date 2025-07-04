@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package libhoneyreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver"
+package libhoneyreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver"
 
 import (
 	"errors"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/confmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
 )
 
 // Config represents the receiver config settings within the collector's config.yaml

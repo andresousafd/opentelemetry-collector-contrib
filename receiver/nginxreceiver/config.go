@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package nginxreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nginxreceiver"
+package nginxreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/nginxreceiver"
 
 import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nginxreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/nginxreceiver/internal/metadata"
 )
 
 type Config struct {

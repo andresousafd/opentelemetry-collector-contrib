@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlecloudpubsubreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver"
+package googlecloudpubsubreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver"
 
 import (
 	"bytes"
@@ -26,9 +26,9 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver/internal/metadata"
 )
 
 // https://cloud.google.com/pubsub/docs/reference/rpc/google.pubsub.v1#streamingpullrequest

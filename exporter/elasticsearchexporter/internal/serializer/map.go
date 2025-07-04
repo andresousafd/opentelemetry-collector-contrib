@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package serializer // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/serializer"
+package serializer // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/serializer"
 
 import (
 	"bytes"

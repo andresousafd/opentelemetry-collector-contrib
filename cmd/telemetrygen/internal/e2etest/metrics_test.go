@@ -15,8 +15,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/telemetrygen/pkg/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/cmd/telemetrygen/pkg/metrics"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 func TestGenerateMetrics(t *testing.T) {

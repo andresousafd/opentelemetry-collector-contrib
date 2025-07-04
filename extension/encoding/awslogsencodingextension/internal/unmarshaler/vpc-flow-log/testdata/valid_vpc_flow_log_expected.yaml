@@ -27,4 +27,4 @@ resourceLogs:
             timeUnixNano: "1742570142000000000"
             traceId: ""
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/awslogsencodingextension
+          name: github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/awslogsencodingextension

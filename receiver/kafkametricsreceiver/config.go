@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkametricsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkametricsreceiver"
+package kafkametricsreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/kafkametricsreceiver"
 
 import (
 	"time"
@@ -9,8 +9,8 @@ import (
 	"go.opentelemetry.io/collector/confmap"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkametricsreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/kafka/configkafka"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/kafkametricsreceiver/internal/metadata"
 )
 
 // Config represents user settings for kafkametrics receiver

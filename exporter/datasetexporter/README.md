@@ -5,9 +5,9 @@
 | ------------- |-----------|
 | Stability     | [alpha]: logs, traces   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fdataset%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fdataset) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fdataset%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fdataset) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fdataset%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fdataset) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fdataset%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fdataset) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=exporter_dataset)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=exporter_dataset&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@atoulme](https://www.github.com/atoulme), [@martin-majlis-s1](https://www.github.com/martin-majlis-s1), [@zdaratom-s1](https://www.github.com/zdaratom-s1), [@tomaz-s1](https://www.github.com/tomaz-s1) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@atoulme](https://www.github.com/atoulme), [@martin-majlis-s1](https://www.github.com/martin-majlis-s1), [@zdaratom-s1](https://www.github.com/zdaratom-s1), [@tomaz-s1](https://www.github.com/tomaz-s1) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -30,7 +30,7 @@ If you do not want to specify `api_key` in the file, you can use the [builtin fu
 
 Specifying the server host is crucial for ensuring the correct functionality of DataSet. 
 DataSet expects the server host value to be provided in the `serverHost` attribute. 
-If the server host value is stored in a different attribute, you can use the [resourceprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/resourceprocessor/README.md) or [attributesprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/attributesprocessor) to copy it into the `serverHost` attribute.
+If the server host value is stored in a different attribute, you can use the [resourceprocessor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/resourceprocessor/README.md) or [attributesprocessor](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/processor/attributesprocessor) to copy it into the `serverHost` attribute.
 
 You can also utilize the `server_host` settings (described below) to populate the serverHost attribute with different values.
 

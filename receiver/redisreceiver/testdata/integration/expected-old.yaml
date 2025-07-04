@@ -266,5 +266,5 @@ resourceMetrics:
               isMonotonic: true
             unit: s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/redisreceiver
           version: latest

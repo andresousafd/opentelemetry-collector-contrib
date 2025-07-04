@@ -13,7 +13,7 @@ import (
 
 func TestGetUptime(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38955")
+		t.Skip("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/38955")
 	}
 	svc := newRedisSvc(newFakeClient())
 	info, _ := svc.info()

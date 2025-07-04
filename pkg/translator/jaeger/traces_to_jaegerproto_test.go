@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/otel/semconv/v1.16.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/goldendataset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/goldendataset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
 )
 
 func TestGetTagFromStatusCode(t *testing.T) {

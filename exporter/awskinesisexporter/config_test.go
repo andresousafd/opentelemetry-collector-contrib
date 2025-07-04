@@ -18,8 +18,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awskinesisexporter/internal/batch"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awskinesisexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awskinesisexporter/internal/batch"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awskinesisexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

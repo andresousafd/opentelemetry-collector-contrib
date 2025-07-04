@@ -1,11 +1,11 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver
+module github.com/andresousafd/opentelemetry-collector-contrib/receiver/otelarrowreceiver
 
 go 1.23.0
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/grpcutil v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/grpcutil v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/sharedcomponent v0.127.0
 	github.com/open-telemetry/otel-arrow v0.35.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/client v1.33.1-0.20250528155941-4a3717978a51
@@ -104,10 +104,10 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow => ../../internal/otelarrow
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow => ../../internal/otelarrow
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent => ../../internal/sharedcomponent
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/sharedcomponent => ../../internal/sharedcomponent
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter => ../../exporter/otelarrowexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/otelarrowexporter => ../../exporter/otelarrowexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/grpcutil => ../../internal/grpcutil
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/grpcutil => ../../internal/grpcutil

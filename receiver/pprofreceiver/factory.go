@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pprofreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pprofreceiver"
+package pprofreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/pprofreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/xreceiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pprofreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/pprofreceiver/internal/metadata"
 )
 
 func NewFactory() receiver.Factory {

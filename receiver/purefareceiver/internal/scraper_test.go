@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver/internal"
+package internal // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/purefareceiver/internal"
 
 import (
 	"context"
@@ -16,8 +16,8 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.opentelemetry.io/collector/extension/extensiontest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/bearertokenauthextension"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/bearertokenauthextension"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver"
 )
 
 func TestToPrometheusConfig(t *testing.T) {

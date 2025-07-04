@@ -14,9 +14,9 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/subtractinitial"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/truereset"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/subtractinitial"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/truereset"
 )
 
 func TestLoadConfig(t *testing.T) {

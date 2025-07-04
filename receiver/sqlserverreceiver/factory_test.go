@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver/internal/metadata"
 )
 
 func TestFactory(t *testing.T) {

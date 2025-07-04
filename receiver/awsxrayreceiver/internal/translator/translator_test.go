@@ -18,9 +18,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/otel/semconv/v1.18.0"
 
-	awsxray "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
+	awsxray "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/xray"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
 )
 
 type perSpanProperties struct {

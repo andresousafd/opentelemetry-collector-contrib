@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package decode // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/decode"
+package decode // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/decode"
 
 import (
 	"errors"
@@ -10,7 +10,7 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/transform"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/textutils"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/textutils"
 )
 
 // Deprecated: [v0.120.0] Use directly the encoding.Decoder().

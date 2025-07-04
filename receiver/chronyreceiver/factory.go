@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package chronyreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/chronyreceiver"
+package chronyreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/chronyreceiver"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/scraper"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/chrony"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/chrony"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/metadata"
 )
 
 func NewFactory() receiver.Factory {

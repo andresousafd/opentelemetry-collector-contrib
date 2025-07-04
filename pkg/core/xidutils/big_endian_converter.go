@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package xidutils // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils"
+package xidutils // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/core/xidutils"
 
 import (
 	"encoding/binary"

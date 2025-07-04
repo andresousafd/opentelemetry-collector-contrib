@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampextension
+module github.com/andresousafd/opentelemetry-collector-contrib/extension/opampextension
 
 go 1.23.0
 
@@ -6,8 +6,8 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/oklog/ulid/v2 v2.1.1
 	github.com/open-telemetry/opamp-go v0.19.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/status v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/extension/opampcustommessages v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/status v0.127.0
 	github.com/shirou/gopsutil/v4 v4.25.4
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
@@ -130,6 +130,6 @@ require (
 	google.golang.org/protobuf v1.36.6 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages => ../opampcustommessages
+replace github.com/andresousafd/opentelemetry-collector-contrib/extension/opampcustommessages => ../opampcustommessages
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/status => ../../pkg/status
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/status => ../../pkg/status

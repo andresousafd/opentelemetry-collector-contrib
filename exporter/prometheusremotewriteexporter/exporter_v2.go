@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheusremotewriteexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
+package prometheusremotewriteexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
 )
 
 func (prwe *prwExporter) pushMetricsV2(ctx context.Context, md pmetric.Metrics) error {

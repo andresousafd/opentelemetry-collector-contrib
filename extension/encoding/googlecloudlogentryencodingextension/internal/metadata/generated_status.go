@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("googlecloudlogentry_encoding")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension"
 )
 
 const (

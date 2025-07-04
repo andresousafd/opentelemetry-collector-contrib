@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
+package datadogexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter"
 
 import (
 	"context"
@@ -36,11 +36,11 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/clientutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/clientutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 var logsAgentExporterFeatureGate = featuregate.GlobalRegistry().MustRegister(

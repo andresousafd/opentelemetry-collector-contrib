@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package checkpoint // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/checkpoint"
+package checkpoint // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/checkpoint"
 
 import (
 	"bytes"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/extension/xextension/storage"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
 )
 
 const knownFilesKey = "knownFiles"

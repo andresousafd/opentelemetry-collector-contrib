@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0 language governing permissions and
 // limitations under the License.
 
-package datadogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datadogreceiver"
+package datadogreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/datadogreceiver"
 
 import (
 	"time"
@@ -16,7 +16,7 @@ var FullTraceIDFeatureGate = featuregate.GlobalRegistry().MustRegister(
 	featuregate.StageAlpha,
 	featuregate.WithRegisterDescription("When enabled, adds support for 128bits TraceIDs for spans coming from Datadog instrumented services."),
 	featuregate.WithRegisterFromVersion("v0.125.0"),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36926"),
+	featuregate.WithRegisterReferenceURL("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36926"),
 )
 
 type Config struct {

@@ -23,7 +23,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitlabreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/gitlabreceiver/internal/metadata"
 )
 
 const (

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlemanagedprometheusexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlemanagedprometheusexporter"
+package googlemanagedprometheusexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlemanagedprometheusexporter"
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus"
 )
 
 // Config defines configuration for Google Cloud Managed Service for Prometheus exporter.

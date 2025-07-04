@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sobjectsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver"
+package k8sobjectsreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver"
 
 import (
 	"context"
@@ -24,8 +24,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/watch"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/k8sleaderelector"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/k8sleaderelector"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver/internal/metadata"
 )
 
 type k8sobjectsreceiver struct {

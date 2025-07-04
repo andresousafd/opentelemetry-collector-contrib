@@ -64,5 +64,5 @@ resourceLogs:
             timeUnixNano: "1748501969782683000"
             traceId: ""
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest

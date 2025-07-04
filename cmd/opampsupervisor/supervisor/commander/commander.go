@@ -17,8 +17,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/common"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/common"
+	"github.com/andresousafd/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
 )
 
 // Commander can start/stop/restart the Agent executable and also watch for a signal
@@ -103,7 +103,7 @@ func (c *Commander) startNormal() error {
 	}
 
 	// Capture standard output and standard error.
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21072
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/21072
 	c.cmd.Stdout = stdoutFile
 	c.cmd.Stderr = stdoutFile
 

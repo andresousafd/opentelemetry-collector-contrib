@@ -1,7 +1,7 @@
 # Resource Context
 
 > [!NOTE]
-> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottlresource/README.md).
+> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottlresource/README.md).
 
 The Resource Context is a Context implementation for [pdata Resources](https://github.com/open-telemetry/opentelemetry-collector/blob/main/pdata/pcommon/generated_resource.go), the Collector's internal representation for an OTLP Resource.  This Context should be used when interacting only with OTLP resources.
 

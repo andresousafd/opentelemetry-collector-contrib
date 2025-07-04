@@ -1,6 +1,6 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
-package jsonarray // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/jsonarray"
+package jsonarray // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/parser/jsonarray"
 
 import (
 	"fmt"
@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/featuregate"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 const (
@@ -23,7 +23,7 @@ var jsonArrayParserFeatureGate = featuregate.GlobalRegistry().MustRegister(
 	"logs.jsonParserArray",
 	featuregate.StageBeta,
 	featuregate.WithRegisterDescription("When enabled, allows usage of `json_array_parser`."),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/30321"),
+	featuregate.WithRegisterReferenceURL("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/30321"),
 )
 
 func init() {

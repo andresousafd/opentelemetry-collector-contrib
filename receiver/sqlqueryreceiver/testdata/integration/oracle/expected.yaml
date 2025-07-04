@@ -39,4 +39,4 @@ resourceMetrics:
                   timeUnixNano: "1684632870521947236"
             name: genre.imdb
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlqueryreceiver

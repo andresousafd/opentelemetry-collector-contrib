@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // sdktest performs partial comparison of [sdk.ResourceMetrics] to a [Spec].
-package sdktest // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/sdktest"
+package sdktest // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/sdktest"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/metric"
 	sdk "go.opentelemetry.io/otel/sdk/metric/metricdata"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/compare"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/testing/compare"
 )
 
 type Option = cmp.Option

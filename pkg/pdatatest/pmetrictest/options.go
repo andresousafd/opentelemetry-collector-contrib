@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pmetrictest // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+package pmetrictest // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 
 import (
 	"bytes"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil"
 )
 
 // CompareMetricsOption can be used to mutate expected and/or actual metrics before comparing.

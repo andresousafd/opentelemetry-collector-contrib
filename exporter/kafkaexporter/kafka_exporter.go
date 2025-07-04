@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
+package kafkaexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/kafkaexporter"
 
 import (
 	"context"
@@ -20,12 +20,12 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter/internal/marshaler"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/topic"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/kafkaexporter/internal/marshaler"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/kafka"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchpersignal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/kafka/topic"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil"
 )
 
 type kafkaErrors struct {

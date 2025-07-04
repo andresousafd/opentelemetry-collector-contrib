@@ -69,5 +69,5 @@ resourceMetrics:
                   timeUnixNano: "1734347455586234971"
             unit: By
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processscraper
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processscraper
           version: latest

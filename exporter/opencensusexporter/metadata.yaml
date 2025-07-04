@@ -8,10 +8,10 @@ status:
   deprecation:
     metrics:
       date: "2025-02-14"
-      migration: Use OTLP exporter (https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36791)
+      migration: Use OTLP exporter (https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36791)
     traces:
       date: "2025-02-14"
-      migration: use OTLP exporter (https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36791)
+      migration: use OTLP exporter (https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36791)
   codeowners:
     active: [open-telemetry/collector-approvers]
 

@@ -3,7 +3,7 @@
 // Copyright (c) 2017 Uber Technologies, Inc.
 // SPDX-License-Identifier: Apache-2.0
 
-package cache // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter/internal/cache"
+package cache // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/logzioexporter/internal/cache"
 
 import (
 	"time"

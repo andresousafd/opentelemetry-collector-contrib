@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package trace // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/trace"
+package trace // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/trace"
 
 import (
 	"context"
@@ -18,7 +18,7 @@ import (
 	common "skywalking.apache.org/repo/goapi/collect/common/v3"
 	agent "skywalking.apache.org/repo/goapi/collect/language/agent/v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/skywalking"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/skywalking"
 )
 
 const (

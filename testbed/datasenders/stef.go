@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datasenders // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datasenders"
+package datasenders // import "github.com/andresousafd/opentelemetry-collector-contrib/testbed/datasenders"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/stefexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/stefexporter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 type stefDataSender struct {

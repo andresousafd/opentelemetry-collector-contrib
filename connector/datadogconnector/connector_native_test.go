@@ -25,8 +25,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector/internal/metadata"
-	pkgdatadog "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/datadogconnector/internal/metadata"
+	pkgdatadog "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog"
 )
 
 var _ component.Component = (*traceToMetricConnectorNative)(nil) // testing that the connectorImp properly implements the type Component interface

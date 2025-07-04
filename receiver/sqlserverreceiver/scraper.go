@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sqlserverreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
+package sqlserverreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
 
 import (
 	"container/heap"
@@ -25,8 +25,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver/internal/metadata"
 )
 
 const (

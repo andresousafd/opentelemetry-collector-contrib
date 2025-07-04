@@ -5,4 +5,4 @@
 
 // Package awslogsencodingextension provides an encoding extension
 // for unmarshalling logs produced by various AWS services.
-package awslogsencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/awslogsencodingextension"
+package awslogsencodingextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/awslogsencodingextension"

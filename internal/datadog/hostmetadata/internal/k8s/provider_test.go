@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/provider"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/provider"
 )
 
 var (

@@ -21,7 +21,7 @@ resourceMetrics:
             name: sqlserver.database.full_scan.rate
             unit: '{scans}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -45,7 +45,7 @@ resourceMetrics:
             name: sqlserver.index.search.rate
             unit: “{searches}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -73,7 +73,7 @@ resourceMetrics:
             name: sqlserver.replica.data.rate
             unit: By/s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -101,7 +101,7 @@ resourceMetrics:
             name: sqlserver.replica.data.rate
             unit: By/s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -125,7 +125,7 @@ resourceMetrics:
             name: sqlserver.page.buffer_cache.hit_ratio
             unit: '%'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -149,7 +149,7 @@ resourceMetrics:
             name: sqlserver.page.buffer_cache.free_list.stalls.rate
             unit: “{stalls}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -173,7 +173,7 @@ resourceMetrics:
             name: sqlserver.page.life_expectancy
             unit: s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -197,7 +197,7 @@ resourceMetrics:
             name: sqlserver.page.lookup.rate
             unit: “{lookups}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -221,7 +221,7 @@ resourceMetrics:
             name: sqlserver.page.life_expectancy
             unit: s
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -245,7 +245,7 @@ resourceMetrics:
             name: sqlserver.transaction.mirror_write.rate
             unit: “{transactions}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -270,7 +270,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: ms
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -294,7 +294,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -318,7 +318,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -342,7 +342,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -366,7 +366,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -390,7 +390,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -414,7 +414,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -438,7 +438,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -462,7 +462,7 @@ resourceMetrics:
             name: sqlserver.database.backup_or_restore.rate
             unit: “{backups_or_restores}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -486,7 +486,7 @@ resourceMetrics:
             name: sqlserver.database.execution.errors
             unit: “{errors}”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -518,7 +518,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: “{tables}”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -542,7 +542,7 @@ resourceMetrics:
             name: sqlserver.login.rate
             unit: “{logins}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -566,7 +566,7 @@ resourceMetrics:
             name: sqlserver.logout.rate
             unit: “{logouts}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -590,7 +590,7 @@ resourceMetrics:
             name: sqlserver.processes.blocked
             unit: '{processes}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -614,7 +614,7 @@ resourceMetrics:
             name: sqlserver.user.connection.count
             unit: '{connections}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -638,7 +638,7 @@ resourceMetrics:
             name: sqlserver.lock.timeout.rate
             unit: “{timeouts}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -662,7 +662,7 @@ resourceMetrics:
             name: sqlserver.lock.wait.rate
             unit: '{requests}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -686,7 +686,7 @@ resourceMetrics:
             name: sqlserver.deadlock.rate
             unit: “{deadlocks}/s”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -711,7 +711,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: “{grants}”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -736,7 +736,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: “KB”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -760,7 +760,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.throttled.read.rate
             unit: '{reads}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -788,7 +788,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.operations
             unit: '{operations}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -812,7 +812,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.throttled.write.rate
             unit: '{writes}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -840,7 +840,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.operations
             unit: '{operations}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -868,7 +868,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.operations
             unit: '{operations}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -892,7 +892,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.throttled.write.rate
             unit: '{writes}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -920,7 +920,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.operations
             unit: '{operations}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -944,7 +944,7 @@ resourceMetrics:
             name: sqlserver.resource_pool.disk.throttled.read.rate
             unit: '{reads}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -969,7 +969,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: “KB”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -993,7 +993,7 @@ resourceMetrics:
             name: sqlserver.batch.request.rate
             unit: '{requests}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -1017,7 +1017,7 @@ resourceMetrics:
             name: sqlserver.batch.sql_compilation.rate
             unit: '{compilations}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -1041,7 +1041,7 @@ resourceMetrics:
             name: sqlserver.batch.sql_recompilation.rate
             unit: '{compilations}/s'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -1070,7 +1070,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: “KB”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -1094,7 +1094,7 @@ resourceMetrics:
             name: sqlserver.database.tempdb.version_store.size
             unit: “KB”
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -1120,7 +1120,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{wait}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest
   - resource:
       attributes:
@@ -1146,5 +1146,5 @@ resourceMetrics:
               isMonotonic: true
             unit: '{wait}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver
           version: latest

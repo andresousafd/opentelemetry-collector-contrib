@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkatest // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka/kafkatest"
+package kafkatest // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/kafka/kafkatest"
 
 import (
 	"testing"
@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/twmb/franz-go/pkg/kfake"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/kafka/configkafka"
 )
 
 // NewCluster returns a fake Kafka cluster and configkafka.ClientConfig

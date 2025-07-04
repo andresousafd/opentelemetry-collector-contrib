@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	k8stest "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/xk8stest"
+	k8stest "github.com/andresousafd/opentelemetry-collector-contrib/pkg/xk8stest"
 )
 
 const (
@@ -60,7 +60,7 @@ func TestE2ENamespaced(t *testing.T) {
 			for i := 0; i < metric.ResourceMetrics().Len(); i++ {
 				res := metric.ResourceMetrics().At(i)
 				for j := 0; j < res.ScopeMetrics().Len(); j++ {
-					if res.ScopeMetrics().At(j).Scope().Name() == "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver" {
+					if res.ScopeMetrics().At(j).Scope().Name() == "github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver" {
 						return true
 					}
 				}

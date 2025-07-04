@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("huaweicloudcesreceiver")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"
 )
 
 const (

@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/fileexporter/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

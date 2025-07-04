@@ -5,15 +5,15 @@
 | ------------- |-----------|
 | Stability     | [deprecated]: traces, metrics, logs   |
 | Deprecation of logs | [Date]: 2024-12-05   |
-|                      | [Migration Note]: Use routing connector (https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36616)   |
+|                      | [Migration Note]: Use routing connector (https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36616)   |
 | Deprecation of metrics | [Date]: 2024-12-05   |
-|                      | [Migration Note]: Use routing connector (https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36616)   |
+|                      | [Migration Note]: Use routing connector (https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36616)   |
 | Deprecation of traces | [Date]: 2024-12-05   |
-|                      | [Migration Note]: Use routing connector (https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/36616)   |
+|                      | [Migration Note]: Use routing connector (https://github.com/andresousafd/opentelemetry-collector-contrib/issues/36616)   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aprocessor%2Frouting%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aprocessor%2Frouting) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aprocessor%2Frouting%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aprocessor%2Frouting) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aprocessor%2Frouting%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aprocessor%2Frouting) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aprocessor%2Frouting%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aprocessor%2Frouting) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=processor_routing)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=processor_routing&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    |  |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    |  |
 | Emeritus      | [@jpkrohling](https://www.github.com/jpkrohling) |
 
 [deprecated]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#deprecated
@@ -178,7 +178,7 @@ It is also possible to mix both the conventional routing configuration and the r
 #### Limitations:
 
 - [OTTL] statements can be applied only to resource attributes.
-- Currently, it is not possible to specify the boolean statements without function invocation as the routing condition. It is required to provide the NOOP `route()` or any other supported function as part of the routing statement, see [#13545](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/13545) for more information.
+- Currently, it is not possible to specify the boolean statements without function invocation as the routing condition. It is required to provide the NOOP `route()` or any other supported function as part of the routing statement, see [#13545](https://github.com/andresousafd/opentelemetry-collector-contrib/issues/13545) for more information.
 - If data is received on OTLP http server, `include_metadata` must be set to true in order to use context based routing.
 - Supported [OTTL] functions:
   - [IsMatch](../../pkg/ottl/ottlfuncs/README.md#IsMatch)
@@ -192,6 +192,6 @@ The full list of settings exposed for this processor are documented in [config.g
 - [traces](./testdata/config_traces.yaml)
 
 [context_docs]: https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/context/README.md
-[OTTL]: https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl#opentelemetry-transformation-language
-[ottl_contexts]: https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/README.md#opentelemetry-transformation-language-contexts
-[routing_connector]: http://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/connector/routingconnector/README.md
+[OTTL]: https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl#opentelemetry-transformation-language
+[ottl_contexts]: https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/README.md#opentelemetry-transformation-language-contexts
+[routing_connector]: http://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/connector/routingconnector/README.md

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package parser // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/parser"
+package parser // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/parser"
 
 import (
 	"sort"

@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/internal/filetest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/internal/filetest"
 )
 
 func TestResolver(t *testing.T) {

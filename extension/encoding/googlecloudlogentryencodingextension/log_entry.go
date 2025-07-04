@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlecloudlogentryencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension"
+package googlecloudlogentryencodingextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/googlecloudlogentryencodingextension"
 
 import (
 	"encoding/hex"

@@ -29,8 +29,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.27.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/status"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/status/testhelpers"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/status"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/status/testhelpers"
 )
 
 func TestNewOpampAgent(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
 )
 
 var (

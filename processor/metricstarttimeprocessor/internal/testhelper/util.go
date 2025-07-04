@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package testhelper // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/testhelper"
+package testhelper // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/testhelper"
 
 import (
 	"context"

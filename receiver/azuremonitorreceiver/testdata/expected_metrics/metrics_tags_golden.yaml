@@ -816,7 +816,7 @@ resourceMetrics:
             name: azure_metric4_count
             unit: unit1
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
           version: latest
   - resource:
       attributes:
@@ -855,5 +855,5 @@ resourceMetrics:
             name: azure_metric7_count
             unit: unit1
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
           version: latest

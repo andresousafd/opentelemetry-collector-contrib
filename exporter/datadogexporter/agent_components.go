@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
+package datadogexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter"
 
 import (
 	"runtime"
@@ -15,8 +15,8 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"golang.org/x/net/http/httpproxy"
 
-	pkgdatadog "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	pkgdatadog "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 func newLogComponent(set component.TelemetrySettings) corelog.Component {

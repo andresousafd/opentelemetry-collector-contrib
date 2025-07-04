@@ -19,8 +19,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/cwlogs"
 )
 
 const defaultRetryCount = 1
@@ -385,7 +385,7 @@ func TestNewExporterWithMetricDeclarations(t *testing.T) {
 	expectedLogs := []observer.LoggedEntry{
 		{
 			Entry: zapcore.Entry{Level: zap.WarnLevel, Message: "the default value for DimensionRollupOption will be changing to NoDimensionRollup" +
-				"in a future release. See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/23997 for more" +
+				"in a future release. See https://github.com/andresousafd/opentelemetry-collector-contrib/issues/23997 for more" +
 				"information"},
 			Context: []zapcore.Field{},
 		},

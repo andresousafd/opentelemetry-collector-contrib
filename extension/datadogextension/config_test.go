@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension"
+package datadogextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 func TestConfig_Validate(t *testing.T) {

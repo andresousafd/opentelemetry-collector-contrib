@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("expvar")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/expvarreceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/expvarreceiver"
 )
 
 const (

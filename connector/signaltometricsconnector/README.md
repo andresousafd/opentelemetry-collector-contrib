@@ -7,9 +7,9 @@ logs, or metrics).
 | Status        |           |
 | ------------- |-----------|
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fsignaltometrics%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fsignaltometrics) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fsignaltometrics%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fsignaltometrics) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fsignaltometrics%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fsignaltometrics) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fsignaltometrics%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fsignaltometrics) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=connector_signaltometrics)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=connector_signaltometrics&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@ChrsMark](https://www.github.com/ChrsMark), [@lahsivjar](https://www.github.com/lahsivjar) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@ChrsMark](https://www.github.com/ChrsMark), [@lahsivjar](https://www.github.com/lahsivjar) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -64,7 +64,7 @@ signaltometrics:
 
 ### Metrics types
 
-`signaltometrics` produces a variety of metric types by utilizing [OTTL](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/README.md)
+`signaltometrics` produces a variety of metric types by utilizing [OTTL](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/pkg/ottl/README.md)
 to extract the relevant data for a metric type from the incoming data. The
 component can produce the following metric types for each signal type:
 
@@ -89,7 +89,7 @@ sum:
 - [**Required**] `value` represents an OTTL expression to extract a value from the
   incoming data. Only OTTL expressions that return a value are accepted. The
   returned value determines the value type of the `sum` metric (`int` or `double`).
-  [OTTL converters](https://pkg.go.dev/github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
+  [OTTL converters](https://pkg.go.dev/github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
   can be used to transform the data.
 
 #### Gauge
@@ -149,11 +149,11 @@ histogram:
 
 - [**Optional**] `count` represents an OTTL expression to extract the count to be
   recorded in the histogram from the incoming data. If no expression is provided
-  then it defaults to the count of the signal. [OTTL converters](https://pkg.go.dev/github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
+  then it defaults to the count of the signal. [OTTL converters](https://pkg.go.dev/github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
   can be used to transform the data. For spans, a special converter [adjusted count](#custom-ottl-functions),
   is provided to help calculate the span's [adjusted count](https://opentelemetry.io/docs/specs/otel/trace/tracestate-probability-sampling-experimental/#adjusted-count).
 - [**Required**] `value` represents an OTTL expression to extract the value to be
-  recorded in the histogram from the incoming data. [OTTL converters](https://pkg.go.dev/github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
+  recorded in the histogram from the incoming data. [OTTL converters](https://pkg.go.dev/github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
   can be used to transform the data.
 
 #### Exponential Histogram
@@ -171,11 +171,11 @@ exponential_histogram:
   or negative number range. Defaults to `160`.
 - [**Optional**] `count` represents an OTTL expression to extract the count to be
   recorded in the exponential histogram from the incoming data. If no expression
-  is provided then it defaults to the count of the signal. [OTTL converters](https://pkg.go.dev/github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
+  is provided then it defaults to the count of the signal. [OTTL converters](https://pkg.go.dev/github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
   can be used to transform the data. For spans, a special converter [adjusted count](#custom-ottl-functions),
   is provided to help calculate the span's [adjusted count](https://opentelemetry.io/docs/specs/otel/trace/tracestate-probability-sampling-experimental/#adjusted-count).
 - [**Required**] `value` represents an OTTL expression to extract the value to be
-  recorded in the exponential histogram from the incoming data. [OTTL converters](https://pkg.go.dev/github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
+  recorded in the exponential histogram from the incoming data. [OTTL converters](https://pkg.go.dev/github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs#readme-converters)
   can be used to transform the data.
 
 ### Attributes

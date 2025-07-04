@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package googlecloudexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter"
+package googlecloudexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlecloudexporter"
 
 import (
 	"context"
@@ -16,8 +16,8 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/featuregate"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/resourcemapping"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/googlecloudexporter/internal/resourcemapping"
 )
 
 const (
@@ -28,7 +28,7 @@ var _ = featuregate.GlobalRegistry().MustRegister(
 	"exporter.googlecloud.OTLPDirect",
 	featuregate.StageStable,
 	featuregate.WithRegisterDescription("When enabled, the googlecloud exporter translates pdata directly to google cloud monitoring's types, rather than first translating to opencensus."),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/7132"),
+	featuregate.WithRegisterReferenceURL("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/7132"),
 	featuregate.WithRegisterToVersion("v0.69.0"),
 )
 

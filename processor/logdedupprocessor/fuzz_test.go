@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/logdedupprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/logdedupprocessor/internal/metadata"
 )
 
 func FuzzConsumeLogs(f *testing.F) {

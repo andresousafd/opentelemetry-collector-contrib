@@ -157,7 +157,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{vacuums}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -317,7 +317,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{vacuums}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -464,7 +464,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{tup_updated}'            
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -498,7 +498,7 @@ resourceMetrics:
             name: postgresql.index.size
             unit: By
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -532,7 +532,7 @@ resourceMetrics:
             name: postgresql.index.size
             unit: By
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -692,7 +692,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{vacuums}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -852,7 +852,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{vacuums}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -999,7 +999,7 @@ resourceMetrics:
               isMonotonic: true
             unit: '{tup_updated}'            
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -1033,7 +1033,7 @@ resourceMetrics:
             name: postgresql.index.size
             unit: By
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -1067,7 +1067,7 @@ resourceMetrics:
             name: postgresql.index.size
             unit: By
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -1101,7 +1101,7 @@ resourceMetrics:
             name: postgresql.index.size
             unit: By
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource:
       attributes:
@@ -1135,7 +1135,7 @@ resourceMetrics:
             name: postgresql.index.size
             unit: By
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest
   - resource: {}
     scopeMetrics:
@@ -1325,5 +1325,5 @@ resourceMetrics:
             name: postgresql.database.locks
             unit: '{lock}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: latest

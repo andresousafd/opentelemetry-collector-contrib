@@ -36,11 +36,11 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/storagetest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/storage/storagetest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal/metadata"
 )
 
 const (
@@ -128,7 +128,7 @@ var (
 			return fmt.Sprintf(":%d", position)
 		},
 		CheckCompatibility: func(t *testing.T) {
-			t.Skip("Skipping the test until https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27577 is fixed")
+			t.Skip("Skipping the test until https://github.com/andresousafd/opentelemetry-collector-contrib/issues/27577 is fixed")
 		},
 		ConnectionString: func(host string, externalPort nat.Port) string {
 			return fmt.Sprintf("oracle://otel:otel@%s:%s/FREEPDB1", host, externalPort.Port())
@@ -163,7 +163,7 @@ var (
 			if runtime.GOARCH == "arm64" {
 				t.Skip("Incompatible with arm64")
 			}
-			t.Skip("Skipping the test until https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27577 is fixed")
+			t.Skip("Skipping the test until https://github.com/andresousafd/opentelemetry-collector-contrib/issues/27577 is fixed")
 		},
 		ConnectionString: func(host string, externalPort nat.Port) string {
 			return fmt.Sprintf("sqlserver://otel:YourStrong%%21Passw0rd@%s:%s?database=otel", host, externalPort.Port())
@@ -188,7 +188,7 @@ var (
 			return "?"
 		},
 		CheckCompatibility: func(t *testing.T) {
-			t.Skip("Skipping the test until https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27577 is fixed")
+			t.Skip("Skipping the test until https://github.com/andresousafd/opentelemetry-collector-contrib/issues/27577 is fixed")
 		},
 		ConnectionString: func(host string, externalPort nat.Port) string {
 			return fmt.Sprintf("tds://otel:otel1234@%s:%s/otel", host, externalPort.Port())

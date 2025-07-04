@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datapointstorage // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/starttimecache"
+package datapointstorage // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor/internal/starttimecache"
 
 import (
 	"testing"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil"
 )
 
 func TestStartTimeCache_NewStartTimeCache(t *testing.T) {

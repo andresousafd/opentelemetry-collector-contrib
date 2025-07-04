@@ -7,7 +7,7 @@ status:
   deprecation:
     logs:
       date: "2024-07-09"
-      migration: Use OTLP exporter (https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/33916)
+      migration: Use OTLP exporter (https://github.com/andresousafd/opentelemetry-collector-contrib/issues/33916)
   distributions:
   - contrib
   codeowners:

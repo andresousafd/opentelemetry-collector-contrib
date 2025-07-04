@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlecloudmonitoringreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudmonitoringreceiver"
+package googlecloudmonitoringreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudmonitoringreceiver"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/scraper"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudmonitoringreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudmonitoringreceiver/internal/metadata"
 )
 
 func NewFactory() receiver.Factory {

@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pprofiletest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pprofiletest"
 )
 
 func TestProfile_MarshalLogObject(t *testing.T) {

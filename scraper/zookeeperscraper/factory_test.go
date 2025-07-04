@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/scraper/scrapertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/scraper/zookeeperscraper/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/scraper/zookeeperscraper/internal/metadata"
 )
 
 func TestFactory(t *testing.T) {

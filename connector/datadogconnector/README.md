@@ -4,9 +4,9 @@
 | Status        |           |
 | ------------- |-----------|
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fdatadog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fdatadog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fdatadog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fdatadog) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fdatadog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fdatadog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fdatadog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fdatadog) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=connector_datadog)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=connector_datadog&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@mx-psi](https://www.github.com/mx-psi), [@dineshg13](https://www.github.com/dineshg13), [@ankitpatel96](https://www.github.com/ankitpatel96), [@jade-guiton-dd](https://www.github.com/jade-guiton-dd), [@IbraheemA](https://www.github.com/IbraheemA) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@mx-psi](https://www.github.com/mx-psi), [@dineshg13](https://www.github.com/dineshg13), [@ankitpatel96](https://www.github.com/ankitpatel96), [@jade-guiton-dd](https://www.github.com/jade-guiton-dd), [@IbraheemA](https://www.github.com/IbraheemA) |
 | Emeritus      | [@gbbr](https://www.github.com/gbbr) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#beta
@@ -28,7 +28,7 @@
 
 The Datadog Connector is a connector component that derives APM statistics, in the form of metrics, from service traces, for display in the Datadog APM product. This component is *required* for trace-emitting services and their statistics to appear in Datadog APM.
 
-The Datadog connector can also forward the traces passed into it into another trace pipeline. Notably, if you plan to sample your traces with the [tailsamplingprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/tailsamplingprocessor#tail-sampling-processor) or the [probabilisticsamplerprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/probabilisticsamplerprocessor), you should place the Datadog connector upstream to ensure that the metrics are computed before sampling, ensuring their accuracy. An example is given below.
+The Datadog connector can also forward the traces passed into it into another trace pipeline. Notably, if you plan to sample your traces with the [tailsamplingprocessor](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/processor/tailsamplingprocessor#tail-sampling-processor) or the [probabilisticsamplerprocessor](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/processor/probabilisticsamplerprocessor), you should place the Datadog connector upstream to ensure that the metrics are computed before sampling, ensuring their accuracy. An example is given below.
 
 ## Usage
 
@@ -94,7 +94,7 @@ connectors:
         ## @param span_name_as_resource_name - use OpenTelemetry semantic convention for span naming - optional
         ## Option created to maintain similarity with the OpenTelemetry semantic conventions as discussed in the issue below.
         ## https://github.com/open-telemetry/opentelemetry-specification/tree/main/specification/trace/semantic_conventions
-        ## https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/1909
+        ## https://github.com/andresousafd/opentelemetry-collector-contrib/issues/1909
         #
         # span_name_as_resource_name: true
 

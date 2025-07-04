@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package ec2 contains the AWS EC2 hostname provider
-package ec2 // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ec2"
+package ec2 // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ec2"
 
 import (
 	"context"
@@ -20,8 +20,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/provider"
-	ec2provider "github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/aws/ec2"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/provider"
+	ec2provider "github.com/andresousafd/opentelemetry-collector-contrib/internal/metadataproviders/aws/ec2"
 )
 
 var defaultPrefixes = [3]string{"ip-", "domu", "ec2amaz-"}
@@ -142,7 +142,7 @@ func (p *Provider) instanceTags(ctx context.Context) (*ec2.DescribeTagsOutput, e
 
 	// Get the EC2 tags for the instance id.
 	// Similar to:
-	// - https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/39dbc1ac8/processor/resourcedetectionprocessor/internal/aws/ec2/ec2.go#L118-L151
+	// - https://github.com/andresousafd/opentelemetry-collector-contrib/blob/39dbc1ac8/processor/resourcedetectionprocessor/internal/aws/ec2/ec2.go#L118-L151
 	// - https://github.com/DataDog/datadog-agent/blob/1b4afdd6a03e8fabcc169b924931b2bb8935dab9/pkg/util/ec2/ec2_tags.go#L104-L134
 	cfg, err := config.LoadDefaultConfig(ctx,
 		config.WithRegion(meta.Region),

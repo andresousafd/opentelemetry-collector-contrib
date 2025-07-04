@@ -184,7 +184,7 @@
         "gomod"
       ],
       "matchSourceUrls": [
-        "https://github.com/open-telemetry/opentelemetry-collector-contrib"
+        "https://github.com/andresousafd/opentelemetry-collector-contrib"
       ],
       "groupName": "All OpenTelemetry Collector Contrib packages",
       "matchUpdateTypes": [

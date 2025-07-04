@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsecscontainermetrics // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver/internal/awsecscontainermetrics"
+package awsecscontainermetrics // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver/internal/awsecscontainermetrics"
 
 import (
 	"strings"
@@ -10,8 +10,8 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.21.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/docker"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/ecsutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/docker"
 )
 
 func containerResource(cm ecsutil.ContainerMetadata, logger *zap.Logger) pcommon.Resource {

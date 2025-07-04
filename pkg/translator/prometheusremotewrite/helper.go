@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheusremotewrite // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
+package prometheusremotewrite // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
 
 import (
 	"encoding/hex"
@@ -24,7 +24,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	conventions "go.opentelemetry.io/otel/semconv/v1.25.0"
 
-	prometheustranslator "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	prometheustranslator "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus"
 )
 
 const (
@@ -46,7 +46,7 @@ var exportCreatedMetricGate = featuregate.GlobalRegistry().MustRegister(
 	"exporter.prometheusremotewriteexporter.deprecateCreatedMetric",
 	featuregate.StageStable,
 	featuregate.WithRegisterDescription("Feature gate used to control the deprecation of created metrics."),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/35003"),
+	featuregate.WithRegisterReferenceURL("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/35003"),
 	featuregate.WithRegisterToVersion("v0.118.0"),
 )
 

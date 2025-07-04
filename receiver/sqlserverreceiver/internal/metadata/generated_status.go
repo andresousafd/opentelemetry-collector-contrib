@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("sqlserver")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
 )
 
 const (

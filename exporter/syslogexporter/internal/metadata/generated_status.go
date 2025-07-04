@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("syslog")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/exporter/syslogexporter"
 )
 
 const (

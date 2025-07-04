@@ -31,10 +31,10 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/metadata"
 )
 
 var testPayloads = []string{
@@ -111,7 +111,7 @@ func TestAlertsReceiver(t *testing.T) {
 }
 
 func TestAlertsReceiverTLS(t *testing.T) {
-	t.Skip("TODO: Cert files are invalid. See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32543")
+	t.Skip("TODO: Cert files are invalid. See https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32543")
 	for _, payloadName := range testPayloads {
 		t.Run(payloadName, func(t *testing.T) {
 			testAddr := testutil.GetAvailableLocalAddress(t)

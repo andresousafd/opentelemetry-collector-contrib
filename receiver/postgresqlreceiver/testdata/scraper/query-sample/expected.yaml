@@ -49,5 +49,5 @@ resourceLogs:
             body:
               stringValue: sample
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver
           version: 0.0.1

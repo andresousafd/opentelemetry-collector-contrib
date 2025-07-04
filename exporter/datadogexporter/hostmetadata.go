@@ -1,11 +1,11 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
+package datadogexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter"
 
 import (
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 // newMetadataConfigfromConfig creates a new metadata pusher config from the main

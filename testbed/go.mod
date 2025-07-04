@@ -1,38 +1,38 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/testbed
+module github.com/andresousafd/opentelemetry-collector-contrib/testbed
 
 go 1.23.7
 
 require (
 	github.com/fluent/fluent-logger-golang v1.10.0
 	github.com/jaegertracing/jaeger-idl v0.5.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/stefexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datadogreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/signalfxreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/stefreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/syslogreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/carbonexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/opencensusexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/prometheusexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/sapmexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/stefexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/syslogexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/exporter/zipkinexporter v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/common v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/core/xidutils v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/carbonreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/datadogreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/opencensusreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/sapmreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/signalfxreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/splunkhecreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/stefreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/syslogreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/receiver/zipkinreceiver v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter v0.127.0
 	github.com/prometheus/common v0.62.0
 	github.com/prometheus/prometheus v0.302.1
 	github.com/shirou/gopsutil/v4 v4.25.4
@@ -236,22 +236,22 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/ackextension v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv v0.0.0-00010101000000-000000000000 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/pdatautil v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.127.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/extension/ackextension v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/exp/metrics v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv v0.0.0-00010101000000-000000000000 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/pdatautil v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/sharedcomponent v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/opencensus v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/signalfx v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin v0.127.0 // indirect
+	github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor v0.127.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
@@ -392,81 +392,81 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector => ../connector/spanmetricsconnector
+replace github.com/andresousafd/opentelemetry-collector-contrib/connector/spanmetricsconnector => ../connector/spanmetricsconnector
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector => ../connector/routingconnector
+replace github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector => ../connector/routingconnector
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter => ../exporter/carbonexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/carbonexporter => ../exporter/carbonexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter => ../exporter/opencensusexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/opencensusexporter => ../exporter/opencensusexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter => ../exporter/prometheusexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/prometheusexporter => ../exporter/prometheusexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter => ../exporter/prometheusremotewriteexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter => ../exporter/prometheusremotewriteexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter => ../exporter/sapmexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/sapmexporter => ../exporter/sapmexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter => ../exporter/signalfxexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter => ../exporter/signalfxexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter => ../exporter/splunkhecexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/splunkhecexporter => ../exporter/splunkhecexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter => ../exporter/syslogexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/syslogexporter => ../exporter/syslogexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter => ../exporter/zipkinexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/zipkinexporter => ../exporter/zipkinexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../internal/common
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/common => ../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent => ../internal/sharedcomponent
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/sharedcomponent => ../internal/sharedcomponent
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk => ../internal/splunk
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk => ../internal/splunk
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../pkg/batchperresourceattr
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../pkg/batchperresourceattr
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../pkg/experimentalmetricmetadata
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../pkg/experimentalmetricmetadata
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus => ../pkg/translator/opencensus
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/opencensus => ../pkg/translator/opencensus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus => ../pkg/translator/prometheus
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheus => ../pkg/translator/prometheus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../pkg/translator/prometheusremotewrite
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../pkg/translator/prometheusremotewrite
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx => ../pkg/translator/signalfx
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/signalfx => ../pkg/translator/signalfx
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin => ../pkg/translator/zipkin
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/zipkin => ../pkg/translator/zipkin
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver => ../receiver/carbonreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/carbonreceiver => ../receiver/carbonreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datadogreceiver => ../receiver/datadogreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/datadogreceiver => ../receiver/datadogreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver => ../receiver/jaegerreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/jaegerreceiver => ../receiver/jaegerreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver => ../receiver/opencensusreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/opencensusreceiver => ../receiver/opencensusreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver => ../receiver/prometheusreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusreceiver => ../receiver/prometheusreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver => ../receiver/sapmreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/sapmreceiver => ../receiver/sapmreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/signalfxreceiver => ../receiver/signalfxreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/signalfxreceiver => ../receiver/signalfxreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver => ../receiver/splunkhecreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/splunkhecreceiver => ../receiver/splunkhecreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/syslogreceiver => ../receiver/syslogreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/syslogreceiver => ../receiver/syslogreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver => ../receiver/zipkinreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/zipkinreceiver => ../receiver/zipkinreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter => ./mockdatasenders/mockdatadogagentexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter => ./mockdatasenders/mockdatadogagentexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger => ../pkg/translator/jaeger
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger => ../pkg/translator/jaeger
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../internal/coreinternal
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal => ../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils => ../pkg/core/xidutils
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/core/xidutils => ../pkg/core/xidutils
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../pkg/resourcetotelemetry
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../pkg/resourcetotelemetry
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza => ../pkg/stanza
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza => ../pkg/stanza
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../extension/storage
+replace github.com/andresousafd/opentelemetry-collector-contrib/extension/storage => ../extension/storage
 
 retract (
 	v0.76.2
@@ -474,24 +474,24 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../pkg/pdatatest
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest => ../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../pkg/pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil => ../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../pkg/golden
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden => ../pkg/golden
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/ackextension => ../extension/ackextension
+replace github.com/andresousafd/opentelemetry-collector-contrib/extension/ackextension => ../extension/ackextension
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl => ../pkg/ottl
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl => ../pkg/ottl
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics => ../internal/exp/metrics
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/exp/metrics => ../internal/exp/metrics
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/pdatautil => ../internal/pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/pdatautil => ../internal/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/stefreceiver => ../receiver/stefreceiver
+replace github.com/andresousafd/opentelemetry-collector-contrib/receiver/stefreceiver => ../receiver/stefreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/stefexporter => ../exporter/stefexporter
+replace github.com/andresousafd/opentelemetry-collector-contrib/exporter/stefexporter => ../exporter/stefexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor => ../processor/deltatocumulativeprocessor
+replace github.com/andresousafd/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor => ../processor/deltatocumulativeprocessor
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv => ../internal/gopsutilenv
+replace github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv => ../internal/gopsutilenv

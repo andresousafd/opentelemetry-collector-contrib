@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("signalfx")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter"
 )
 
 const (

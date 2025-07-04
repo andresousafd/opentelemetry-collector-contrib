@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package elasticsearchexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
+package elasticsearchexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
 
 import (
 	"errors"
@@ -12,7 +12,7 @@ import (
 
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/elasticsearch"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/elasticsearch"
 )
 
 var receiverRegex = regexp.MustCompile(`/receiver/(\w*receiver)`)
@@ -183,7 +183,7 @@ func routeRecord(
 		// Receiver-based routing
 		// For example, hostmetricsreceiver (or hostmetricsreceiver.otel in the OTel output mode)
 		// for the scope name
-		// github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper
+		// github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/cpuscraper
 		if submatch := receiverRegex.FindStringSubmatch(scope.Name()); len(submatch) > 0 {
 			receiverName := submatch[1]
 			dataset = receiverName

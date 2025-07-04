@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/exporter/exportertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/pulsarexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/pulsarexporter/internal/metadata"
 )
 
 func Test_createDefaultConfig(t *testing.T) {

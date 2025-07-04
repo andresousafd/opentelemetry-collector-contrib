@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package integrationtest // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/integrationtest"
+package integrationtest // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter/integrationtest"
 
 import (
 	"bytes"
@@ -47,12 +47,12 @@ import (
 	apitrace "go.opentelemetry.io/otel/trace"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
-	commonTestutil "github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	pkgdatadog "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/datadogconnector"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter"
+	commonTestutil "github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	pkgdatadog "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver"
 )
 
 // seriesSlice represents an unmarshalled series payload
@@ -674,7 +674,7 @@ func testIntegrationHostMetrics(t *testing.T, expectedMetrics map[string]struct{
 		for _, tag := range metric.Tags {
 			if strings.HasPrefix(tag, "instrumentation_scope:") {
 				// instrumentation_scope is a scraper in the host metrics receiver so has the hostmetricsreceiver prefix
-				assert.Contains(t, tag, "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver")
+				assert.Contains(t, tag, "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver")
 			}
 		}
 	}
@@ -731,7 +731,7 @@ func seriesFromAPIClient(t *testing.T, metricsBytes []byte, expectedMetrics map[
 }
 
 func TestIntegrationInternalMetrics(t *testing.T) {
-	t.Skip("flaky test http://github.com/open-telemetry/opentelemetry-collector-contrib/issues/40056")
+	t.Skip("flaky test http://github.com/andresousafd/opentelemetry-collector-contrib/issues/40056")
 	require.NoError(t, featuregate.GlobalRegistry().Set("exporter.datadogexporter.metricexportserializerclient", false))
 	defer func() {
 		require.NoError(t, featuregate.GlobalRegistry().Set("exporter.datadogexporter.metricexportserializerclient", true))

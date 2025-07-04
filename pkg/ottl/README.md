@@ -4,8 +4,8 @@
 | ------------- |-----------|
 | Stability     | [development]: profiles   |
 |               | [beta]: traces, metrics, logs   |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Apkg%2Fottl%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Apkg%2Fottl) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Apkg%2Fottl%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Apkg%2Fottl) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@TylerHelmuth](https://www.github.com/TylerHelmuth), [@evan-bradley](https://www.github.com/evan-bradley), [@edmocosta](https://www.github.com/edmocosta) \| Seeking more code owners! |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Apkg%2Fottl%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Apkg%2Fottl) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Apkg%2Fottl%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Apkg%2Fottl) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@TylerHelmuth](https://www.github.com/TylerHelmuth), [@evan-bradley](https://www.github.com/evan-bradley), [@edmocosta](https://www.github.com/edmocosta) \| Seeking more code owners! |
 | Emeritus      | [@anuraaga](https://www.github.com/anuraaga), [@kentquirk](https://www.github.com/kentquirk), [@bogdandrutu](https://www.github.com/bogdandrutu) |
 
 [development]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#development
@@ -45,13 +45,13 @@ To see a list of available Paths for each Open Telemetry Signal, checkout the li
 
 | Telemetry               | OTTL Context                                                                                                                               |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| `Resource`              | [Resource](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlresource/README.md)           |
-| `Instrumentation Scope` | [Instrumentation Scope](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlscope/README.md) |
-| `Span`                  | [Span](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlspan/README.md)                   |
-| `Span Event`            | [SpanEvent](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlspanevent/README.md)         |
-| `Metric`                | [Metric](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlmetric/README.md)               |
-| `Datapoint`             | [DataPoint](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottldatapoint/README.md)         |
-| `Log`                   | [Log](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottllog/README.md)                     |
+| `Resource`              | [Resource](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlresource/README.md)           |
+| `Instrumentation Scope` | [Instrumentation Scope](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlscope/README.md) |
+| `Span`                  | [Span](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlspan/README.md)                   |
+| `Span Event`            | [SpanEvent](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlspanevent/README.md)         |
+| `Metric`                | [Metric](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlmetric/README.md)               |
+| `Datapoint`             | [DataPoint](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottldatapoint/README.md)         |
+| `Log`                   | [Log](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottllog/README.md)                     |
 
 OTTL does not support cross-signal interactions at this time. That means you cannot write a statement like
 
@@ -59,18 +59,18 @@ OTTL does not support cross-signal interactions at this time. That means you can
 set(span.attributes["log body"], log.body)
 ```
 
-See [OTTL Functions](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#ottl-functions) for a list of functions available for use in OTTL statements of most components.
+See [OTTL Functions](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#ottl-functions) for a list of functions available for use in OTTL statements of most components.
 
-To see more examples of OTTL statements, checkout the [Transform Processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/transformprocessor/README.md#examples)
+To see more examples of OTTL statements, checkout the [Transform Processor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/transformprocessor/README.md#examples)
 
 There is a lot more OTTL can do, like nested functions, arithmetic, indexing, and enums. To explore it further check out [OTTL's grammar doc](./LANGUAGE.md).
 
 ## Where to use OTTL
 
-- To modify your data as it passes through a pipeline, use the [transform processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/transformprocessor/README.md).
-- To remove data from your pipeline, use the [filter processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/filterprocessor/README.md).
-- To select spans to be sampled, use the [tail sampling processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/tailsamplingprocessor/README.md).
-- To route data between pipelines, use the [routing connector](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/connector/routingconnector/README.md).
+- To modify your data as it passes through a pipeline, use the [transform processor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/transformprocessor/README.md).
+- To remove data from your pipeline, use the [filter processor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/filterprocessor/README.md).
+- To select spans to be sampled, use the [tail sampling processor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/tailsamplingprocessor/README.md).
+- To route data between pipelines, use the [routing connector](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/connector/routingconnector/README.md).
 
 ## Troubleshooting
 

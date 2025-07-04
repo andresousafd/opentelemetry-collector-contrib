@@ -42,7 +42,7 @@ resourceSpans:
             stringValue: adrielp
         - key: cicd.pipeline.task.run.url.full
           value:
-            stringValue: https://github.com/open-telemetry/opentelemetry-collector-contrib/actions/runs/14796710445/job/41546348818
+            stringValue: https://github.com/andresousafd/opentelemetry-collector-contrib/actions/runs/14796710445/job/41546348818
         - key: cicd.pipeline.task.run.id
           value:
             intValue: "41546348818"

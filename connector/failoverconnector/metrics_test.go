@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package failoverconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/failoverconnector"
+package failoverconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/failoverconnector"
 import (
 	"context"
 	"errors"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pipeline"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/failoverconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/failoverconnector/internal/metadata"
 )
 
 var errMetricsConsumer = errors.New("Error from ConsumeMetrics")

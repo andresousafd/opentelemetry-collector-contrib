@@ -8,7 +8,7 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016-present Datadog, Inc.
 
-package sqlserverreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
+package sqlserverreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
 
 import (
 	"bytes"

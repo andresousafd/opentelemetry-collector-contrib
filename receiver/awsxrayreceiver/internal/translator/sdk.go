@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translator // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
+package translator // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
 
 import (
 	"strings"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	conventions "go.opentelemetry.io/otel/semconv/v1.18.0"
 
-	awsxray "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray"
+	awsxray "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/xray"
 )
 
 func addSdkToResource(seg *awsxray.Segment, attrs pcommon.Map) {
@@ -19,7 +19,7 @@ func addSdkToResource(seg *awsxray.Segment, attrs pcommon.Map) {
 		if xr.SDK != nil {
 			attrs.PutStr(string(conventions.TelemetrySDKNameKey), *xr.SDK)
 			if seg.Cause != nil && len(seg.Cause.Exceptions) > 0 {
-				// https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/c615d2db351929b99e46f7b427f39c12afe15b54/exporter/awsxrayexporter/translator/cause.go#L150
+				// https://github.com/andresousafd/opentelemetry-collector-contrib/blob/c615d2db351929b99e46f7b427f39c12afe15b54/exporter/awsxrayexporter/translator/cause.go#L150
 				// x-ray exporter only supports Java stack trace for now
 				// TODO: Update this once the exporter is more flexible
 				attrs.PutStr(string(conventions.TelemetrySDKLanguageKey), "java")

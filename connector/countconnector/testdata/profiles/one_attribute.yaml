@@ -21,7 +21,7 @@ resourceMetrics:
                   timeUnixNano: "1000000"
               isMonotonic: true
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/countconnector
   - resource:
       attributes:
         - key: resource.required
@@ -48,7 +48,7 @@ resourceMetrics:
                   timeUnixNano: "1000000"
               isMonotonic: true
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/countconnector
   - resource:
       attributes:
         - key: resource.optional
@@ -78,7 +78,7 @@ resourceMetrics:
                   timeUnixNano: "1000000"
               isMonotonic: true
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/countconnector
   - resource:
       attributes:
         - key: resource.optional
@@ -108,4 +108,4 @@ resourceMetrics:
                   timeUnixNano: "1000000"
               isMonotonic: true
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/countconnector

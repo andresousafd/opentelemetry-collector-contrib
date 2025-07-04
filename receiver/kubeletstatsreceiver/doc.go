@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package kubeletstatsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver"
+package kubeletstatsreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver"

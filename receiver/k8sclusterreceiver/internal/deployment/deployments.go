@@ -1,16 +1,16 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package deployment // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/deployment"
+package deployment // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/deployment"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	conventions "go.opentelemetry.io/otel/semconv/v1.6.1"
 	appsv1 "k8s.io/api/apps/v1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/constants"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/constants"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 )
 
 // Transform transforms the pod to remove the fields that we don't use to reduce RAM utilization.

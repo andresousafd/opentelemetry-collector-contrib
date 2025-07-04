@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("azureauth")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/azureauthextension"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/azureauthextension"
 )
 
 const (

@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"gotest.tools/assert"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/grafanacloudconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/grafanacloudconnector/internal/metadata"
 )
 
 func TestNewConnector(t *testing.T) {

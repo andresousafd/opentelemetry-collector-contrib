@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/config/configopaque"
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitlabreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/gitlabreceiver/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

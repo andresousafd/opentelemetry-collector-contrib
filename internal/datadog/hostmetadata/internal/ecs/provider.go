@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package ecs contains the ECS Fargate hostname provider
-package ecs // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ecs"
+package ecs // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ecs"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes/source"
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil/endpoints"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/ecsutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/ecsutil/endpoints"
 )
 
 var ErrNotOnECSFargate = errors.New("not running on ECS Fargate")

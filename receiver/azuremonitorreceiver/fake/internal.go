@@ -5,7 +5,7 @@
 //  Ref: https://github.com/Azure/azure-sdk-for-go/pull/24309
 
 //nolint:unused
-package fake // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/fake"
+package fake // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/fake"
 
 import (
 	"net/http"

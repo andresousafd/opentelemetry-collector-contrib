@@ -25,7 +25,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/faroexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/faroexporter/internal/metadata"
 )
 
 func TestExporter_BaseTest(t *testing.T) {

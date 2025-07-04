@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dockerstatsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/dockerstatsreceiver"
+package dockerstatsreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/dockerstatsreceiver"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/scraper"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/docker"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/dockerstatsreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/docker"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/dockerstatsreceiver/internal/metadata"
 )
 
 func NewFactory() receiver.Factory {

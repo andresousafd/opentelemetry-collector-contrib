@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package eks // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/aws/eks"
+package eks // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/metadataproviders/aws/eks"
 
 import (
 	"context"

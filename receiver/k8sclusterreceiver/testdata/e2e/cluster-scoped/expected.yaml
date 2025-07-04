@@ -18,7 +18,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.namespace.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -39,7 +39,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.namespace.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -60,7 +60,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.namespace.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -81,7 +81,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.namespace.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -102,7 +102,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.namespace.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -122,7 +122,7 @@ resourceMetrics:
                   timeUnixNano: "1000000"
             name: k8s.node.condition_ready
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -147,7 +147,7 @@ resourceMetrics:
             name: k8s.cronjob.active_jobs
             unit: '{job}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -196,7 +196,7 @@ resourceMetrics:
             name: k8s.daemonset.ready_nodes
             unit: '{node}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -245,7 +245,7 @@ resourceMetrics:
             name: k8s.daemonset.ready_nodes
             unit: '{node}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -278,7 +278,7 @@ resourceMetrics:
             name: k8s.deployment.desired
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -311,7 +311,7 @@ resourceMetrics:
             name: k8s.deployment.desired
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -344,7 +344,7 @@ resourceMetrics:
             name: k8s.deployment.desired
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -393,7 +393,7 @@ resourceMetrics:
             name: k8s.hpa.min_replicas
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -450,7 +450,7 @@ resourceMetrics:
             name: k8s.job.successful_pods
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -507,7 +507,7 @@ resourceMetrics:
             name: k8s.job.successful_pods
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -540,7 +540,7 @@ resourceMetrics:
             name: k8s.replicaset.desired
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -589,7 +589,7 @@ resourceMetrics:
             name: k8s.statefulset.updated_pods
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -622,7 +622,7 @@ resourceMetrics:
             name: k8s.replicaset.desired
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -655,7 +655,7 @@ resourceMetrics:
             name: k8s.replicaset.desired
             unit: '{pod}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -682,7 +682,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -709,7 +709,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -736,7 +736,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -763,7 +763,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -790,7 +790,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -817,7 +817,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -844,7 +844,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -871,7 +871,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -898,7 +898,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -925,7 +925,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -952,7 +952,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -979,7 +979,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1006,7 +1006,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             name: k8s.pod.phase
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1061,7 +1061,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1132,7 +1132,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1179,7 +1179,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1234,7 +1234,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1313,7 +1313,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1360,7 +1360,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1415,7 +1415,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1462,7 +1462,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1541,7 +1541,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1588,7 +1588,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1635,7 +1635,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1706,7 +1706,7 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev
   - resource:
       attributes:
@@ -1769,5 +1769,5 @@ resourceMetrics:
             name: k8s.container.restarts
             unit: '{restart}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
+          name: github.com/andresousafd/opentelemetry-collector-contrib/receiver/k8sclusterreceiver
           version: 0.112.0-dev

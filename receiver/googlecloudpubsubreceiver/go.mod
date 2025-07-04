@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver
+module github.com/andresousafd/opentelemetry-collector-contrib/receiver/googlecloudpubsubreceiver
 
 go 1.23.0
 
@@ -9,7 +9,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.14.2
 	github.com/iancoleman/strcase v0.3.0
 	github.com/json-iterator/go v1.1.12
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding v0.127.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
 	go.opentelemetry.io/collector/component/componenttest v0.127.1-0.20250528155941-4a3717978a51
@@ -98,4 +98,4 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding => ../../extension/encoding
+replace github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding => ../../extension/encoding

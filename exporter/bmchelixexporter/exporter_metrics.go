@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package bmchelixexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/bmchelixexporter"
+package bmchelixexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/bmchelixexporter"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	om "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/bmchelixexporter/internal/operationsmanagement"
+	om "github.com/andresousafd/opentelemetry-collector-contrib/exporter/bmchelixexporter/internal/operationsmanagement"
 )
 
 // metricsExporter is responsible for exporting metrics to BMC Helix

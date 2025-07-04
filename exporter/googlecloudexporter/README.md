@@ -5,9 +5,9 @@
 | ------------- |-----------|
 | Stability     | [beta]: traces, metrics, logs   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fgooglecloud%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fgooglecloud) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fgooglecloud%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fgooglecloud) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fgooglecloud%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fgooglecloud) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fgooglecloud%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fgooglecloud) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=exporter_googlecloud)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=exporter_googlecloud&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@aabmass](https://www.github.com/aabmass), [@dashpole](https://www.github.com/dashpole), [@braydonk](https://www.github.com/braydonk), [@jsuereth](https://www.github.com/jsuereth), [@psx95](https://www.github.com/psx95), [@ridwanmsharif](https://www.github.com/ridwanmsharif) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@aabmass](https://www.github.com/aabmass), [@dashpole](https://www.github.com/dashpole), [@braydonk](https://www.github.com/braydonk), [@jsuereth](https://www.github.com/jsuereth), [@psx95](https://www.github.com/psx95), [@ridwanmsharif](https://www.github.com/ridwanmsharif) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -286,7 +286,7 @@ labels from the default features above include:
 
 *(Note that these are the sanitized versions of OpenTelemetry attributes, with `.` replaced by `_` to be compatible with Cloud Monitoring. For example, `service_name` comes from the [`service.name` resource attribute](https://github.com/open-telemetry/opentelemetry-specification/blob/dc78006c12d9767fd2e35b691706c7572a76fd43/specification/resource/semantic_conventions/README.md#service).)*
 
-To prevent this, it's recommended to use the [transform processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/c7bd50ce773e66be327ef7618775a884a774e5d1/processor/transformprocessor) in your collector config to rename existing metric labels to preserve them, for example:
+To prevent this, it's recommended to use the [transform processor](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/c7bd50ce773e66be327ef7618775a884a774e5d1/processor/transformprocessor) in your collector config to rename existing metric labels to preserve them, for example:
 
 ```yaml
 processors:
@@ -321,7 +321,7 @@ the collector config above appropriately.
 ### Logging Example
 
 The logging exporter processes OpenTelemetry log entries and exports them to GCP Cloud Logging. Logs can be collected using one 
-of the opentelemetry-collector-contrib log receivers, such as the [filelogreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/filelogreceiver).
+of the opentelemetry-collector-contrib log receivers, such as the [filelogreceiver](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/receiver/filelogreceiver).
 
 Log entries must contain any Cloud Logging-specific fields as a matching OpenTelemetry attribute (as shown in examples from the
 [logs data model](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/logs/data-model.md#google-cloud-logging)).

@@ -3,10 +3,10 @@
 
 //go:build windows
 
-package testmocks // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/testmocks"
+package testmocks // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/testmocks"
 
 import (
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/winperfcounters"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/winperfcounters"
 )
 
 type PerfCounterWatcherMock struct {

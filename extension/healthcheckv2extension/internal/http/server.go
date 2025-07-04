@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package http // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckv2extension/internal/http"
+package http // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/healthcheckv2extension/internal/http"
 
 import (
 	"context"
@@ -20,8 +20,8 @@ import (
 	"go.opentelemetry.io/collector/extension/extensioncapabilities"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckv2extension/internal/common"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/status"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/healthcheckv2extension/internal/common"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/status"
 )
 
 type Server struct {

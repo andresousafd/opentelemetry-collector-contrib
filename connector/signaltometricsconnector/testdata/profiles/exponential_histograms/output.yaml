@@ -49,7 +49,7 @@ resourceMetrics:
                   zeroCount: "1"
             name: profiles.foo.exphistogram
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector
   - resource:
       attributes:
         - key: resource.foo
@@ -80,4 +80,4 @@ resourceMetrics:
                   zeroCount: "3"
             name: total.profiles.resource.foo.exphistogram
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector

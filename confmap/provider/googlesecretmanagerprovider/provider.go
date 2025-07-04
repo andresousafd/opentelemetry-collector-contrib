@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package googlesecretmanagerprovider // import "github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/googlesecretmanagerprovider"
+package googlesecretmanagerprovider // import "github.com/andresousafd/opentelemetry-collector-contrib/confmap/provider/googlesecretmanagerprovider"
 
 import (
 	"context"

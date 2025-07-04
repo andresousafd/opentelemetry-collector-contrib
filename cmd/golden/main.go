@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package main // import "github.com/open-telemetry/opentelemetry-collector-contrib/cmd/golden"
+package main // import "github.com/andresousafd/opentelemetry-collector-contrib/cmd/golden"
 
 import (
 	"context"
@@ -18,7 +18,7 @@ import (
 	nooptrace "go.opentelemetry.io/otel/trace/noop"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/golden/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/cmd/golden/internal"
 )
 
 func main() {

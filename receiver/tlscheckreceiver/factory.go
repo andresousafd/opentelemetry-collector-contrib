@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tlscheckreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tlscheckreceiver"
+package tlscheckreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/tlscheckreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	collectorscraper "go.opentelemetry.io/collector/scraper"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tlscheckreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/tlscheckreceiver/internal/metadata"
 )
 
 var errConfigNotTLSCheck = errors.New(`invalid config`)

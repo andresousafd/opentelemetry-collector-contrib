@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/metadata"
 )
 
 func TestTrackerAddSpans(t *testing.T) {

@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package pprofreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pprofreceiver"
+package pprofreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/pprofreceiver"

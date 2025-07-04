@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awscontainerinsightreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver"
+package awscontainerinsightreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver"
 
 import (
 	"context"
@@ -15,12 +15,12 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	ci "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/containerinsight"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor"
-	ecsinfo "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/ecsInfo"
-	hostInfo "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/host"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/k8sapiserver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores"
+	ci "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/containerinsight"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor"
+	ecsinfo "github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/ecsInfo"
+	hostInfo "github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/host"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/k8sapiserver"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores"
 )
 
 var _ receiver.Metrics = (*awsContainerInsightReceiver)(nil)

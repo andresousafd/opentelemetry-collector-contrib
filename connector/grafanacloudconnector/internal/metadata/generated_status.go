@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("grafanacloud")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/connector/grafanacloudconnector"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/connector/grafanacloudconnector"
 )
 
 const (

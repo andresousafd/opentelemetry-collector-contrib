@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package wavefrontreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/wavefrontreceiver"
+package wavefrontreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/wavefrontreceiver"
 
 import (
 	"errors"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/collectd"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver/protocol"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/collectd"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/carbonreceiver/protocol"
 )
 
 // wavefrontParser converts metrics in the Wavefront format, see

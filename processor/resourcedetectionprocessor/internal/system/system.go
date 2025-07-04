@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package system // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system"
+package system // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system"
 
 import (
 	"context"
@@ -17,9 +17,9 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.6.1"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/system"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/metadataproviders/system"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system/internal/metadata"
 )
 
 var _ = featuregate.GlobalRegistry().MustRegister(
@@ -205,7 +205,7 @@ func setHostCPUInfo(d *Detector, cpuInfo cpu.InfoStat) {
 
 	// For windows, this field is left blank. See https://github.com/shirou/gopsutil/blob/v3.23.9/cpu/cpu_windows.go#L113
 	// Skip setting modelId if the field is blank.
-	// ISSUE: https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27675
+	// ISSUE: https://github.com/andresousafd/opentelemetry-collector-contrib/issues/27675
 	if cpuInfo.Model != "" {
 		d.rb.SetHostCPUModelID(cpuInfo.Model)
 	}

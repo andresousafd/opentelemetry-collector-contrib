@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package azureblobexporter stores OpenTelemetry data as an Azure Storage Blob exporter.
-package azureblobexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azureblobexporter"
+package azureblobexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/azureblobexporter"

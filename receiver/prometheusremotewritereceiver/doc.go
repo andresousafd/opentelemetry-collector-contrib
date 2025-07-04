@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package prometheusremotewritereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"
+package prometheusremotewritereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"

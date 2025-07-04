@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package payload // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/datadogextension/internal/payload"
+package payload // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/datadogextension/internal/payload"
 
 import (
 	"encoding/json"
@@ -22,7 +22,7 @@ func TestAddComponent(t *testing.T) {
 	comp := CollectorModule{
 		Type:       "receiver",
 		Kind:       "otlp",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpreceiver",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpreceiver",
 		Version:    "v0.30.0",
 		Configured: true,
 	}
@@ -37,7 +37,7 @@ func TestGetComponent(t *testing.T) {
 	comp := CollectorModule{
 		Type:       "receiver",
 		Kind:       "otlp",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpreceiver",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpreceiver",
 		Version:    "v0.30.0",
 		Configured: true,
 	}
@@ -55,14 +55,14 @@ func TestModuleInfoJSON_MarshalJSON(t *testing.T) {
 	comp1 := CollectorModule{
 		Type:       "receiver",
 		Kind:       "otlp",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpreceiver",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpreceiver",
 		Version:    "v0.30.0",
 		Configured: true,
 	}
 	comp2 := CollectorModule{
 		Type:       "processor",
 		Kind:       "batch",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/processor/batchprocessor",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/processor/batchprocessor",
 		Version:    "v0.30.0",
 		Configured: true,
 	}
@@ -81,14 +81,14 @@ func TestModuleInfoJSON_MarshalJSON(t *testing.T) {
 					{
 							"type": "receiver",
 							"kind": "otlp",
-							"gomod": "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpreceiver",
+							"gomod": "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpreceiver",
 							"version": "v0.30.0",
 							"configured": true
 					},
 					{
 							"type": "processor",
 							"kind": "batch",
-							"gomod": "github.com/open-telemetry/opentelemetry-collector-contrib/processor/batchprocessor",
+							"gomod": "github.com/andresousafd/opentelemetry-collector-contrib/processor/batchprocessor",
 							"version": "v0.30.0",
 							"configured": true
 					}
@@ -106,14 +106,14 @@ func TestAddComponents(t *testing.T) {
 	comp1 := CollectorModule{
 		Type:       "receiver",
 		Kind:       "otlp",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpreceiver",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpreceiver",
 		Version:    "v0.30.0",
 		Configured: true,
 	}
 	comp2 := CollectorModule{
 		Type:       "processor",
 		Kind:       "batch",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/processor/batchprocessor",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/processor/batchprocessor",
 		Version:    "v0.30.0",
 		Configured: true,
 	}
@@ -131,14 +131,14 @@ func TestGetFullComponentsList(t *testing.T) {
 	comp1 := CollectorModule{
 		Type:       "receiver",
 		Kind:       "otlp",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpreceiver",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpreceiver",
 		Version:    "v0.30.0",
 		Configured: true,
 	}
 	comp2 := CollectorModule{
 		Type:       "processor",
 		Kind:       "batch",
-		Gomod:      "github.com/open-telemetry/opentelemetry-collector-contrib/processor/batchprocessor",
+		Gomod:      "github.com/andresousafd/opentelemetry-collector-contrib/processor/batchprocessor",
 		Version:    "v0.30.0",
 		Configured: true,
 	}

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awss3exporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter"
+package awss3exporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
 )
 
 type s3Exporter struct {

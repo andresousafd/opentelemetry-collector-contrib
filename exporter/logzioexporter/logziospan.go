@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package logzioexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter"
+package logzioexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/logzioexporter"
 
 import (
 	"encoding/json"
 
 	"github.com/jaegertracing/jaeger-idl/model/v1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter/internal/dbmodel"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/logzioexporter/internal/dbmodel"
 )
 
 const (

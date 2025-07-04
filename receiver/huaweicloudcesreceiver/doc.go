@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package huaweicloudcesreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"
+package huaweicloudcesreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"

@@ -1,9 +1,9 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/hostobserver
+module github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/hostobserver
 
 go 1.23.0
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/extension/observer v0.127.0
 	github.com/shirou/gopsutil/v4 v4.25.4
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.33.1-0.20250528155941-4a3717978a51
@@ -60,7 +60,7 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer => ../
+replace github.com/andresousafd/opentelemetry-collector-contrib/extension/observer => ../
 
 retract (
 	v0.76.2

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package elasticsearchreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/elasticsearchreceiver"
+package elasticsearchreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/elasticsearchreceiver"
 
 import (
 	"errors"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/config/configopaque"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/metadata"
 )
 
 var defaultEndpoint = "http://localhost:9200"

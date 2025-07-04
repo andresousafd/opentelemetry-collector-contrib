@@ -6,7 +6,7 @@
 // Taken from https://github.com/signalfx/golib/blob/master/metadata/hostmetadata/host-linux.go
 // with minor modifications.
 
-package hostmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/hostmetadata"
+package hostmetadata // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/hostmetadata"
 
 import (
 	"bytes"
@@ -18,7 +18,7 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/sys/unix"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv"
 )
 
 // syscallUname maps to the golib system call, but can be modified for testing

@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package signaltometricsconnector provides a stateless connector for generating metrics from raw signals.
-package signaltometricsconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector"
+package signaltometricsconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector"

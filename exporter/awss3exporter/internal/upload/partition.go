@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package upload // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
+package upload // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awss3exporter/internal/upload"
 
 import (
 	"math/rand/v2"

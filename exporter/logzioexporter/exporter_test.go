@@ -28,7 +28,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/testdata"
 	conventions "go.opentelemetry.io/otel/semconv/v1.27.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/logzioexporter/internal/metadata"
 )
 
 const (

@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/haproxyreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/haproxyreceiver/internal/metadata"
 )
 
 func Test_scraper_readStats(t *testing.T) {
@@ -66,7 +66,7 @@ func Test_scraper_readStats(t *testing.T) {
 
 func Test_scraper_readStatsWithIncompleteValues(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("Test is failing due to t.TempDir usage on Windows. See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38860")
+		t.Skip("Test is failing due to t.TempDir usage on Windows. See https://github.com/andresousafd/opentelemetry-collector-contrib/issues/38860")
 	}
 	f := t.TempDir()
 	socketAddr := filepath.Join(f, "testhaproxy.sock")

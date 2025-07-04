@@ -193,4 +193,4 @@ resourceMetrics:
                   timeUnixNano: "1000000"
             unit: ms
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azureeventhubreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azureeventhubreceiver"
+package azureeventhubreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/azureeventhubreceiver"
 
 import (
 	"path/filepath"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azureeventhubreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/azureeventhubreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

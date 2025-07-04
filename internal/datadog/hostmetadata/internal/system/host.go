@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package system contains the system hostname provider
-package system // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/system"
+package system // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/system"
 
 import (
 	"context"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otlpjsonfilereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver"
+package otlpjsonfilereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver"
 
 import (
 	"context"
@@ -18,9 +18,9 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.opentelemetry.io/collector/receiver/xreceiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver/internal/metadata"
 )
 
 const (

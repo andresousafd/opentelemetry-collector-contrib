@@ -24,7 +24,7 @@ import (
 	common "skywalking.apache.org/repo/goapi/collect/common/v3"
 	agent "skywalking.apache.org/repo/goapi/collect/language/agent/v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/metadata"
 )
 
 var skywalkingReceiver = component.MustNewIDWithName("skywalking", "receiver_test")

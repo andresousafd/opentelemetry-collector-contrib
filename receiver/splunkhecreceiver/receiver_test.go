@@ -32,11 +32,11 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/splunkhecexporter"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/sharedcomponent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/splunkhecreceiver/internal/metadata"
 )
 
 func assertHecSuccessResponse(t *testing.T, resp *http.Response, body any) {

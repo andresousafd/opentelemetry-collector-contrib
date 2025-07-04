@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package logs // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/logs"
+package logs // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/logs"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/admission2"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/admission2"
 )
 
 const dataFormatProtobuf = "protobuf"

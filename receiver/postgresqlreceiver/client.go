@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package postgresqlreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
+package postgresqlreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
 
 import (
 	"bytes"
@@ -22,7 +22,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/sqlquery"
 )
 
 const lagMetricsInSecondsFeatureGateID = "postgresqlreceiver.preciselagmetrics"

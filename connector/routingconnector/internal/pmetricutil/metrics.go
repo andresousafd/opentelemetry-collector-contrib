@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pmetricutil // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/pmetricutil"
+package pmetricutil // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector/internal/pmetricutil"
 
 import "go.opentelemetry.io/collector/pdata/pmetric"
 

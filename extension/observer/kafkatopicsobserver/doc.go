@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package kafkatopicsobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/kafkatopicsobserver"
+package kafkatopicsobserver // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/kafkatopicsobserver"

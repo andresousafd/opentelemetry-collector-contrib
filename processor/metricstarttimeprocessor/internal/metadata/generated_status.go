@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("metricstarttime")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstarttimeprocessor"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/processor/metricstarttimeprocessor"
 )
 
 const (

@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package otelarrow // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow"
+package otelarrow // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow"

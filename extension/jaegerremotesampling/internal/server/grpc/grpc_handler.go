@@ -2,14 +2,14 @@
 // Copyright (c) 2018 The Jaeger Authors.
 // SPDX-License-Identifier: Apache-2.0
 
-package grpc // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/grpc"
+package grpc // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/server/grpc"
 
 import (
 	"context"
 
 	"github.com/jaegertracing/jaeger-idl/proto-gen/api_v2"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/source"
 )
 
 // GRPCHandler is sampling strategy handler for gRPC.

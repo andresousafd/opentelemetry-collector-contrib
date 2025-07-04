@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor
+module github.com/andresousafd/opentelemetry-collector-contrib/processor/datadogsemanticsprocessor
 
 go 1.23.0
 

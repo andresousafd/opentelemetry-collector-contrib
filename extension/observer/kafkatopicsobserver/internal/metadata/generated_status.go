@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("kafkatopics_observer")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/kafkatopicsobserver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/kafkatopicsobserver"
 )
 
 const (

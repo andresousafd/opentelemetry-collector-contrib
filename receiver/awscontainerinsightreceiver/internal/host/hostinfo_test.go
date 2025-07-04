@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
-	ci "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/containerinsight"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/awsutil"
+	ci "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/containerinsight"
 )
 
 type mockNodeCapacity struct{}

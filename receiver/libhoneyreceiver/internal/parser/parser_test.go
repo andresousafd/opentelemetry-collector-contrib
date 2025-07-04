@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/libhoneyreceiver/internal/libhoneyevent"
 )
 
 func TestGetDatasetFromRequest(t *testing.T) {

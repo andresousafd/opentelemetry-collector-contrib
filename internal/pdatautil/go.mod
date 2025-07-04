@@ -1,10 +1,10 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/pdatautil
+module github.com/andresousafd/opentelemetry-collector-contrib/internal/pdatautil
 
 go 1.23.0
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.127.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest v0.127.0
+	github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil v0.127.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/pdata v1.33.1-0.20250528155941-4a3717978a51
 )
@@ -27,8 +27,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

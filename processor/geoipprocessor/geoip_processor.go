@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package geoipprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/geoipprocessor"
+package geoipprocessor // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/geoipprocessor"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/geoipprocessor/internal/provider"
 )
 
 var (

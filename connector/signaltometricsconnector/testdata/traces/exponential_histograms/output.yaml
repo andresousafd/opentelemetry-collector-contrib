@@ -138,7 +138,7 @@ resourceMetrics:
             name: with_resource_filter
             unit: ms
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector
   - resource:
       attributes:
         - key: resource.bar
@@ -278,7 +278,7 @@ resourceMetrics:
             name: with_resource_filter
             unit: ms
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector
   - resource:
       attributes:
         - key: resource.bar
@@ -832,4 +832,4 @@ resourceMetrics:
             name: msg.trace.span.duration
             unit: ms
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector

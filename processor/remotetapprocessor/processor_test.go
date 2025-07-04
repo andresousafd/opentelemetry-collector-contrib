@@ -16,12 +16,12 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	"golang.org/x/time/rate"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/remotetapprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/remotetapprocessor/internal/metadata"
 )
 
 func TestConsumeMetrics(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32967")
+		t.Skip("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32967")
 	}
 	metric := pmetric.NewMetrics()
 	metric.ResourceMetrics().AppendEmpty().ScopeMetrics().AppendEmpty().Metrics().AppendEmpty().SetName("foo")
@@ -72,7 +72,7 @@ func TestConsumeMetrics(t *testing.T) {
 
 func TestConsumeLogs(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32967")
+		t.Skip("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32967")
 	}
 	log := plog.NewLogs()
 	log.ResourceLogs().AppendEmpty().ScopeLogs().AppendEmpty().LogRecords().AppendEmpty().Body().SetStr("foo")
@@ -124,7 +124,7 @@ func TestConsumeLogs(t *testing.T) {
 
 func TestConsumeTraces(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/32967")
+		t.Skip("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/32967")
 	}
 
 	trace := ptrace.NewTraces()

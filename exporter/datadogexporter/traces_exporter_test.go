@@ -32,9 +32,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.6.1"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metadata"
-	pkgdatadog "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog"
-	datadogconfig "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metadata"
+	pkgdatadog "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog"
+	datadogconfig "github.com/andresousafd/opentelemetry-collector-contrib/pkg/datadog/config"
 )
 
 func setupTestMain(m *testing.M) {

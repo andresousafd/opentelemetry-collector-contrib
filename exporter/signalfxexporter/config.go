@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package signalfxexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter"
+package signalfxexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter"
 
 import (
 	"errors"
@@ -17,11 +17,11 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/gopsutilenv"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/gopsutilenv"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/splunk"
 )
 
 // This mimics the original translation_rules config option (now deleted), but is not reachable

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package routingconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector"
+package routingconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector"
 
 import (
 	"context"
@@ -17,10 +17,10 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/pipeline"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/common"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/plogutiltest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector/internal/common"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/routingconnector/internal/plogutiltest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
 )
 
 func TestLogsRegisterConsumersForValidRoute(t *testing.T) {

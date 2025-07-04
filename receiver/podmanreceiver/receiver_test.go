@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/podmanreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/podmanreceiver/internal/metadata"
 )
 
 func TestNewReceiver(t *testing.T) {

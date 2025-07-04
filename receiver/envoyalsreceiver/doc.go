@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package envoyalsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/envoyalsreceiver"
+package envoyalsreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/envoyalsreceiver"

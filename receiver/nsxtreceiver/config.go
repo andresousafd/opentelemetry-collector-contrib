@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package nsxtreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nsxtreceiver"
+package nsxtreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/nsxtreceiver"
 
 import (
 	"errors"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nsxtreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/nsxtreceiver/internal/metadata"
 )
 
 // Config is the configuration for the NSX receiver

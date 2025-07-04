@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package servicegraphconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector"
+package servicegraphconnector // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/servicegraphconnector"
 
 import (
 	"context"
@@ -22,9 +22,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.25.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/store"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/pdatautil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/store"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/pdatautil"
 )
 
 const (

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package headerssetterextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension"
+package headerssetterextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/headerssetterextension"
 
 import (
 	"context"
@@ -15,8 +15,8 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension/internal/action"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension/internal/source"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/headerssetterextension/internal/action"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/headerssetterextension/internal/source"
 )
 
 type Header struct {

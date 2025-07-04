@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package aggregator // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/aggregator"
+package aggregator // import "github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector/internal/aggregator"
 
 import (
 	"time"

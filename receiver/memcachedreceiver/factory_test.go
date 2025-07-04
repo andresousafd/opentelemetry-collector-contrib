@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.opentelemetry.io/collector/scraper/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/memcachedreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/memcachedreceiver/internal/metadata"
 )
 
 func TestType(t *testing.T) {

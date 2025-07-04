@@ -23,7 +23,7 @@ import (
 	"go.opentelemetry.io/collector/processor/processorhelper"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/routingprocessor/internal/metadata"
 )
 
 var noopTelemetrySettings = componenttest.NewNopTelemetrySettings()

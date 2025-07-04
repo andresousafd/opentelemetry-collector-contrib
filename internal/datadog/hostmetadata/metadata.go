@@ -3,7 +3,7 @@
 
 // Package hostmetadata is responsible for collecting host metadata from different providers
 // such as EC2, ECS, AWS, etc and pushing it to Datadog.
-package hostmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
+package hostmetadata // import "github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata"
 
 import (
 	"bytes"
@@ -25,11 +25,11 @@ import (
 	conventions "go.opentelemetry.io/otel/semconv/v1.6.1"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/clientutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ec2"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/gohai"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/system"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog/scrub"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/clientutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/ec2"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/gohai"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/hostmetadata/internal/system"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/datadog/scrub"
 )
 
 // metadataFromAttributes gets metadata info from attributes following

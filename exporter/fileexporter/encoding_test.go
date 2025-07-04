@@ -22,8 +22,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pprofile"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/otlpencodingextension"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/fileexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/otlpencodingextension"
 )
 
 type hostWithEncoding struct {

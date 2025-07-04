@@ -1,7 +1,7 @@
 # Span Event Context
 
 > [!NOTE]
-> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottlspanevent/README.md).
+> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottlspanevent/README.md).
 
 The Span Event Context is a Context implementation for [pdata SpanEvents](https://github.com/open-telemetry/opentelemetry-collector/blob/main/pdata/ptrace/generated_spanevent.go), the Collector's internal representation for OTLP Span Event data.  This Context should be used when interacting with individual OTLP Span Events.
 
@@ -23,7 +23,7 @@ The following paths are supported.
 | instrumentation_scope.attributes       | instrumentation scope attributes of the span event being processed                                                                                                            | pcommon.Map                                                             |
 | instrumentation_scope.attributes\[""\] | the value of the instrumentation scope attribute of the span event being processed. Supports multiple indexes to access nested fields.                                        | string, bool, int64, float64, pcommon.Map, pcommon.Slice, []byte or nil |
 | span                                   | span of the span event being processed                                                                                                                                        | ptrace.Span                                                             |
-| span.*                                 | All fields exposed by the [ottlspan context](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlspan) can accessed via `span.` | varies                                                                  |
+| span.*                                 | All fields exposed by the [ottlspan context](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlspan) can accessed via `span.` | varies                                                                  |
 | spanevent.attributes                   | attributes of the span event being processed                                                                                                                                  | pcommon.Map                                                             |
 | spanevent.attributes\[""\]             | the value of the attribute of the span event being processed. Supports multiple indexes to access nested fields.                                                              | string, bool, int64, float64, pcommon.Map, pcommon.Slice, []byte or nil |
 | spanevent.time_unix_nano               | time_unix_nano of the span event being processed                                                                                                                              | int64                                                                   |

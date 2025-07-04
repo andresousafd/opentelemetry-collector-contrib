@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("faro")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/faroexporter"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/exporter/faroexporter"
 )
 
 const (

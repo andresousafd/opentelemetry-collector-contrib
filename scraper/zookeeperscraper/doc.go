@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package zookeeperscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/scraper/zookeeperscraper"
+package zookeeperscraper // import "github.com/andresousafd/opentelemetry-collector-contrib/scraper/zookeeperscraper"

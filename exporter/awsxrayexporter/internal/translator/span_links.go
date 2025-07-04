@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translator // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsxrayexporter/internal/translator"
+package translator // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/awsxrayexporter/internal/translator"
 
 import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	awsxray "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray"
+	awsxray "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/xray"
 )
 
 func makeSpanLinks(links ptrace.SpanLinkSlice, skipTimestampValidation bool) ([]awsxray.SpanLinkData, error) {

@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("otlpjsonfile")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otlpjsonfilereceiver"
 )
 
 const (

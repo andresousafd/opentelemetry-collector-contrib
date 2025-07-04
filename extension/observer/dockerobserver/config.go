@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dockerobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/dockerobserver"
+package dockerobserver // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/dockerobserver"
 
 import (
 	"errors"
@@ -9,7 +9,7 @@ import (
 
 	"go.opentelemetry.io/collector/confmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/docker"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/docker"
 )
 
 // Config defines configuration for docker observer

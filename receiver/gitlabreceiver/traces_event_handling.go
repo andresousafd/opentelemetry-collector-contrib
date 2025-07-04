@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package gitlabreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitlabreceiver"
+package gitlabreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/gitlabreceiver"
 
 import (
 	"crypto/sha256"

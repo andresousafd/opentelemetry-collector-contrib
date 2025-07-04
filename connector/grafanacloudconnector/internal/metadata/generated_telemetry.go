@@ -15,11 +15,11 @@ import (
 )
 
 func Meter(settings component.TelemetrySettings) metric.Meter {
-	return settings.MeterProvider.Meter("github.com/open-telemetry/opentelemetry-collector-contrib/connector/grafanacloudconnector")
+	return settings.MeterProvider.Meter("github.com/andresousafd/opentelemetry-collector-contrib/connector/grafanacloudconnector")
 }
 
 func Tracer(settings component.TelemetrySettings) trace.Tracer {
-	return settings.TracerProvider.Tracer("github.com/open-telemetry/opentelemetry-collector-contrib/connector/grafanacloudconnector")
+	return settings.TracerProvider.Tracer("github.com/andresousafd/opentelemetry-collector-contrib/connector/grafanacloudconnector")
 }
 
 // TelemetryBuilder provides an interface for components to report telemetry

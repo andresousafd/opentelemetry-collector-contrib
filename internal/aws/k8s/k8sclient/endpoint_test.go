@@ -411,7 +411,7 @@ func TestTransformFuncEndpoint(t *testing.T) {
 
 func TestNewEndpointClient(t *testing.T) {
 	if goruntime.GOOS == "windows" {
-		t.Skip("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38903")
+		t.Skip("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/38903")
 	}
 	setKubeConfigPath(t)
 	setOption := epSyncCheckerOption(&mockReflectorSyncChecker{})

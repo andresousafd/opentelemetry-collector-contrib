@@ -51,8 +51,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/commander"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
+	"github.com/andresousafd/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/commander"
+	"github.com/andresousafd/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
 )
 
 var (
@@ -134,7 +134,7 @@ type Supervisor struct {
 	// A config section to be added to the Collector's config to fetch its own metrics.
 	// TODO: store this persistently so that when starting we can compose the effective
 	// config correctly.
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21078
+	// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/21078
 	agentConfigOwnMetricsSection *atomic.Value
 
 	// Internal config state for agent use. See the [configState] struct for more details.
@@ -279,7 +279,7 @@ func initTelemetrySettings(logger *zap.Logger, cfg config.Telemetry) (telemetryS
 		logger = logger.WithOptions(zap.WrapCore(func(c zapcore.Core) zapcore.Core {
 			core, err := zapcore.NewIncreaseLevelCore(zapcore.NewTee(
 				c,
-				otelzap.NewCore("github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor",
+				otelzap.NewCore("github.com/andresousafd/opentelemetry-collector-contrib/cmd/opampsupervisor",
 					otelzap.WithLoggerProvider(lp),
 				),
 			), zap.NewAtomicLevelAt(cfg.Logs.Level))
@@ -667,7 +667,7 @@ func (s *Supervisor) startOpAMPClient() error {
 				return nil
 			},
 			SaveRemoteConfigStatus: func(_ context.Context, _ *protobufs.RemoteConfigStatus) {
-				// TODO: https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21079
+				// TODO: https://github.com/andresousafd/opentelemetry-collector-contrib/issues/21079
 			},
 			GetEffectiveConfig: func(_ context.Context) (*protobufs.EffectiveConfig, error) {
 				return s.createEffectiveConfigMsg(), nil
@@ -1386,7 +1386,7 @@ func (s *Supervisor) runAgentProcess() {
 			}
 
 			// TODO: decide why the agent stopped. If it was due to bad config, report it to server.
-			// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21079
+			// https://github.com/andresousafd/opentelemetry-collector-contrib/issues/21079
 
 			// Wait 5 seconds before starting again.
 			if !restartTimer.Stop() {
@@ -1717,7 +1717,7 @@ func (s *Supervisor) findRandomPort() (int, error) {
 }
 
 func (s *Supervisor) getTracer() trace.Tracer {
-	tracer := s.telemetrySettings.TracerProvider.Tracer("github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor")
+	tracer := s.telemetrySettings.TracerProvider.Tracer("github.com/andresousafd/opentelemetry-collector-contrib/cmd/opampsupervisor")
 	return tracer
 }
 

@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("filter")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/processor/filterprocessor"
 )
 
 const (

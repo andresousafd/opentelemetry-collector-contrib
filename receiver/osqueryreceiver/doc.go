@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package osqueryreceiver emits osquery results as logs
-package osqueryreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/osqueryreceiver"
+package osqueryreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/osqueryreceiver"

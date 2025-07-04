@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/geoipprocessor/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/geoipprocessor/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package lru // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/lru"
+package lru // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/elasticsearchexporter/internal/lru"
 
 import (
 	"time"

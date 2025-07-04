@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("sematext")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sematextexporter"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/exporter/sematextexporter"
 )
 
 const (

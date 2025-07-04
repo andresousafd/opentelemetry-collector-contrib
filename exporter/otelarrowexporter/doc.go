@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package otelarrowexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter"
+package otelarrowexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/otelarrowexporter"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal"
+package internal // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal"
 
 import (
 	"database/sql"
@@ -17,7 +17,7 @@ import (
 	_ "github.com/snowflakedb/gosnowflake"
 	_ "github.com/thda/tds"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/sqlquery"
 )
 
 func NewPool(opener sqlquery.SQLOpenerFunc, driver string, dsn string, maxOpenConns int) interface {

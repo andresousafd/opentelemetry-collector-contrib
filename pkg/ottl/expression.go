@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottl // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+package ottl // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl"
 
 import (
 	"bytes"
@@ -17,7 +17,7 @@ import (
 	"github.com/goccy/go-json"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/internal/ottlcommon"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/ottl/internal/ottlcommon"
 )
 
 // ExprFunc is a function in OTTL

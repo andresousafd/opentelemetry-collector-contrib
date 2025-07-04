@@ -3,7 +3,7 @@
 
 //go:build !unix || aix || solaris
 
-package reader // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+package reader // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
 
 func (r *Reader) tryLockFile() bool {
 	return true

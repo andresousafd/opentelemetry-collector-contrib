@@ -29,9 +29,9 @@ In these situations the function will error if it does not know how to do the co
 Use `ErrorMode` to determine how the `Statement` handles these errors.
 See the component-specific guides for how each uses error mode:
 
-- [filterprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/filterprocessor/README.md#configuration)
-- [routingconnector](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/connector/routingconnector/README.md#configuration)
-- [transformprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/transformprocessor/README.md#config)
+- [filterprocessor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/filterprocessor/README.md#configuration)
+- [routingconnector](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/connector/routingconnector/README.md#configuration)
+- [transformprocessor](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/processor/transformprocessor/README.md#config)
 
 ## Editors
 
@@ -870,7 +870,7 @@ The `FormatTime` Converter takes a `time.Time` and converts it to a human-readab
 
 `time` is `time.Time`. If `time` is another type an error is returned. `format` is a string.
 
-If either `time` or `format` are nil, an error is returned. The parser used is the parser at [internal/coreinternal/parser](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/internal/coreinternal/timeutils). If `format` does not follow the parsing rules used by this parser, an error is returned.
+If either `time` or `format` are nil, an error is returned. The parser used is the parser at [internal/coreinternal/parser](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/internal/coreinternal/timeutils). If `format` does not follow the parsing rules used by this parser, an error is returned.
 
 `format` denotes a human-readable textual representation of the resulting time value formatted according to ctime-like format string. It follows [standard Go Layout formatting](https://pkg.go.dev/time#pkg-constants) with few additional substitutes:
 | substitution | description | examples |
@@ -2093,7 +2093,7 @@ The `Time` Converter takes a string representation of a time and converts it to 
 
 `target` is a string. `format` is a string, `location` is an optional string, `locale` is an optional string.
 
-If either `target` or `format` are nil, an error is returned. The parser used is the parser at [internal/coreinternal/parser](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/internal/coreinternal/timeutils). If the `target` and `format` do not follow the parsing rules used by this parser, an error is returned.
+If either `target` or `format` are nil, an error is returned. The parser used is the parser at [internal/coreinternal/parser](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/internal/coreinternal/timeutils). If the `target` and `format` do not follow the parsing rules used by this parser, an error is returned.
 
 `format` denotes a textual representation of the time value formatted according to ctime-like format string. It follows [standard Go Layout formatting](https://pkg.go.dev/time#pkg-constants) with few additional substitutes:
 | substitution | description | examples |

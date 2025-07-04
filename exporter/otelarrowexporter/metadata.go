@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otelarrowexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter"
+package otelarrowexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/otelarrowexporter"
 
 import (
 	"context"
@@ -24,8 +24,8 @@ import (
 	"go.uber.org/multierr"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/compression/zstd"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/netstats"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/compression/zstd"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/netstats"
 )
 
 // errTooManyExporters is returned when the MetadataCardinalityLimit has been reached.

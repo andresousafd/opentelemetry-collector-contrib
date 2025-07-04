@@ -32,9 +32,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/grpcutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/netstats"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/testdata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/grpcutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/netstats"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/testdata"
 )
 
 var AllPrioritizers = []PrioritizerName{LeastLoadedPrioritizer, LeastLoadedTwoPrioritizer}

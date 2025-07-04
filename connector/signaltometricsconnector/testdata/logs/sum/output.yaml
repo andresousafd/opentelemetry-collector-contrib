@@ -60,7 +60,7 @@ resourceMetrics:
                         stringValue: notbar
                   timeUnixNano: "1000000"
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector
   - resource:
       attributes:
         - key: resource.foo
@@ -85,4 +85,4 @@ resourceMetrics:
                 - asInt: "4"
                   timeUnixNano: "1000000"
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/connector/signaltometricsconnector
+          name: github.com/andresousafd/opentelemetry-collector-contrib/connector/signaltometricsconnector

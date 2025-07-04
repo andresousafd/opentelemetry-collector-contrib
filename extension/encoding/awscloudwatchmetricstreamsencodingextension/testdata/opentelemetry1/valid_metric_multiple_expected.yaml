@@ -40,7 +40,7 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: '{Count}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension
+          name: github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension
   - resource:
       attributes:
         - key: aws.exporter.arn
@@ -82,4 +82,4 @@ resourceMetrics:
                   timeUnixNano: "2000000"
             unit: '{Count}'
         scope:
-          name: github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension
+          name: github.com/andresousafd/opentelemetry-collector-contrib/extension/encoding/awscloudwatchmetricstreamsencodingextension

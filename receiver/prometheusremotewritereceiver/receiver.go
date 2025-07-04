@@ -1,6 +1,6 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
-package prometheusremotewritereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"
+package prometheusremotewritereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"
 
 import (
 	"context"
@@ -27,7 +27,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics/identity"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/exp/metrics/identity"
 )
 
 func newRemoteWriteReceiver(settings receiver.Settings, cfg *Config, nextConsumer consumer.Metrics) (receiver.Metrics, error) {
@@ -179,7 +179,7 @@ func (prw *prometheusRemoteWriteReceiver) handlePRW(w http.ResponseWriter, req *
 	}
 
 	w.WriteHeader(http.StatusNoContent)
-	// TODO(@perebaj): Evaluate if we should use the obsreport here. Ref: https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/38812#discussion_r2053094391
+	// TODO(@perebaj): Evaluate if we should use the obsreport here. Ref: https://github.com/andresousafd/opentelemetry-collector-contrib/pull/38812#discussion_r2053094391
 	_ = prw.nextConsumer.ConsumeMetrics(req.Context(), m)
 }
 

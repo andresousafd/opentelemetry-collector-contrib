@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package splunkenterprisereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkenterprisereceiver"
+package splunkenterprisereceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/splunkenterprisereceiver"
 
 const (
 	// StateDone indicates a dispatch state of Done

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/s3provider
+module github.com/andresousafd/opentelemetry-collector-contrib/confmap/provider/s3provider
 
 go 1.23.0
 

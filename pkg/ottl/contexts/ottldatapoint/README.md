@@ -1,7 +1,7 @@
 # DataPoint Context
 
 > [!NOTE]
-> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottldatapoint/README.md).
+> This documentation applies only to version `0.120.0` and later. For information on earlier versions, please refer to the previous [documentation](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/release/0.119.x/pkg/ottl/contexts/ottldatapoint/README.md).
 
 The DataPoint Context is a Context implementation for [pdata DataPoints](https://github.com/open-telemetry/opentelemetry-collector/tree/main/pdata/pmetric), the collector's internal representation for OTLP metric data points.  This Context should be used when interacting with individual OTLP data points.
 
@@ -27,7 +27,7 @@ The following paths are supported.
 | datapoint.attributes                           | attributes of the data point being processed                                                                                                                                        | pcommon.Map                                                             |
 | datapoint.attributes\[""\]                     | the value of the attribute of the data point being processed. Supports multiple indexes to access nested fields.                                                                    | string, bool, int64, float64, pcommon.Map, pcommon.Slice, []byte or nil |
 | metric                                         | the metric to which the data point being processed belongs                                                                                                                          | pmetric.Metric                                                          |
-| metric.*                                       | All fields exposed by the [ottlmetric context](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlmetric) can accessed via `metric.` | varies                                                                  |
+| metric.*                                       | All fields exposed by the [ottlmetric context](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts/ottlmetric) can accessed via `metric.` | varies                                                                  |
 | datapoint.positive                             | the positive buckets of the data point being processed                                                                                                                              | pmetric.ExponentialHistogramDataPoint                                   |
 | datapoint.positive.offset                      | the offset of the positive buckets of the data point being processed                                                                                                                | int64                                                                   |
 | datapoint.positive.bucket_counts               | the bucket_counts of the positive buckets of the data point being processed                                                                                                         | uint64                                                                  |

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter
+module github.com/andresousafd/opentelemetry-collector-contrib/testbed/mockdatasenders/mockdatadogagentexporter
 
 go 1.23.0
 

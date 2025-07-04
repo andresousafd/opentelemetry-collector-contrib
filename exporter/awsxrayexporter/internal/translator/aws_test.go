@@ -12,7 +12,7 @@ import (
 	conventionsv112 "go.opentelemetry.io/otel/semconv/v1.12.0"
 	conventions "go.opentelemetry.io/otel/semconv/v1.27.0"
 
-	awsxray "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray"
+	awsxray "github.com/andresousafd/opentelemetry-collector-contrib/internal/aws/xray"
 )
 
 func TestAwsFromEc2Resource(t *testing.T) {

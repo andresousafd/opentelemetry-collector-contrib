@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zookeeperscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/scraper/zookeeperscraper"
+package zookeeperscraper // import "github.com/andresousafd/opentelemetry-collector-contrib/scraper/zookeeperscraper"
 
 import (
 	"bufio"
@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/collector/scraper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/scraper/zookeeperscraper/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/scraper/zookeeperscraper/internal/metadata"
 )
 
 var zookeeperFormatRE = regexp.MustCompile(`(^zk_\w+)\s+([\w\.\-]+)`)

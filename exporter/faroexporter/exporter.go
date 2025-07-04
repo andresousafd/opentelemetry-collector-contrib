@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package faroexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/faroexporter"
+package faroexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/faroexporter"
 
 import (
 	"bytes"
@@ -28,7 +28,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	farotranslator "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/faro"
+	farotranslator "github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/faro"
 )
 
 type faroExporter struct {

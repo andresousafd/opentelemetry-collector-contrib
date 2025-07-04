@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package faroexporter implements an exporter that sends data to Grafana Faro.
-package faroexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/faroexporter"
+package faroexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/faroexporter"

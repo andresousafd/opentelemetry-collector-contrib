@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package cgroupruntimeextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/cgroupruntimeextension"
+package cgroupruntimeextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/cgroupruntimeextension"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package adapter // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
+package adapter // import "github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/adapter"
 
 import (
 	"context"
@@ -12,10 +12,10 @@ import (
 	rcvr "go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/pipeline"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/stanza/pipeline"
 )
 
 var synchronousLogEmitterFeatureGate = featuregate.GlobalRegistry().MustRegister(
@@ -23,7 +23,7 @@ var synchronousLogEmitterFeatureGate = featuregate.GlobalRegistry().MustRegister
 	featuregate.StageAlpha,
 	featuregate.WithRegisterDescription("Prevents possible data loss in Stanza-based receivers by emitting logs synchronously."),
 	featuregate.WithRegisterFromVersion("v0.122.0"),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/35456"),
+	featuregate.WithRegisterReferenceURL("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/35456"),
 )
 
 // LogReceiverType is the interface used by stanza-based log receivers

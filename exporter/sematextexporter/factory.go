@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package sematextexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sematextexporter"
+package sematextexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/sematextexporter"
 
 import (
 	"context"
@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sematextexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/sematextexporter/internal/metadata"
 )
 
 var (

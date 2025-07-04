@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package prometheusexporter exports metrics data as a Prometheus pull handler.
-package prometheusexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter"
+package prometheusexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/prometheusexporter"

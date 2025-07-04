@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package huaweicloudcesreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"
+package huaweicloudcesreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	internal "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver/internal"
+	internal "github.com/andresousafd/opentelemetry-collector-contrib/receiver/huaweicloudcesreceiver/internal"
 )
 
 const (

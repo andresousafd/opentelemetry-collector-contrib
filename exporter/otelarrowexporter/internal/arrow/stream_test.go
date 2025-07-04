@@ -18,7 +18,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/netstats"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/netstats"
 )
 
 var oneBatch = &arrowpb.BatchArrowRecords{

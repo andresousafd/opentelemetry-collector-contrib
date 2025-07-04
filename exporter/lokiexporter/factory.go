@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package lokiexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter"
+package lokiexporter // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/lokiexporter"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/lokiexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for the legacy Loki exporter.

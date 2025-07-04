@@ -5,11 +5,11 @@
 | ------------- |-----------|
 | Stability     | [deprecated]: logs   |
 | Deprecation of logs | [Date]: 2024-07-09   |
-|                      | [Migration Note]: Use OTLP exporter (https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/33916)   |
+|                      | [Migration Note]: Use OTLP exporter (https://github.com/andresousafd/opentelemetry-collector-contrib/issues/33916)   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Floki%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Floki) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Floki%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Floki) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Floki%20&label=open&color=orange&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Floki) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Floki%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/andresousafd/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Floki) |
 | Code coverage | [![codecov](https://codecov.io/github/open-telemetry/opentelemetry-collector-contrib/graph/main/badge.svg?component=exporter_loki)](https://app.codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/tree/main/?components%5B0%5D=exporter_loki&displayType=list) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@gramidt](https://www.github.com/gramidt), [@mar4uk](https://www.github.com/mar4uk), [@dehaansa](https://www.github.com/dehaansa), [@ArthurSens](https://www.github.com/ArthurSens) |
+| [Code Owners](https://github.com/andresousafd/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@gramidt](https://www.github.com/gramidt), [@mar4uk](https://www.github.com/mar4uk), [@dehaansa](https://www.github.com/dehaansa), [@ArthurSens](https://www.github.com/ArthurSens) |
 
 [deprecated]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#deprecated
 [Date]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/component-stability.md#deprecation-information
@@ -57,7 +57,7 @@ See [OpenTelemetry Logs Data Model specification](https://opentelemetry.io/docs/
 
 #### Instrumentation migration
 
-No changes are needed in the instrumentation layer. OpenTelemetry logs sources like OpenTelemetry SDKs or the [OpenTelemetry Collector File Log Receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/filelogreceiver) don’t have to be modified.
+No changes are needed in the instrumentation layer. OpenTelemetry logs sources like OpenTelemetry SDKs or the [OpenTelemetry Collector File Log Receiver](https://github.com/andresousafd/opentelemetry-collector-contrib/tree/main/receiver/filelogreceiver) don’t have to be modified.
 
 #### Logs collection migration
 

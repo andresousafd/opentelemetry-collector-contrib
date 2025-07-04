@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/exporter/exportertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azureblobexporter/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/exporter/azureblobexporter/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

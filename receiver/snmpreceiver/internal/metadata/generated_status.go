@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("snmp")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/receiver/snmpreceiver"
 )
 
 const (

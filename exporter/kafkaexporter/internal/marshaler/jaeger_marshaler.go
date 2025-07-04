@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package marshaler // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter/internal/marshaler"
+package marshaler // import "github.com/andresousafd/opentelemetry-collector-contrib/exporter/kafkaexporter/internal/marshaler"
 
 import (
 	"bytes"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/translator/jaeger"
 )
 
 var (

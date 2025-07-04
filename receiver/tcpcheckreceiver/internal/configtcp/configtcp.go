@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package configtcp // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcpcheckreceiver/internal/configtcp"
+package configtcp // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/tcpcheckreceiver/internal/configtcp"
 
 import (
 	"context"

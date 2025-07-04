@@ -28,10 +28,10 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.25.0"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadatatest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/connector/servicegraphconnector/internal/metadatatest"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/andresousafd/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 func TestConnectorStart(t *testing.T) {
@@ -602,7 +602,7 @@ func TestValidateOwnTelemetry(t *testing.T) {
 }
 
 func TestExtraDimensionsLabels(t *testing.T) {
-	t.Skip("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39210")
+	t.Skip("https://github.com/andresousafd/opentelemetry-collector-contrib/issues/39210")
 	extraDimensions := []string{"db.system", "messaging.system"}
 	cfg := &Config{
 		Dimensions:              extraDimensions,

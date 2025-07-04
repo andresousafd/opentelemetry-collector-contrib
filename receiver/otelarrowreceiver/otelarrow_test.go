@@ -48,10 +48,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/testdata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/otelarrow/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/arrow/mock"
-	componentmetadata "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/testdata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/internal/otelarrow/testutil"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/arrow/mock"
+	componentmetadata "github.com/andresousafd/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/metadata"
 )
 
 const otlpReceiverName = "receiver_test"

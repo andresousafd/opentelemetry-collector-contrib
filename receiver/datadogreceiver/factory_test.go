@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datadogreceiver"
+package datadogreceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/datadogreceiver"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datadogreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/datadogreceiver/internal/metadata"
 )
 
 func TestCreateTraces(t *testing.T) {

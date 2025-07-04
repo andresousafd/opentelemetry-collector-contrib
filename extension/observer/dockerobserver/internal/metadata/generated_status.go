@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("docker_observer")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/dockerobserver"
+	ScopeName = "github.com/andresousafd/opentelemetry-collector-contrib/extension/observer/dockerobserver"
 )
 
 const (

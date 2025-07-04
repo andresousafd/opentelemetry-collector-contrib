@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package purefareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver"
+package purefareceiver // import "github.com/andresousafd/opentelemetry-collector-contrib/receiver/purefareceiver"
 
 import (
 	"path/filepath"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/purefareceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

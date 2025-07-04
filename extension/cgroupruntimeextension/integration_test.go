@@ -5,7 +5,7 @@
 
 // Privileged access is required to set cgroup's memory and cpu max values
 
-package cgroupruntimeextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/cgroupruntimeextension"
+package cgroupruntimeextension // import "github.com/andresousafd/opentelemetry-collector-contrib/extension/cgroupruntimeextension"
 
 import (
 	"context"
@@ -29,7 +29,7 @@ import (
 	"go.opentelemetry.io/collector/extension/extensiontest"
 	"golang.org/x/sys/unix"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/cgroupruntimeextension/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/extension/cgroupruntimeextension/internal/metadata"
 )
 
 const (

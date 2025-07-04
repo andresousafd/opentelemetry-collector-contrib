@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translation // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
+package translation // import "github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
 
 import (
 	"sort"
@@ -15,7 +15,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
+	"github.com/andresousafd/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
 )
 
 // Translation defines the complete abstraction of schema translation file
