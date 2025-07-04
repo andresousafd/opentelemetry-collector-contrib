@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver/internal/metadata"
 )
 
 func TestType(t *testing.T) {

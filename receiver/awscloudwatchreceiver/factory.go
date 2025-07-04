@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver/internal/metadata"
+	"github.com/andresousafd/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver/internal/metadata"
 )
 
 // NewFactory returns the component factory for the awscloudwatchreceiver
