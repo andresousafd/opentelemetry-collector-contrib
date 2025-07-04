@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awscloudwatchreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"
+package awscloudwatchreceiver // import "github.com/andresousadfd/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"
 
 import (
 	"context"
@@ -26,6 +26,7 @@ import (
 const (
 	noStreamName             = "THIS IS INVALID STREAM"
 	maxLogGroupsPerDiscovery = int32(50)
+	inducedDelay             = 15 * time.Second
 )
 
 type logsReceiver struct {
@@ -204,7 +205,7 @@ func (l *logsReceiver) startPolling(ctx context.Context) {
 
 func (l *logsReceiver) poll(ctx context.Context) error {
 	var errs error
-	endTime := time.Now()
+	endTime := time.Now().Add(-1 * inducedDelay)
 	for _, r := range l.groupRequests {
 		startTime := l.nextStartTime
 
