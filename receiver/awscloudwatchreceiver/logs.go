@@ -206,6 +206,9 @@ func (l *logsReceiver) startPolling(ctx context.Context) {
 func (l *logsReceiver) poll(ctx context.Context) error {
 	var errs error
 	endTime := time.Now().Add(-1 * inducedDelay)
+
+	var wg sync.WaitGroup
+
 	for _, r := range l.groupRequests {
 		startTime := l.nextStartTime
 
@@ -235,10 +238,17 @@ func (l *logsReceiver) poll(ctx context.Context) error {
 			}
 		}
 
-		// Poll logs for the current log group
-		if err := l.pollForLogs(ctx, r, startTime, endTime); err != nil {
-			errs = errors.Join(errs, err)
-		}
+		go func() {
+			wg.Add(1)
+			defer wg.Done()
+
+			// Poll logs for the current log group
+			if err := l.pollForLogs(ctx, r, startTime, endTime); err != nil {
+				errs = errors.Join(errs, err)
+			}
+		}()
+
+		wg.Wait()
 
 		// Persist the new end time as the checkpoint for this log group
 		if l.cloudwatchCheckpointPersister != nil {
